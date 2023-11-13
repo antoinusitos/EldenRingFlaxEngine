@@ -1,4 +1,5 @@
 ﻿using FlaxEngine;
+using System;
 
 namespace Game
 {
@@ -31,6 +32,14 @@ namespace Game
         }
 
         public void LoadScene(SceneReference sceneReference)
+        {
+            Level.UnloadScene(currentUsedScene);
+            Level.LoadSceneAsync(sceneReference);
+            //Level.UnloadScene(currentScene);
+            //Level.LoadScene(sceneReference);
+        }
+
+        public void LoadScene(Guid sceneReference)
         {
             Level.UnloadScene(currentUsedScene);
             Level.LoadSceneAsync(sceneReference);

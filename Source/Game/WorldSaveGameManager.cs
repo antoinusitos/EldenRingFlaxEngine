@@ -24,8 +24,8 @@ namespace Game
 
         public void LoadNewGame()
         {
-            //SceneManager.instance.LoadScene(GameScene);
-            Level.ChangeSceneAsync(GameScene);
+            SceneManager.instance.LoadScene(GameScene);
+            //Level.ChangeSceneAsync(GameScene);
         }
     }
 }

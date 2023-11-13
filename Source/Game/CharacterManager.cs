@@ -2,7 +2,7 @@
 
 namespace Game
 {
-    public class CharacterManager : Script
+    public class CharacterManager : IDontDestroyOnLoad
     {
     }
 }

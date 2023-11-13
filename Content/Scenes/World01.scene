@@ -220,44 +220,6 @@
 			"CollisionData": "46fade964d0a22cebb3ea3a7e0945a87"
 		},
 		{
-			"ID": "9f18e7c94be4c9fd7a64c8804532b905",
-			"PrefabID": "828d66a34d8a685aa140aeaddf33b86c",
-			"PrefabObjectID": "e1d73f0a4113f4d9ec1ba99bff7ed4ee",
-			"ParentID": "e8bbde7e4df3ffac0f1534a5c26b2fc2",
-			"Transform": {
-				"Translation": {
-					"X": -122.48033142089844,
-					"Y": 99.81803131103516,
-					"Z": -5.869476318359375
-				}
-			}
-		},
-		{
-			"ID": "f06561e94d0a3c495259fba66d53686a",
-			"PrefabID": "828d66a34d8a685aa140aeaddf33b86c",
-			"PrefabObjectID": "530bf29647bd442cb856a69d59b0388f",
-			"ParentID": "9f18e7c94be4c9fd7a64c8804532b905",
-			"V": {}
-		},
-		{
-			"ID": "e87823124bd75869c68738ad222b1ad7",
-			"PrefabID": "828d66a34d8a685aa140aeaddf33b86c",
-			"PrefabObjectID": "679cee704c92107895d02f982b7b0e01",
-			"ParentID": "9f18e7c94be4c9fd7a64c8804532b905",
-			"V": {}
-		},
-		{
-			"ID": "ddcd4aeb41004024b456848491183e3a",
-			"PrefabID": "828d66a34d8a685aa140aeaddf33b86c",
-			"PrefabObjectID": "a4474c3e469ceb779254438efb389ba7",
-			"ParentID": "9f18e7c94be4c9fd7a64c8804532b905",
-			"Buffer": {
-				"Entries": [
-					{}
-				]
-			}
-		},
-		{
 			"ID": "02e3d4e7401eb808a10fffb7e9cb4d44",
 			"TypeName": "FlaxEngine.Camera",
 			"ParentID": "e8bbde7e4df3ffac0f1534a5c26b2fc2",

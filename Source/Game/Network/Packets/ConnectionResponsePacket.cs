@@ -2,6 +2,7 @@
 using FlaxEngine;
 using FlaxEngine.Json;
 using FlaxEngine.Networking;
+using Game;
 
 public class ConnectionResponsePacket : NetworkPacket
 {
@@ -38,7 +39,9 @@ public class ConnectionResponsePacket : NetworkPacket
             GameSession.Instance.LocalPlayer.ID = ID;
             JsonSerializer.ParseID("e8bbde7e4df3ffac0f1534a5c26b2fc2", out var guid);
             Debug.Log("Connection accepted !");
-            Level.ChangeSceneAsync(guid);
+            //Level.ChangeSceneAsync(guid);
+            Level.LoadSceneAsync(guid);
+            SceneManager.instance.LoadScene(guid);
         }
         else
         {

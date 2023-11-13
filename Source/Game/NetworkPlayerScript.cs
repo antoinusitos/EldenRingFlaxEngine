@@ -19,7 +19,7 @@ namespace Game
         {
             if(Player == null)
             {
-                Actor.GetScript<LocalPlayerScript>().Enabled = true;
+                //Actor.GetScript<LocalPlayerScript>().Enabled = true;
                 Enabled = false;
                 return;
             }
