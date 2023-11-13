@@ -1,0 +1,19 @@
+{
+	"ID": "d037da374911a6312fd59abac8a4b805",
+	"TypeName": "FlaxEngine.Prefab",
+	"EngineBuild": 6404,
+	"Data": [
+	{
+		"ID": "50b06df04c77e32ecd56a8bf6ce0fa68",
+		"TypeName": "FlaxEngine.EmptyActor",
+		"ParentID": "00000000000000000000000000000000",
+		"Name": "NetworkManager"
+	},
+	{
+		"ID": "a6aa1e9f4b36a16ca0d43598f59ce05a",
+		"TypeName": "Game.NetworkManager",
+		"ParentID": "50b06df04c77e32ecd56a8bf6ce0fa68",
+		"V": {}
+	}
+]
+}

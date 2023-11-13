@@ -1,0 +1,11 @@
+﻿{
+  "profiles": {
+    "BuildScripts": {
+      "commandName": "Executable",
+      "workingDirectory": "C:/Users/thebo/Documents/Flax Projects/EldenRing",
+      "executablePath": "D:/Program Files (x86)/Flax/Flax_1.7/Binaries/Editor/Win64/Development/FlaxEditor.exe",
+      "commandLineArgs": "-project \"C:/Users/thebo/Documents/Flax Projects/EldenRing\"",
+      "nativeDebugging": false
+    }
+  }
+}

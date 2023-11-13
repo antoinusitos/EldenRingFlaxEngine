@@ -1,0 +1,22 @@
+{
+	"ID": "82f6aa2e4b0ae125e76259b088102775",
+	"TypeName": "FlaxEngine.Prefab",
+	"EngineBuild": 6404,
+	"Data": [
+	{
+		"ID": "c9b68a0f4cd2ee822ff786ae9c3b5161",
+		"TypeName": "FlaxEngine.EmptyActor",
+		"ParentID": "00000000000000000000000000000000",
+		"Name": "SceneManager"
+	},
+	{
+		"ID": "32b46d06478606360d1303a35c8b9205",
+		"TypeName": "Game.SceneManager",
+		"ParentID": "c9b68a0f4cd2ee822ff786ae9c3b5161",
+		"V": {
+			"currentScene": "4cdba7994a6fe75f8a579ab3d2b93ed8",
+			"dontDestroyOnLoadScene": "00000000000000000000000000000000"
+		}
+	}
+]
+}

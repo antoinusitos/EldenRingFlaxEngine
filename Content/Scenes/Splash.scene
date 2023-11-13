@@ -1,0 +1,36 @@
+{
+	"ID": "800038b54685530811b6dcaa3dc22c01",
+	"TypeName": "FlaxEngine.SceneAsset",
+	"EngineBuild": 6404,
+	"Data": [
+		{
+			"ID": "800038b54685530811b6dcaa3dc22c01",
+			"TypeName": "FlaxEngine.Scene",
+			"LightmapSettings": {
+				"IndirectLightingIntensity": 1.0,
+				"GlobalObjectsScale": 1.0,
+				"ChartsPadding": 3,
+				"AtlasSize": 1024,
+				"BounceCount": 1,
+				"CompressLightmaps": true,
+				"UseGeometryWithNoMaterials": true,
+				"Quality": 10
+			}
+		},
+		{
+			"ID": "b54b8e4e460eb9788722bf9e571dc11d",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "800038b54685530811b6dcaa3dc22c01",
+			"Name": "SplashScreen"
+		},
+		{
+			"ID": "e2df0e19420c1158e7030d8b35608ec8",
+			"TypeName": "Game.SplashScreen",
+			"ParentID": "b54b8e4e460eb9788722bf9e571dc11d",
+			"V": {
+	"dontDestroyScene": "65eff4174bf87826e5eca3848c05063c",
+	"mainMenuScene": "4cdba7994a6fe75f8a579ab3d2b93ed8"
+}
+		}
+	]
+}

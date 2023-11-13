@@ -1,0 +1,124 @@
+[00:00:009] Flax.Build 1.0.0
+[00:00:009]   Arguments: -log "-logfile=C:\Users/thebo/Documents/Flax Projects/EldenRing/Cache/Cooker/Windows/StripDotnetLibs.txt" -runDotNetClassLibStripping -mutex "-binaries=C:\Users/thebo/Documents/Flax Projects/EldenRing/Output/Windows"
+[00:00:009]   Workspace: C:\Users\thebo\Documents\Flax Projects\EldenRing
+[00:00:009]   Engine: D:\Program Files (x86)\Flax\Flax_1.7
+[00:00:009]   .NET 7.0.13
+[00:00:014] Loading project file from "C:\Users\thebo\Documents\Flax Projects\EldenRing\EldenRing.flaxproj"...
+[00:00:044] Loading project file from "D:\Program Files (x86)\Flax\Flax_1.7\Flax.flaxproj"...
+[00:00:045] Loaded project Flax, version 1.7.6404
+[00:00:045] Loaded project EldenRing, version 1.0
+[00:00:066] Engine build version: 1.7.6404
+[00:00:083] Running .NET class Library stripping
+[00:00:514] Class library found in: C:\Users/thebo/Documents/Flax Projects/EldenRing/Output/Windows/Dotnet/shared/Microsoft.NETCore.App/7.0.13
+[00:03:122] Removing unused C# assembly: Microsoft.CSharp.dll
+[00:03:123] Removing unused C# assembly: Microsoft.VisualBasic.Core.dll
+[00:03:123] Removing unused C# assembly: Microsoft.VisualBasic.dll
+[00:03:124] Removing unused C# assembly: mscorlib.dll
+[00:03:124] Removing unused C# assembly: netstandard.dll
+[00:03:124] Removing unused C# assembly: System.AppContext.dll
+[00:03:125] Removing unused C# assembly: System.Buffers.dll
+[00:03:125] Removing unused C# assembly: System.ComponentModel.Annotations.dll
+[00:03:125] Removing unused C# assembly: System.ComponentModel.DataAnnotations.dll
+[00:03:125] Removing unused C# assembly: System.ComponentModel.EventBasedAsync.dll
+[00:03:126] Removing unused C# assembly: System.Configuration.dll
+[00:03:126] Removing unused C# assembly: System.Console.dll
+[00:03:126] Removing unused C# assembly: System.Core.dll
+[00:03:127] Removing unused C# assembly: System.Data.Common.dll
+[00:03:127] Removing unused C# assembly: System.Data.DataSetExtensions.dll
+[00:03:127] Removing unused C# assembly: System.Data.dll
+[00:03:128] Removing unused C# assembly: System.Diagnostics.Contracts.dll
+[00:03:128] Removing unused C# assembly: System.Diagnostics.Debug.dll
+[00:03:129] Removing unused C# assembly: System.Diagnostics.FileVersionInfo.dll
+[00:03:129] Removing unused C# assembly: System.Diagnostics.Process.dll
+[00:03:130] Removing unused C# assembly: System.Diagnostics.TextWriterTraceListener.dll
+[00:03:130] Removing unused C# assembly: System.Diagnostics.Tools.dll
+[00:03:130] Removing unused C# assembly: System.dll
+[00:03:131] Removing unused C# assembly: System.Drawing.dll
+[00:03:131] Removing unused C# assembly: System.Dynamic.Runtime.dll
+[00:03:131] Removing unused C# assembly: System.Formats.Tar.dll
+[00:03:132] Removing unused C# assembly: System.Globalization.Calendars.dll
+[00:03:132] Removing unused C# assembly: System.Globalization.dll
+[00:03:132] Removing unused C# assembly: System.Globalization.Extensions.dll
+[00:03:132] Removing unused C# assembly: System.IO.Compression.FileSystem.dll
+[00:03:133] Removing unused C# assembly: System.IO.Compression.ZipFile.dll
+[00:03:133] Removing unused C# assembly: System.IO.dll
+[00:03:133] Removing unused C# assembly: System.IO.FileSystem.AccessControl.dll
+[00:03:134] Removing unused C# assembly: System.IO.FileSystem.dll
+[00:03:134] Removing unused C# assembly: System.IO.FileSystem.DriveInfo.dll
+[00:03:134] Removing unused C# assembly: System.IO.FileSystem.Primitives.dll
+[00:03:135] Removing unused C# assembly: System.IO.FileSystem.Watcher.dll
+[00:03:135] Removing unused C# assembly: System.IO.IsolatedStorage.dll
+[00:03:135] Removing unused C# assembly: System.IO.Pipes.AccessControl.dll
+[00:03:136] Removing unused C# assembly: System.IO.Pipes.dll
+[00:03:136] Removing unused C# assembly: System.IO.UnmanagedMemoryStream.dll
+[00:03:136] Removing unused C# assembly: System.Linq.Parallel.dll
+[00:03:137] Removing unused C# assembly: System.Linq.Queryable.dll
+[00:03:137] Removing unused C# assembly: System.Net.dll
+[00:03:137] Removing unused C# assembly: System.Net.Http.Json.dll
+[00:03:138] Removing unused C# assembly: System.Net.HttpListener.dll
+[00:03:138] Removing unused C# assembly: System.Net.Mail.dll
+[00:03:138] Removing unused C# assembly: System.Net.Ping.dll
+[00:03:138] Removing unused C# assembly: System.Net.Requests.dll
+[00:03:139] Removing unused C# assembly: System.Net.ServicePoint.dll
+[00:03:139] Removing unused C# assembly: System.Net.WebClient.dll
+[00:03:139] Removing unused C# assembly: System.Net.WebHeaderCollection.dll
+[00:03:140] Removing unused C# assembly: System.Net.WebProxy.dll
+[00:03:140] Removing unused C# assembly: System.Net.WebSockets.Client.dll
+[00:03:140] Removing unused C# assembly: System.Net.WebSockets.dll
+[00:03:141] Removing unused C# assembly: System.Numerics.dll
+[00:03:141] Removing unused C# assembly: System.Private.DataContractSerialization.dll
+[00:03:141] Removing unused C# assembly: System.Reflection.DispatchProxy.dll
+[00:03:142] Removing unused C# assembly: System.Reflection.dll
+[00:03:142] Removing unused C# assembly: System.Reflection.Extensions.dll
+[00:03:142] Removing unused C# assembly: System.Reflection.TypeExtensions.dll
+[00:03:143] Removing unused C# assembly: System.Resources.Reader.dll
+[00:03:143] Removing unused C# assembly: System.Resources.ResourceManager.dll
+[00:03:143] Removing unused C# assembly: System.Runtime.CompilerServices.Unsafe.dll
+[00:03:144] Removing unused C# assembly: System.Runtime.CompilerServices.VisualC.dll
+[00:03:144] Removing unused C# assembly: System.Runtime.Extensions.dll
+[00:03:144] Removing unused C# assembly: System.Runtime.Handles.dll
+[00:03:144] Removing unused C# assembly: System.Runtime.InteropServices.JavaScript.dll
+[00:03:145] Removing unused C# assembly: System.Runtime.InteropServices.RuntimeInformation.dll
+[00:03:145] Removing unused C# assembly: System.Runtime.Intrinsics.dll
+[00:03:145] Removing unused C# assembly: System.Runtime.Serialization.dll
+[00:03:146] Removing unused C# assembly: System.Runtime.Serialization.Json.dll
+[00:03:146] Removing unused C# assembly: System.Runtime.Serialization.Xml.dll
+[00:03:146] Removing unused C# assembly: System.Security.Cryptography.Algorithms.dll
+[00:03:146] Removing unused C# assembly: System.Security.Cryptography.Cng.dll
+[00:03:147] Removing unused C# assembly: System.Security.Cryptography.Csp.dll
+[00:03:147] Removing unused C# assembly: System.Security.Cryptography.Encoding.dll
+[00:03:147] Removing unused C# assembly: System.Security.Cryptography.OpenSsl.dll
+[00:03:148] Removing unused C# assembly: System.Security.Cryptography.Primitives.dll
+[00:03:148] Removing unused C# assembly: System.Security.Cryptography.X509Certificates.dll
+[00:03:148] Removing unused C# assembly: System.Security.dll
+[00:03:148] Removing unused C# assembly: System.Security.Principal.dll
+[00:03:149] Removing unused C# assembly: System.Security.SecureString.dll
+[00:03:149] Removing unused C# assembly: System.ServiceModel.Web.dll
+[00:03:149] Removing unused C# assembly: System.ServiceProcess.dll
+[00:03:150] Removing unused C# assembly: System.Text.Encoding.CodePages.dll
+[00:03:150] Removing unused C# assembly: System.Text.Encoding.dll
+[00:03:150] Removing unused C# assembly: System.Text.Encodings.Web.dll
+[00:03:151] Removing unused C# assembly: System.Text.Json.dll
+[00:03:151] Removing unused C# assembly: System.Threading.Tasks.Dataflow.dll
+[00:03:152] Removing unused C# assembly: System.Threading.Tasks.dll
+[00:03:152] Removing unused C# assembly: System.Threading.Tasks.Extensions.dll
+[00:03:152] Removing unused C# assembly: System.Threading.Tasks.Parallel.dll
+[00:03:152] Removing unused C# assembly: System.Threading.Timer.dll
+[00:03:153] Removing unused C# assembly: System.Transactions.dll
+[00:03:153] Removing unused C# assembly: System.Transactions.Local.dll
+[00:03:153] Removing unused C# assembly: System.ValueTuple.dll
+[00:03:154] Removing unused C# assembly: System.Web.dll
+[00:03:154] Removing unused C# assembly: System.Web.HttpUtility.dll
+[00:03:154] Removing unused C# assembly: System.Windows.dll
+[00:03:154] Removing unused C# assembly: System.Xml.dll
+[00:03:155] Removing unused C# assembly: System.Xml.Linq.dll
+[00:03:155] Removing unused C# assembly: System.Xml.ReaderWriter.dll
+[00:03:155] Removing unused C# assembly: System.Xml.Serialization.dll
+[00:03:156] Removing unused C# assembly: System.Xml.XmlDocument.dll
+[00:03:156] Removing unused C# assembly: System.Xml.XmlSerializer.dll
+[00:03:156] Removing unused C# assembly: System.Xml.XPath.dll
+[00:03:157] Removing unused C# assembly: System.Xml.XPath.XDocument.dll
+[00:03:157] Removing unused C# assembly: WindowsBase.dll
+[00:03:157] Removed C# assemblies size: 17 MB
+[00:03:158] Total time: 00:00:03.1726602
+[00:03:158] End.

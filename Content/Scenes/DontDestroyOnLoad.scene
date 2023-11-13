@@ -1,0 +1,37 @@
+{
+	"ID": "65eff4174bf87826e5eca3848c05063c",
+	"TypeName": "FlaxEngine.SceneAsset",
+	"EngineBuild": 6404,
+	"Data": [
+		{
+			"ID": "65eff4174bf87826e5eca3848c05063c",
+			"TypeName": "FlaxEngine.Scene",
+			"Name": "DontDestroyOnLoad",
+			"LightmapSettings": {
+				"IndirectLightingIntensity": 1.0,
+				"GlobalObjectsScale": 1.0,
+				"ChartsPadding": 3,
+				"AtlasSize": 1024,
+				"BounceCount": 1,
+				"CompressLightmaps": true,
+				"UseGeometryWithNoMaterials": true,
+				"Quality": 10
+			}
+		},
+		{
+			"ID": "ce7b80504fceb809d0313ebd59c6cba2",
+			"PrefabID": "82f6aa2e4b0ae125e76259b088102775",
+			"PrefabObjectID": "c9b68a0f4cd2ee822ff786ae9c3b5161",
+			"ParentID": "65eff4174bf87826e5eca3848c05063c"
+		},
+		{
+			"ID": "d4976857433e761d59462993e351743c",
+			"PrefabID": "82f6aa2e4b0ae125e76259b088102775",
+			"PrefabObjectID": "32b46d06478606360d1303a35c8b9205",
+			"ParentID": "ce7b80504fceb809d0313ebd59c6cba2",
+			"V": {
+	"dontDestroyOnLoadScene": "65eff4174bf87826e5eca3848c05063c"
+}
+		}
+	]
+}

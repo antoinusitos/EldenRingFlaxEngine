@@ -1,0 +1,20 @@
+{
+	"ID": "26378f1148f69c6b330a11a811cfb916",
+	"TypeName": "FlaxEngine.Prefab",
+	"EngineBuild": 6404,
+	"Data": [
+	{
+		"ID": "5641f6af43dd1bffaab4e2a424d9c020",
+		"TypeName": "FlaxEngine.EmptyActor",
+		"Name": "WorldSaveGameManager"
+	},
+	{
+		"ID": "a72bad2048fd405f0de646b69447a8d1",
+		"TypeName": "Game.WorldSaveGameManager",
+		"ParentID": "5641f6af43dd1bffaab4e2a424d9c020",
+		"V": {
+	"GameScene": "e8bbde7e4df3ffac0f1534a5c26b2fc2"
+}
+	}
+]
+}
