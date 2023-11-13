@@ -645,9 +645,16 @@
 			"PrefabObjectID": "1d41c09f45e5d697ff2e27a9863783dd",
 			"ParentID": "4cdba7994a6fe75f8a579ab3d2b93ed8",
 			"IsActive": false,
+			"Name": "Player",
+			"Model": "e83e7ece49d341544ed37494f38706e6",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
@@ -659,17 +666,17 @@
 			"V": {}
 		},
 		{
-			"ID": "9f778a804f9e5d8de4ca7e97c2c62508",
-			"PrefabID": "36bbb9ed49c4ea92a36fca89aecd0217",
-			"PrefabObjectID": "0f54ced8498d1f41da80f8afbd95ad0e",
-			"ParentID": "484d6310458385fe36389fbf4e144e27"
-		},
-		{
 			"ID": "ca36da694037d9ae9c763e95011698bf",
 			"PrefabID": "36bbb9ed49c4ea92a36fca89aecd0217",
 			"PrefabObjectID": "d9466d574cdea8a77d9c599085511fd6",
 			"ParentID": "484d6310458385fe36389fbf4e144e27",
 			"V": {}
+		},
+		{
+			"ID": "2e109e834116f8a92fd9ec82f0246d57",
+			"TypeName": "FlaxEngine.MissingScript",
+			"ParentID": "484d6310458385fe36389fbf4e144e27",
+			"Data": "{\n\t\"ID\": \"9f778a804f9e5d8de4ca7e97c2c62508\",\n\t\"PrefabID\": \"36bbb9ed49c4ea92a36fca89aecd0217\",\n\t\"PrefabObjectID\": \"0f54ced8498d1f41da80f8afbd95ad0e\",\n\t\"ParentID\": \"484d6310458385fe36389fbf4e144e27\"\n}"
 		},
 		{
 			"ID": "bb9c80034ed6b07d289dc4bb3d1613a5",

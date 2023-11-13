@@ -1,122 +1,122 @@
 [00:00:007] Flax.Build 1.0.0
-[00:00:007]   Arguments: -log "-logfile=C:\Users/thebo/Documents/Flax Projects/EldenRing/Cache/Cooker/Windows/CompileLog.txt" -build -mutex -buildtargets=GameTarget -platform=Windows -arch=x64 -configuration=Development -aotMode=None
-[00:00:007]   Workspace: C:\Users\thebo\Documents\Flax Projects\EldenRing
+[00:00:007]   Arguments: -log -logfile=C:\Dev/FlaxEngine/EldenRingFlaxEngine/Cache/Cooker/Windows/CompileLog.txt -build -mutex -buildtargets=GameTarget -platform=Windows -arch=x64 -configuration=Development -aotMode=None
+[00:00:007]   Workspace: C:\Dev\FlaxEngine\EldenRingFlaxEngine
 [00:00:007]   Engine: D:\Program Files (x86)\Flax\Flax_1.7
 [00:00:007]   .NET 7.0.13
-[00:00:011] Loading project file from "C:\Users\thebo\Documents\Flax Projects\EldenRing\EldenRing.flaxproj"...
-[00:00:035] Loading project file from "D:\Program Files (x86)\Flax\Flax_1.7\Flax.flaxproj"...
-[00:00:035] Loaded project Flax, version 1.7.6404
-[00:00:035] Loaded project EldenRing, version 1.0
-[00:00:052] Engine build version: 1.7.6404
-[00:00:068] Building targets...
-[00:00:089] Found Android SDK at C:\Program Files (x86)\Android\android-sdk
-[00:00:089] Missing Linux Toolchain. Cannot build for Linux platform.
-[00:00:094] Found Windows SDK v10_0_19041_0 at C:\Program Files (x86)\Windows Kits\10\
-[00:00:094] Found Windows SDK v10_0_22000_0 at C:\Program Files (x86)\Windows Kits\10\
-[00:00:094] Found Windows SDK v10_0_22621_0 at C:\Program Files (x86)\Windows Kits\10\
-[00:00:106] Found VisualStudio2022 at C:\Program Files\Microsoft Visual Studio\2022\Community
-[00:00:106] Found VisualStudio2022 at C:\Program Files\Microsoft Visual Studio\2022\Professional
-[00:00:106] Found VisualStudio2019 at C:\Program Files (x86)\Microsoft Visual Studio\2019\Community
-[00:00:108] Found Windows toolset v143 at C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.37.32822
-[00:00:108] Found Windows toolset v142 at C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133
-[00:00:110] Building C# only
-[00:00:110] Building target GameTarget in Development for Windows x64
-[00:00:119] Building referenced target Flax
-[00:00:127] Parsing API bindings for Profiler (FlaxEngine)
-[00:00:183] Parsing API bindings for Platform (FlaxEngine)
-[00:00:234] Parsing API bindings for Core (FlaxEngine)
-[00:00:808] Parsing API bindings for Physics (FlaxEngine)
-[00:00:919] Parsing API bindings for TextureTool (FlaxEngine)
-[00:00:922] Parsing API bindings for ModelTool (FlaxEngine)
-[00:00:929] Missing VULKAN_SDK environment variable. Cannot build Vulkan.
-[00:00:929] Building for Windows without Vulkan rendering backend (Vulkan SDK is missing)
-[00:00:930] Parsing API bindings for Graphics (FlaxEngine)
-[00:01:162] Parsing API bindings for Utilities (FlaxEngine)
-[00:01:163] Parsing API bindings for Particles (FlaxEngine)
-[00:01:175] Parsing API bindings for Content (FlaxEngine)
-[00:01:222] Parsing API bindings for Renderer (FlaxEngine)
-[00:01:239] Using .NET SDK 7.0.403, runtime 7.0.13 (C:\Program Files\dotnet\)
-[00:01:240]   - Host Runtime for Windows x64
-[00:01:240]   - Host Runtime for Windows x86
-[00:01:240]   - Host Runtime for Windows ARM64
-[00:01:241] Parsing API bindings for Scripting (FlaxEngine)
-[00:01:260] Parsing API bindings for Serialization (FlaxEngine)
-[00:01:261] Parsing API bindings for Level (FlaxEngine)
-[00:01:355] Parsing API bindings for Navigation (FlaxEngine)
-[00:01:366] Parsing API bindings for AI (FlaxEngine)
-[00:01:382] Parsing API bindings for Visject (FlaxEngine)
-[00:01:387] Parsing API bindings for Animations (FlaxEngine)
-[00:01:412] Parsing API bindings for Audio (FlaxEngine)
-[00:01:423] Parsing API bindings for Debug (FlaxEngine)
-[00:01:446] Parsing API bindings for Foliage (FlaxEngine)
-[00:01:480] Parsing API bindings for Render2D (FlaxEngine)
-[00:01:504] Parsing API bindings for Input (FlaxEngine)
-[00:01:526] Parsing API bindings for Networking (FlaxEngine)
-[00:01:551] Parsing API bindings for Streaming (FlaxEngine)
-[00:01:552] Parsing API bindings for Terrain (FlaxEngine)
-[00:01:559] Parsing API bindings for Threading (FlaxEngine)
-[00:01:562] Parsing API bindings for Localization (FlaxEngine)
-[00:01:567] Parsing API bindings for UI (FlaxEngine)
-[00:01:572] Parsing API bindings for Online (FlaxEngine)
-[00:01:574] Parsing API bindings for Engine (FlaxEngine)
-[00:01:582] Building module tracy
-[00:01:583] Building module Profiler
-[00:01:583] Building module Platform
-[00:01:583] Building module fmt
-[00:01:583] Building module Core
-[00:01:583] Building module Main
-[00:01:583] Building module PhysX
-[00:01:583] Building module NvCloth
-[00:01:583] Building module Physics
-[00:01:583] Building module lz4
-[00:01:583] Building module minimp3
-[00:01:583] Building module ogg
-[00:01:583] Building module vorbis
-[00:01:583] Building module AudioTool
-[00:01:583] Building module DirectXTex
-[00:01:583] Building module TextureTool
-[00:01:583] Building module ModelTool
-[00:01:583] Building module GraphicsDeviceNull
-[00:01:583] Building module GraphicsDeviceDX11
-[00:01:583] Building module GraphicsDeviceDX12
-[00:01:583] Building module Graphics
-[00:01:583] Building module Utilities
-[00:01:583] Building module Particles
-[00:01:583] Building module Content
-[00:01:583] Building module Renderer
-[00:01:583] Building module nethost
-[00:01:584] Building module Scripting
-[00:01:584] Building module rapidjson
-[00:01:584] Building module Serialization
-[00:01:584] Building module Level
-[00:01:584] Building module recastnavigation
-[00:01:584] Building module Navigation
-[00:01:584] Building module AI
-[00:01:584] Building module Visject
-[00:01:584] Building module Animations
-[00:01:584] Building module Audio
-[00:01:584] Building module Debug
-[00:01:584] Building module Foliage
-[00:01:584] Building module freetype
-[00:01:584] Building module Render2D
-[00:01:584] Building module Input
-[00:01:584] Building module Networking
-[00:01:584] Building module Streaming
-[00:01:584] Building module Terrain
-[00:01:584] Building module Threading
-[00:01:584] Building module Localization
-[00:01:584] Building module UI
-[00:01:584] Building module Online
-[00:01:584] Building module Engine
-[00:01:585] Skipping build for target FlaxGame
-[00:01:592] Generating binary module bindings for Game
-[00:01:594] Skipped saving file to C:\Users\thebo\Documents\Flax Projects\EldenRing\Source\Game.Gen.cs
-[00:01:594] Building module Game
-[00:01:597] Skipped saving file to C:\Users\thebo\Documents\Flax Projects\EldenRing\Cache/Intermediate\GameTarget\Windows\x64\Development\Game.CSharp.response
-[00:01:601] Skipped saving file to C:\Users\thebo\Documents\Flax Projects\EldenRing\Binaries\GameTarget\Windows\x64\Development\GameTarget.Build.json
-[00:01:605] Found 8 valid and 0 invalid actions in Task Graph cache
-[00:01:605] 
-[00:01:605] Total 3 tasks
-[00:01:606] Done!
-[00:01:607] Total time: 00:00:01.6208771
-[00:01:607] End.
+[00:00:011] Loading project file from "C:\Dev\FlaxEngine\EldenRingFlaxEngine\EldenRing.flaxproj"...
+[00:00:040] Loading project file from "D:\Program Files (x86)\Flax\Flax_1.7\Flax.flaxproj"...
+[00:00:041] Loaded project Flax, version 1.7.6404
+[00:00:041] Loaded project EldenRing, version 1.0
+[00:00:062] Engine build version: 1.7.6404
+[00:00:084] Building targets...
+[00:00:109] Found Android SDK at C:\Program Files (x86)\Android\android-sdk
+[00:00:110] Missing Linux Toolchain. Cannot build for Linux platform.
+[00:00:115] Found Windows SDK v10_0_19041_0 at C:\Program Files (x86)\Windows Kits\10\
+[00:00:115] Found Windows SDK v10_0_22000_0 at C:\Program Files (x86)\Windows Kits\10\
+[00:00:115] Found Windows SDK v10_0_22621_0 at C:\Program Files (x86)\Windows Kits\10\
+[00:00:128] Found VisualStudio2022 at C:\Program Files\Microsoft Visual Studio\2022\Community
+[00:00:128] Found VisualStudio2022 at C:\Program Files\Microsoft Visual Studio\2022\Professional
+[00:00:128] Found VisualStudio2019 at C:\Program Files (x86)\Microsoft Visual Studio\2019\Community
+[00:00:130] Found Windows toolset v143 at C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.37.32822
+[00:00:130] Found Windows toolset v142 at C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133
+[00:00:132] Building C# only
+[00:00:132] Building target GameTarget in Development for Windows x64
+[00:00:141] Building referenced target Flax
+[00:00:151] Parsing API bindings for Profiler (FlaxEngine)
+[00:00:216] Parsing API bindings for Platform (FlaxEngine)
+[00:00:278] Parsing API bindings for Core (FlaxEngine)
+[00:00:830] Parsing API bindings for Physics (FlaxEngine)
+[00:00:923] Parsing API bindings for TextureTool (FlaxEngine)
+[00:00:926] Parsing API bindings for ModelTool (FlaxEngine)
+[00:00:933] Missing VULKAN_SDK environment variable. Cannot build Vulkan.
+[00:00:933] Building for Windows without Vulkan rendering backend (Vulkan SDK is missing)
+[00:00:934] Parsing API bindings for Graphics (FlaxEngine)
+[00:01:138] Parsing API bindings for Utilities (FlaxEngine)
+[00:01:139] Parsing API bindings for Particles (FlaxEngine)
+[00:01:151] Parsing API bindings for Content (FlaxEngine)
+[00:01:206] Parsing API bindings for Renderer (FlaxEngine)
+[00:01:222] Using .NET SDK 7.0.403, runtime 7.0.13 (C:\Program Files\dotnet\)
+[00:01:222]   - Host Runtime for Windows x64
+[00:01:222]   - Host Runtime for Windows x86
+[00:01:222]   - Host Runtime for Windows ARM64
+[00:01:223] Parsing API bindings for Scripting (FlaxEngine)
+[00:01:239] Parsing API bindings for Serialization (FlaxEngine)
+[00:01:241] Parsing API bindings for Level (FlaxEngine)
+[00:01:330] Parsing API bindings for Navigation (FlaxEngine)
+[00:01:339] Parsing API bindings for AI (FlaxEngine)
+[00:01:352] Parsing API bindings for Visject (FlaxEngine)
+[00:01:357] Parsing API bindings for Animations (FlaxEngine)
+[00:01:377] Parsing API bindings for Audio (FlaxEngine)
+[00:01:386] Parsing API bindings for Debug (FlaxEngine)
+[00:01:407] Parsing API bindings for Foliage (FlaxEngine)
+[00:01:440] Parsing API bindings for Render2D (FlaxEngine)
+[00:01:464] Parsing API bindings for Input (FlaxEngine)
+[00:01:489] Parsing API bindings for Networking (FlaxEngine)
+[00:01:517] Parsing API bindings for Streaming (FlaxEngine)
+[00:01:518] Parsing API bindings for Terrain (FlaxEngine)
+[00:01:525] Parsing API bindings for Threading (FlaxEngine)
+[00:01:527] Parsing API bindings for Localization (FlaxEngine)
+[00:01:532] Parsing API bindings for UI (FlaxEngine)
+[00:01:536] Parsing API bindings for Online (FlaxEngine)
+[00:01:538] Parsing API bindings for Engine (FlaxEngine)
+[00:01:546] Building module tracy
+[00:01:547] Building module Profiler
+[00:01:547] Building module Platform
+[00:01:547] Building module fmt
+[00:01:547] Building module Core
+[00:01:547] Building module Main
+[00:01:547] Building module PhysX
+[00:01:547] Building module NvCloth
+[00:01:547] Building module Physics
+[00:01:547] Building module lz4
+[00:01:547] Building module minimp3
+[00:01:547] Building module ogg
+[00:01:547] Building module vorbis
+[00:01:547] Building module AudioTool
+[00:01:547] Building module DirectXTex
+[00:01:547] Building module TextureTool
+[00:01:547] Building module ModelTool
+[00:01:547] Building module GraphicsDeviceNull
+[00:01:547] Building module GraphicsDeviceDX11
+[00:01:548] Building module GraphicsDeviceDX12
+[00:01:548] Building module Graphics
+[00:01:548] Building module Utilities
+[00:01:548] Building module Particles
+[00:01:548] Building module Content
+[00:01:548] Building module Renderer
+[00:01:548] Building module nethost
+[00:01:548] Building module Scripting
+[00:01:548] Building module rapidjson
+[00:01:548] Building module Serialization
+[00:01:548] Building module Level
+[00:01:548] Building module recastnavigation
+[00:01:548] Building module Navigation
+[00:01:548] Building module AI
+[00:01:548] Building module Visject
+[00:01:548] Building module Animations
+[00:01:548] Building module Audio
+[00:01:548] Building module Debug
+[00:01:548] Building module Foliage
+[00:01:548] Building module freetype
+[00:01:548] Building module Render2D
+[00:01:548] Building module Input
+[00:01:548] Building module Networking
+[00:01:548] Building module Streaming
+[00:01:548] Building module Terrain
+[00:01:548] Building module Threading
+[00:01:548] Building module Localization
+[00:01:548] Building module UI
+[00:01:548] Building module Online
+[00:01:548] Building module Engine
+[00:01:549] Skipping build for target FlaxGame
+[00:01:557] Generating binary module bindings for Game
+[00:01:559] Skipped saving file to C:\Dev\FlaxEngine\EldenRingFlaxEngine\Source\Game.Gen.cs
+[00:01:559] Building module Game
+[00:01:563] Skipped saving file to C:\Dev\FlaxEngine\EldenRingFlaxEngine\Cache/Intermediate\GameTarget\Windows\x64\Development\Game.CSharp.response
+[00:01:568] Skipped saving file to C:\Dev\FlaxEngine\EldenRingFlaxEngine\Binaries\GameTarget\Windows\x64\Development\GameTarget.Build.json
+[00:01:573] Found 14 valid and 0 invalid actions in Task Graph cache
+[00:01:573] 
+[00:01:573] Total 3 tasks
+[00:01:574] Done!
+[00:01:575] Total time: 00:00:01.5888679
+[00:01:575] End.

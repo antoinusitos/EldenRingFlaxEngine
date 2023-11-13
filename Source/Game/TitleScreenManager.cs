@@ -24,6 +24,9 @@ namespace Game
             newGameStartButtonTemp.Clicked += StartNewGame;
 
             ((Button)joinGameButton.Control).Clicked += JoinGameButtonEvents;
+
+            Screen.CursorVisible = true;
+            Screen.CursorLock = CursorLockMode.None;
         }
 
         private void PressStartButtonEvents()

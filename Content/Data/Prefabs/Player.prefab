@@ -1,12 +1,46 @@
 {
-	"ID": "36bbb9ed49c4ea92a36fca89aecd0217",
+	"ID": "828d66a34d8a685aa140aeaddf33b86c",
 	"TypeName": "FlaxEngine.Prefab",
 	"EngineBuild": 6404,
 	"Data": [
 	{
-		"ID": "1d41c09f45e5d697ff2e27a9863783dd",
-		"TypeName": "FlaxEngine.StaticModel",
+		"ID": "e1d73f0a4113f4d9ec1ba99bff7ed4ee",
+		"TypeName": "FlaxEngine.CharacterController",
 		"Name": "Player",
+		"Transform": {
+			"Translation": {
+				"X": 20.862091064453126,
+				"Y": 120.35746765136719,
+				"Z": 31.24908447265625
+			}
+		},
+		"Radius": 30.0,
+		"Height": 130.0
+	},
+	{
+		"ID": "530bf29647bd442cb856a69d59b0388f",
+		"TypeName": "Game.CharacterManager",
+		"ParentID": "e1d73f0a4113f4d9ec1ba99bff7ed4ee",
+		"V": {}
+	},
+	{
+		"ID": "679cee704c92107895d02f982b7b0e01",
+		"TypeName": "Game.NetworkPlayerScript",
+		"ParentID": "e1d73f0a4113f4d9ec1ba99bff7ed4ee",
+		"V": {}
+	},
+	{
+		"ID": "a4474c3e469ceb779254438efb389ba7",
+		"TypeName": "FlaxEngine.StaticModel",
+		"ParentID": "e1d73f0a4113f4d9ec1ba99bff7ed4ee",
+		"Name": "Md_Char_Low_Poly_Man",
+		"Transform": {
+			"Translation": {
+				"X": 0.0,
+				"Y": -94.4190444946289,
+				"Z": 0.0
+			}
+		},
 		"Model": "e83e7ece49d341544ed37494f38706e6",
 		"Buffer": {
 			"Entries": [
@@ -18,23 +52,6 @@
 				}
 			]
 		}
-	},
-	{
-		"ID": "67ce4b59481634b4e24128ab9f7aea5d",
-		"TypeName": "Game.CharacterManager",
-		"ParentID": "1d41c09f45e5d697ff2e27a9863783dd",
-		"V": {}
-	},
-	{
-		"ID": "0f54ced8498d1f41da80f8afbd95ad0e",
-		"TypeName": "FlaxEngine.Networking.NetworkTransform",
-		"ParentID": "1d41c09f45e5d697ff2e27a9863783dd"
-	},
-	{
-		"ID": "d9466d574cdea8a77d9c599085511fd6",
-		"TypeName": "Game.NetworkPlayerScript",
-		"ParentID": "1d41c09f45e5d697ff2e27a9863783dd",
-		"V": {}
 	}
 ]
 }

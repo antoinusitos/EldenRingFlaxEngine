@@ -1,7 +1,7 @@
 {
 	"ID": "fa0ddf034c718af8fbf893836d3c7283",
 	"TypeName": "FlaxEngine.Prefab",
-	"EngineBuild": 6221,
+	"EngineBuild": 6404,
 	"Data": [
 	{
 		"ID": "1440aef34913715de95133a71d610652",
@@ -14,6 +14,15 @@
 		"TypeName": "Game.NetworkPlayerScript",
 		"ParentID": "1440aef34913715de95133a71d610652",
 		"V": {}
+	},
+	{
+		"ID": "bd643fb3487f346340ea81a64c9574b7",
+		"TypeName": "LocalPlayerScript",
+		"ParentID": "1440aef34913715de95133a71d610652",
+		"V": {
+	"PlayerController": "1440aef34913715de95133a71d610652",
+	"Camera": "378ae93a48805738a5fbd7867637c86b"
+}
 	},
 	{
 		"ID": "f2ee4e5444c586d8798d9a99b2ebddcf",
@@ -78,10 +87,12 @@
 	"HorizontalAlignment": 1,
 	"VerticalAlignment": 1,
 	"Wrapping": 0,
+	"BaseLinesGapScale": 1.0,
 	"Font": {
 		"Font": "4508d98f4aa1f0bd59362b81d47e38f4",
-		"Size": 20
+		"Size": 20.0
 	},
+	"Material": null,
 	"Margin": {
 		"Left": 0.0,
 		"Right": 0.0,
@@ -126,13 +137,14 @@
 	},
 	"Rotation": 0.0,
 	"BackgroundColor": {
-		"R": 0.00100004673,
-		"G": 0.00100004673,
-		"B": 0.00100004673,
+		"R": 0.0010000467,
+		"G": 0.0010000467,
+		"B": 0.0010000467,
 		"A": 1.0
 	},
 	"Enabled": true,
-	"Visible": true
+	"Visible": true,
+	"AutoFocus": false
 }
 	},
 	{
@@ -169,7 +181,7 @@
 		"Buffer": {
 			"Entries": [
 				{
-					"Material": "28cac01246c37a932ab9e0b92a838cc2",
+					"Material": "00000000000000000000000000000000",
 					"ShadowsMode": 3,
 					"Visible": true,
 					"ReceiveDecals": true
@@ -198,12 +210,25 @@
 		"Buffer": {
 			"Entries": [
 				{
-					"Material": "28cac01246c37a932ab9e0b92a838cc2",
+					"Material": "00000000000000000000000000000000",
 					"ShadowsMode": 3,
 					"Visible": true,
 					"ReceiveDecals": true
 				}
 			]
+		}
+	},
+	{
+		"ID": "378ae93a48805738a5fbd7867637c86b",
+		"TypeName": "FlaxEngine.Camera",
+		"ParentID": "1440aef34913715de95133a71d610652",
+		"Name": "Camera",
+		"Transform": {
+			"Translation": {
+				"X": 0.0,
+				"Y": 0.0,
+				"Z": -419.220703125
+			}
 		}
 	}
 ]

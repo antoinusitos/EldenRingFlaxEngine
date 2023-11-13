@@ -105,13 +105,11 @@ public class LocalPlayerScript : Script
 
         if (PlayerController.IsGrounded)
         {
-            Debug.Log(inputH);
             velocity = MoveGround(velocity.Normalized, Horizontal(_velocity));
             velocity.Y = -Mathf.Abs(Physics.Gravity.Y * 0.5f);
         }
         else
         {
-            Debug.Log("air");
             velocity = MoveAir(velocity.Normalized, Horizontal(_velocity));
             velocity.Y = _velocity.Y;
         }
@@ -126,9 +124,6 @@ public class LocalPlayerScript : Script
 
         velocity.Y += -Mathf.Abs(Physics.Gravity.Y * 2.5f) * Time.DeltaTime;
 
-        Debug.Log(velocity.Y);
-        Debug.Log("Physics.Gravity.Y " + Physics.Gravity.Y);
-
         if ((PlayerController.Flags & CharacterController.CollisionFlags.Above) != 0)
         {
             if (velocity.Y > 0)
@@ -137,7 +132,6 @@ public class LocalPlayerScript : Script
 
         //if (_chatActor != null && !_chatActor.GetScript<ChatScript>().IsWriting)
             PlayerController.Move(velocity * Time.DeltaTime);
-        Debug.Log("_velocity " + _velocity);
         _velocity = velocity;
     }
 
