@@ -1,4 +1,5 @@
 ﻿using FlaxEngine;
+using System;
 
 namespace Game
 {
@@ -7,6 +8,11 @@ namespace Game
         public static PlayerInputManager instance = null;
 
         private bool forceFirstUpdate = true;
+
+        private Vector2 movementInput = Vector2.Zero;
+        public float verticalInput = 0f;
+        public float horizontalInput = 0f;
+        public float moveAmount = 0f;
 
         public override void OnStart()
         {
@@ -56,14 +62,29 @@ namespace Game
         {
             base.OnUpdate();
 
-            // Here you can add code that needs to be called every frame
-
-            //Input.GetAxis("Horizontal")
+            HandleMovementInput();
         }
 
         public override void OnDestroy()
         {
             Level.SceneLoaded -= Level_SceneLoaded;
+        }
+
+        private void HandleMovementInput()
+        {
+            verticalInput = Input.GetAxis("Vertical");
+            horizontalInput = Input.GetAxis("Horizontal");
+
+            moveAmount = Mathf.Clamp(Mathf.Abs(verticalInput) + Mathf.Abs(horizontalInput), 0, 1);
+
+            if(moveAmount <= 0.5f && moveAmount > 0)
+            {
+                moveAmount = 0.5f;
+            }
+            else if(moveAmount > 0.5f && moveAmount <= 1)
+            {
+                moveAmount = 1;
+            }
         }
     }
 }

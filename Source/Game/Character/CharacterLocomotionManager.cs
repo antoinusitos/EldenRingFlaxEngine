@@ -4,6 +4,5 @@ namespace Game
 {
     public class CharacterLocomotionManager : Script
     {
-
     }
 }

@@ -1,45 +1,45 @@
-[00:00:008] Flax.Build 1.0.0
-[00:00:008]   Arguments: -log -mutex -genproject
-[00:00:008]   Workspace: C:\Dev\FlaxEngine\EldenRingFlaxEngine
-[00:00:008]   Engine: D:\Program Files (x86)\Flax\Flax_1.7
-[00:00:008]   .NET 7.0.13
-[00:00:012] Loading project file from "C:\Dev\FlaxEngine\EldenRingFlaxEngine\EldenRing.flaxproj"...
-[00:00:044] Loading project file from "D:\Program Files (x86)\Flax\Flax_1.7\Flax.flaxproj"...
-[00:00:045] Loaded project Flax, version 1.7.6404
-[00:00:045] Loaded project EldenRing, version 1.0
-[00:00:048] Wait for another instance(s) of Flax.Build to end...
-[00:01:832] Waiting done.
-[00:01:852] Engine build version: 1.7.6404
-[00:01:874] Generating project files...
-[00:01:885] Found Android SDK at C:\Program Files (x86)\Android\android-sdk
-[00:01:886] Missing Linux Toolchain. Cannot build for Linux platform.
-[00:01:892] Found Windows SDK v10_0_19041_0 at C:\Program Files (x86)\Windows Kits\10\
-[00:01:892] Found Windows SDK v10_0_22000_0 at C:\Program Files (x86)\Windows Kits\10\
-[00:01:892] Found Windows SDK v10_0_22621_0 at C:\Program Files (x86)\Windows Kits\10\
-[00:01:905] Found VisualStudio2022 at C:\Program Files\Microsoft Visual Studio\2022\Community
-[00:01:905] Found VisualStudio2022 at C:\Program Files\Microsoft Visual Studio\2022\Professional
-[00:01:905] Found VisualStudio2019 at C:\Program Files (x86)\Microsoft Visual Studio\2019\Community
-[00:01:907] Found Windows toolset v143 at C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.37.32822
-[00:01:907] Found Windows toolset v142 at C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133
-[00:01:938] Missing VULKAN_SDK environment variable. Cannot build Vulkan.
-[00:01:938] Building for Windows without Vulkan rendering backend (Vulkan SDK is missing)
-[00:01:945] Using .NET SDK 7.0.403, runtime 7.0.13 (C:\Program Files\dotnet\)
-[00:01:946]   - Host Runtime for Windows x64
-[00:01:946]   - Host Runtime for Windows x86
-[00:01:946]   - Host Runtime for Windows ARM64
-[00:02:117] Game -> C:\Dev\FlaxEngine\EldenRingFlaxEngine\Source\Game.csproj
-[00:02:127] Saved file to C:\Dev\FlaxEngine\EldenRingFlaxEngine\Source\Game.csproj
-[00:02:128] Project BuildScripts -> C:\Dev\FlaxEngine\EldenRingFlaxEngine\Cache\Projects\BuildScripts.csproj
-[00:02:128] Skipped saving file to C:\Dev\FlaxEngine\EldenRingFlaxEngine\Cache\Projects\BuildScripts.csproj
-[00:02:128] Solution -> C:\Dev\FlaxEngine\EldenRingFlaxEngine\EldenRing.sln
-[00:02:141] Skipped saving file to C:\Dev\FlaxEngine\EldenRingFlaxEngine\EldenRing.sln
-[00:02:143] Skipped saving file to C:\Dev\FlaxEngine\EldenRingFlaxEngine\EldenRing.sln.DotSettings.user
-[00:02:302] Game -> C:\Dev\FlaxEngine\EldenRingFlaxEngine\Source\Game.csproj
-[00:02:303] Skipped saving file to C:\Dev\FlaxEngine\EldenRingFlaxEngine\Source\Game.csproj
-[00:02:303] Project BuildScripts -> C:\Dev\FlaxEngine\EldenRingFlaxEngine\Cache\Projects\BuildScripts.csproj
-[00:02:303] Skipped saving file to C:\Dev\FlaxEngine\EldenRingFlaxEngine\Cache\Projects\BuildScripts.csproj
-[00:02:303] Solution -> C:\Dev\FlaxEngine\EldenRingFlaxEngine\EldenRing.sln
-[00:02:304] Skipped saving file to C:\Dev\FlaxEngine\EldenRingFlaxEngine\EldenRing.sln
-[00:02:305] Skipped saving file to C:\Dev\FlaxEngine\EldenRingFlaxEngine\EldenRing.sln.DotSettings.user
-[00:02:305] Total time: 00:00:02.3113818
-[00:02:305] End.
+[00:00:009] Flax.Build 1.0.0
+[00:00:009]   Arguments: -log -mutex -genproject
+[00:00:009]   Workspace: C:\Dev\FlaxEngine\EldenRingFlaxEngine
+[00:00:009]   Engine: D:\Program Files (x86)\Flax\Flax_1.7
+[00:00:009]   .NET 7.0.13
+[00:00:013] Loading project file from "C:\Dev\FlaxEngine\EldenRingFlaxEngine\EldenRing.flaxproj"...
+[00:00:043] Loading project file from "D:\Program Files (x86)\Flax\Flax_1.7\Flax.flaxproj"...
+[00:00:044] Loaded project Flax, version 1.7.6404
+[00:00:044] Loaded project EldenRing, version 1.0
+[00:00:047] Wait for another instance(s) of Flax.Build to end...
+[00:01:936] Waiting done.
+[00:01:954] Engine build version: 1.7.6404
+[00:01:973] Generating project files...
+[00:01:982] Found Android SDK at C:\Program Files (x86)\Android\android-sdk
+[00:01:983] Missing Linux Toolchain. Cannot build for Linux platform.
+[00:01:988] Found Windows SDK v10_0_19041_0 at C:\Program Files (x86)\Windows Kits\10\
+[00:01:988] Found Windows SDK v10_0_22000_0 at C:\Program Files (x86)\Windows Kits\10\
+[00:01:988] Found Windows SDK v10_0_22621_0 at C:\Program Files (x86)\Windows Kits\10\
+[00:02:001] Found VisualStudio2022 at C:\Program Files\Microsoft Visual Studio\2022\Community
+[00:02:001] Found VisualStudio2022 at C:\Program Files\Microsoft Visual Studio\2022\Professional
+[00:02:001] Found VisualStudio2019 at C:\Program Files (x86)\Microsoft Visual Studio\2019\Community
+[00:02:004] Found Windows toolset v143 at C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.37.32822
+[00:02:004] Found Windows toolset v142 at C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133
+[00:02:036] Missing VULKAN_SDK environment variable. Cannot build Vulkan.
+[00:02:036] Building for Windows without Vulkan rendering backend (Vulkan SDK is missing)
+[00:02:043] Using .NET SDK 7.0.403, runtime 7.0.13 (C:\Program Files\dotnet\)
+[00:02:044]   - Host Runtime for Windows x64
+[00:02:044]   - Host Runtime for Windows x86
+[00:02:044]   - Host Runtime for Windows ARM64
+[00:02:229] Game -> C:\Dev\FlaxEngine\EldenRingFlaxEngine\Source\Game.csproj
+[00:02:240] Saved file to C:\Dev\FlaxEngine\EldenRingFlaxEngine\Source\Game.csproj
+[00:02:241] Project BuildScripts -> C:\Dev\FlaxEngine\EldenRingFlaxEngine\Cache\Projects\BuildScripts.csproj
+[00:02:241] Skipped saving file to C:\Dev\FlaxEngine\EldenRingFlaxEngine\Cache\Projects\BuildScripts.csproj
+[00:02:241] Solution -> C:\Dev\FlaxEngine\EldenRingFlaxEngine\EldenRing.sln
+[00:02:253] Skipped saving file to C:\Dev\FlaxEngine\EldenRingFlaxEngine\EldenRing.sln
+[00:02:255] Skipped saving file to C:\Dev\FlaxEngine\EldenRingFlaxEngine\EldenRing.sln.DotSettings.user
+[00:02:416] Game -> C:\Dev\FlaxEngine\EldenRingFlaxEngine\Source\Game.csproj
+[00:02:417] Skipped saving file to C:\Dev\FlaxEngine\EldenRingFlaxEngine\Source\Game.csproj
+[00:02:417] Project BuildScripts -> C:\Dev\FlaxEngine\EldenRingFlaxEngine\Cache\Projects\BuildScripts.csproj
+[00:02:417] Skipped saving file to C:\Dev\FlaxEngine\EldenRingFlaxEngine\Cache\Projects\BuildScripts.csproj
+[00:02:417] Solution -> C:\Dev\FlaxEngine\EldenRingFlaxEngine\EldenRing.sln
+[00:02:417] Skipped saving file to C:\Dev\FlaxEngine\EldenRingFlaxEngine\EldenRing.sln
+[00:02:419] Skipped saving file to C:\Dev\FlaxEngine\EldenRingFlaxEngine\EldenRing.sln.DotSettings.user
+[00:02:419] Total time: 00:00:02.4260346
+[00:02:419] End.

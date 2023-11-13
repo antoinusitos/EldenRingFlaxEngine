@@ -183,6 +183,7 @@
     <Compile Include="Game.Gen.cs" />
     <Compile Include="Game\Character\CharacterLocomotionManager.cs" />
     <Compile Include="Game\Character\CharacterManager.cs" />
+    <Compile Include="Game\Character\Player\PlayerCamera.cs" />
     <Compile Include="Game\Character\Player\PlayerInputManager.cs" />
     <Compile Include="Game\Character\Player\PlayerLocomotionManager.cs" />
     <Compile Include="Game\Character\Player\PlayerManager.cs" />

@@ -24,10 +24,19 @@
 		"V": {}
 	},
 	{
-		"ID": "3a536e7f49c68521dcaad49d087a35ad",
-		"TypeName": "Game.CharacterManager",
+		"ID": "ede8abe84a1393e81e822589ec87fc91",
+		"TypeName": "Game.PlayerManager",
 		"ParentID": "e1d73f0a4113f4d9ec1ba99bff7ed4ee",
 		"V": {}
+	},
+	{
+		"ID": "0a88f253433cf8f15b179ab964e6e1bd",
+		"TypeName": "Game.PlayerLocomotionManager",
+		"ParentID": "e1d73f0a4113f4d9ec1ba99bff7ed4ee",
+		"V": {
+	"walkingSpeed": 20.0,
+	"runningSpeed": 50.0
+}
 	},
 	{
 		"ID": "a4474c3e469ceb779254438efb389ba7",

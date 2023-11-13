@@ -10,6 +10,8 @@ namespace Game
         {
             base.OnAwake();
 
+            Debug.Log("OnAwake PlayerManager");
+
             playerLocomotionManager = Actor.GetScript<PlayerLocomotionManager>();
         }
 
