@@ -11,7 +11,7 @@ namespace Game
         {
             base.OnEnable();
 
-            Actor.GetScript<LocalPlayerScript>().Enabled = false;
+            //Actor.GetScript<LocalPlayerScript>().Enabled = false;
         }
 
         /// <inheritdoc/>

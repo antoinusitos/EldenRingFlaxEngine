@@ -78,146 +78,11 @@
 			"Name": "SpawnPoint",
 			"Transform": {
 				"Translation": {
-					"X": -6.423164367675781,
+					"X": 424.4565734863281,
 					"Y": 292.11767578125,
-					"Z": 183.39903259277345
+					"Z": -348.9735107421875
 				}
 			}
-		},
-		{
-			"ID": "2a679ca345dd53acc4a1f7a2d6ccf338",
-			"TypeName": "FlaxEngine.EmptyActor",
-			"ParentID": "e8bbde7e4df3ffac0f1534a5c26b2fc2",
-			"Name": "Brushes"
-		},
-		{
-			"ID": "9b34b0c049e1860e985aff99ba31cd10",
-			"TypeName": "FlaxEngine.BoxBrush",
-			"ParentID": "2a679ca345dd53acc4a1f7a2d6ccf338",
-			"Name": "Box Brush",
-			"Size": {
-				"X": 1000.0,
-				"Y": 10.0,
-				"Z": 1000.0
-			},
-			"Surfaces": [
-				{},
-				{},
-				{},
-				{
-					"ScaleInLightmap": 0.0
-				},
-				{},
-				{}
-			]
-		},
-		{
-			"ID": "94f9ac614835e7d78ed649ad16fbe13b",
-			"TypeName": "FlaxEngine.BoxBrush",
-			"ParentID": "2a679ca345dd53acc4a1f7a2d6ccf338",
-			"Name": "BoxBrush",
-			"Transform": {
-				"Translation": {
-					"X": 494.0848388671875,
-					"Y": 145.60263061523438,
-					"Z": 0.0
-				}
-			},
-			"Size": {
-				"X": 10.0,
-				"Y": 300.0,
-				"Z": 1000.0
-			},
-			"Surfaces": [
-				{},
-				{},
-				{},
-				{},
-				{},
-				{}
-			]
-		},
-		{
-			"ID": "a9a07adf4d767ee9cd989b8fa820af80",
-			"TypeName": "FlaxEngine.BoxBrush",
-			"ParentID": "2a679ca345dd53acc4a1f7a2d6ccf338",
-			"Name": "Box Brush 0",
-			"Transform": {
-				"Translation": {
-					"X": 389.76849365234377,
-					"Y": 54.76124572753906,
-					"Z": -121.00065612792969
-				}
-			},
-			"Size": {
-				"X": 200.0,
-				"Y": 100.0,
-				"Z": 400.0
-			},
-			"Surfaces": [
-				{},
-				{},
-				{},
-				{
-					"ScaleInLightmap": 0.0
-				},
-				{},
-				{}
-			]
-		},
-		{
-			"ID": "912c63dc444852dbbadd93acc3701170",
-			"TypeName": "FlaxEngine.BoxBrush",
-			"ParentID": "2a679ca345dd53acc4a1f7a2d6ccf338",
-			"Name": "Box Brush 0",
-			"Transform": {
-				"Translation": {
-					"X": 389.0957946777344,
-					"Y": 26.361007690429689,
-					"Z": 103.68790435791016
-				}
-			},
-			"Size": {
-				"X": 200.0,
-				"Y": 50.0,
-				"Z": 50.0
-			},
-			"Surfaces": [
-				{},
-				{},
-				{},
-				{
-					"ScaleInLightmap": 0.0
-				},
-				{},
-				{}
-			]
-		},
-		{
-			"ID": "3262767c49ee1f347c4c5290ccad49f3",
-			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "e8bbde7e4df3ffac0f1534a5c26b2fc2",
-			"Name": "CSG.Model",
-			"HideFlags": 4,
-			"Model": "0609a01c4ba6aec8ac346299a8ae4ba0",
-			"Buffer": {
-				"Entries": [
-					{
-						"Material": "00000000000000000000000000000000",
-						"ShadowsMode": 3,
-						"Visible": true,
-						"ReceiveDecals": true
-					}
-				]
-			}
-		},
-		{
-			"ID": "536f266440b3dcba20bb6ea3080a66bf",
-			"TypeName": "FlaxEngine.MeshCollider",
-			"ParentID": "e8bbde7e4df3ffac0f1534a5c26b2fc2",
-			"Name": "CSG.Collider",
-			"HideFlags": 4,
-			"CollisionData": "46fade964d0a22cebb3ea3a7e0945a87"
 		},
 		{
 			"ID": "02e3d4e7401eb808a10fffb7e9cb4d44",
@@ -230,6 +95,4143 @@
 					"Y": 120.34078979492188,
 					"Z": -705.7884521484375
 				}
+			}
+		},
+		{
+			"ID": "2bb5ff604f3b33b6d3951bb7314219fe",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "e8bbde7e4df3ffac0f1534a5c26b2fc2",
+			"Name": "Construct"
+		},
+		{
+			"ID": "cac02c4b4b4a213799820c83e0f4982d",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "2bb5ff604f3b33b6d3951bb7314219fe",
+			"Name": "Walls"
+		},
+		{
+			"ID": "013a0bd14b587ced04323fae098a6eb6",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "cac02c4b4b4a213799820c83e0f4982d",
+			"Name": "Wall",
+			"Transform": {
+				"Translation": {
+					"X": -450.0,
+					"Y": 50.0,
+					"Z": 250.0
+				}
+			}
+		},
+		{
+			"ID": "abbbf8e349bf771858559bae249c8472",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "013a0bd14b587ced04323fae098a6eb6",
+			"Name": "Cube",
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "6cc77b8b4afa468a250bd2bc89786acc",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "013a0bd14b587ced04323fae098a6eb6",
+			"Name": "Cube 0",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "b67a29e3427c8222f890d4a28e3550c9",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "013a0bd14b587ced04323fae098a6eb6",
+			"Name": "Cube 1",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 200.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "d3302c854d78dcc79a5ec58fec8767fc",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "013a0bd14b587ced04323fae098a6eb6",
+			"Name": "Cube 2",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": -100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "31307e4d4db499f6cd24c8aeceaf412d",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "013a0bd14b587ced04323fae098a6eb6",
+			"Name": "Cube 3",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": -200.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "50cc95a54fdd098a8d661eb0fccb4495",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "013a0bd14b587ced04323fae098a6eb6",
+			"Name": "Cube 4",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": 0.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "729ea199405f4178e9ce8398da8c36f2",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "013a0bd14b587ced04323fae098a6eb6",
+			"Name": "Cube 5",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": 100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "7405340c480b4107a496c3947c1226bd",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "013a0bd14b587ced04323fae098a6eb6",
+			"Name": "Cube 6",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": 200.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "abf2afda4e01076ce441d7b59850c924",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "013a0bd14b587ced04323fae098a6eb6",
+			"Name": "Cube 7",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": -100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "5537b31645803cdff9a7ab913f91ad4b",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "013a0bd14b587ced04323fae098a6eb6",
+			"Name": "Cube 8",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": -200.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "f83a37a94cf9b4d21ef688bb1c063554",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "cac02c4b4b4a213799820c83e0f4982d",
+			"Name": "Wall 0",
+			"Transform": {
+				"Translation": {
+					"X": -450.0,
+					"Y": 50.0,
+					"Z": -250.0
+				}
+			}
+		},
+		{
+			"ID": "324c58ed409e57380b688c8dc7c6e824",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "f83a37a94cf9b4d21ef688bb1c063554",
+			"Name": "Cube",
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "b475e7b34581cf97be1a3787cf977011",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "f83a37a94cf9b4d21ef688bb1c063554",
+			"Name": "Cube 0",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "1a4ca9f84d7ceb310144df8884c61bfa",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "f83a37a94cf9b4d21ef688bb1c063554",
+			"Name": "Cube 1",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 200.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "465bcd834bd5684254cbce9629bf2897",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "f83a37a94cf9b4d21ef688bb1c063554",
+			"Name": "Cube 2",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": -100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "dc66a015495002a157bf0fa18f21f186",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "f83a37a94cf9b4d21ef688bb1c063554",
+			"Name": "Cube 3",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": -200.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "c20109044aa7a05ba15a43991f902302",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "f83a37a94cf9b4d21ef688bb1c063554",
+			"Name": "Cube 4",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": 0.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "c7119145456c19cdbb74ee9b264f6cc0",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "f83a37a94cf9b4d21ef688bb1c063554",
+			"Name": "Cube 5",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": 100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "95f7240b4da7899799c389b29271929a",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "f83a37a94cf9b4d21ef688bb1c063554",
+			"Name": "Cube 6",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": 200.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "e0a73cb3421022a7355c019de1731b5a",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "f83a37a94cf9b4d21ef688bb1c063554",
+			"Name": "Cube 7",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": -100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "d88164de426d00a727a6eebdd9a742fc",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "f83a37a94cf9b4d21ef688bb1c063554",
+			"Name": "Cube 8",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": -200.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "47f3ba1844de0d2373a0e2908e16c03f",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "cac02c4b4b4a213799820c83e0f4982d",
+			"Name": "Wall 1",
+			"Transform": {
+				"Translation": {
+					"X": -450.0,
+					"Y": 50.0,
+					"Z": -750.0
+				}
+			}
+		},
+		{
+			"ID": "5cdc59384b7b4fd7bcad8fb48d4d29cf",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "47f3ba1844de0d2373a0e2908e16c03f",
+			"Name": "Cube",
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "4b0d745e440c237b37800a974f4aa858",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "47f3ba1844de0d2373a0e2908e16c03f",
+			"Name": "Cube 0",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "c029c5344b3c169ea73042a927b6081b",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "47f3ba1844de0d2373a0e2908e16c03f",
+			"Name": "Cube 1",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 200.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "0fe9075241114c06f4aa938b732f277b",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "47f3ba1844de0d2373a0e2908e16c03f",
+			"Name": "Cube 2",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": -100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "3f23800a469588ee1ce8968c5a86e1c9",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "47f3ba1844de0d2373a0e2908e16c03f",
+			"Name": "Cube 3",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": -200.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "60cf14af4095367de9f2f4b688975ec5",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "47f3ba1844de0d2373a0e2908e16c03f",
+			"Name": "Cube 4",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": 0.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "568cda3c4495baca6c75a5a1c0dda87e",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "47f3ba1844de0d2373a0e2908e16c03f",
+			"Name": "Cube 5",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": 100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "2608aceb4ef10ef4f9b336b5faf14a64",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "47f3ba1844de0d2373a0e2908e16c03f",
+			"Name": "Cube 6",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": 200.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "05fad1e049f5453311546eafee2fa248",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "47f3ba1844de0d2373a0e2908e16c03f",
+			"Name": "Cube 7",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": -100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "5b221f1d40190e8e97eaf8bb833adaf8",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "47f3ba1844de0d2373a0e2908e16c03f",
+			"Name": "Cube 8",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": -200.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "69eda9ec453e7bfcc83310aa40f2dc8f",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "cac02c4b4b4a213799820c83e0f4982d",
+			"Name": "Wall 2",
+			"Transform": {
+				"Translation": {
+					"X": -450.0,
+					"Y": 50.0,
+					"Z": -1250.0
+				}
+			}
+		},
+		{
+			"ID": "436fbad64f6550daf8d13fb6b473300e",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "69eda9ec453e7bfcc83310aa40f2dc8f",
+			"Name": "Cube",
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "87bc8535462362fc9a104e8a31d8c037",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "69eda9ec453e7bfcc83310aa40f2dc8f",
+			"Name": "Cube 0",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "7a4f6f404daee33c2e87c5a8a1398533",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "69eda9ec453e7bfcc83310aa40f2dc8f",
+			"Name": "Cube 1",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 200.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "46006d4d402918ee4b03c088b0cbe418",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "69eda9ec453e7bfcc83310aa40f2dc8f",
+			"Name": "Cube 2",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": -100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "79b23f6147009dbfc99852ad7f645f22",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "69eda9ec453e7bfcc83310aa40f2dc8f",
+			"Name": "Cube 3",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": -200.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "9ea2a4dd4d5b1607fb979ba115e1a4a2",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "69eda9ec453e7bfcc83310aa40f2dc8f",
+			"Name": "Cube 4",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": 0.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "9240701b46910ae5d17308ba62c527ed",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "69eda9ec453e7bfcc83310aa40f2dc8f",
+			"Name": "Cube 5",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": 100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "833aab0043e7d70c1ef113bedcc8aafd",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "69eda9ec453e7bfcc83310aa40f2dc8f",
+			"Name": "Cube 6",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": 200.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "387df6934813d9d501b468a219cc4bd6",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "69eda9ec453e7bfcc83310aa40f2dc8f",
+			"Name": "Cube 7",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": -100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "9ebb91b445048bbdf73eeb9cfc729cb7",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "69eda9ec453e7bfcc83310aa40f2dc8f",
+			"Name": "Cube 8",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": -200.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "f646a82249babdf391b24caf8e95c7cc",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "cac02c4b4b4a213799820c83e0f4982d",
+			"Name": "Wall 3",
+			"Transform": {
+				"Translation": {
+					"X": 1450.0,
+					"Y": 50.0,
+					"Z": 250.0
+				}
+			}
+		},
+		{
+			"ID": "901b1c6c4820bbeaa5dedca7104d335e",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "f646a82249babdf391b24caf8e95c7cc",
+			"Name": "Cube",
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "4104f7154296fc3bc0fff9ad607807e2",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "f646a82249babdf391b24caf8e95c7cc",
+			"Name": "Cube 0",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "cbf6e9fd4e8e0721ffdc24a6db3c30f1",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "f646a82249babdf391b24caf8e95c7cc",
+			"Name": "Cube 1",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 200.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "b402d1b945dd295d9f2261b6720db969",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "f646a82249babdf391b24caf8e95c7cc",
+			"Name": "Cube 2",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": -100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "e65dab214b44c0d449784b8a0d02c3e4",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "f646a82249babdf391b24caf8e95c7cc",
+			"Name": "Cube 3",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": -200.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "514ac5a5486ca57ae84c6999f795d681",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "f646a82249babdf391b24caf8e95c7cc",
+			"Name": "Cube 4",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": 0.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "777c10734104a98bf31d09b607031d3b",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "f646a82249babdf391b24caf8e95c7cc",
+			"Name": "Cube 5",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": 100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "c24b17c4437816a861717f9f04ab47dd",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "f646a82249babdf391b24caf8e95c7cc",
+			"Name": "Cube 6",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": 200.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "cb9b0fd34dda51845c1df2a7ef3df132",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "f646a82249babdf391b24caf8e95c7cc",
+			"Name": "Cube 7",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": -100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "d6e1e5bf48fbd82e401009a5869b1480",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "f646a82249babdf391b24caf8e95c7cc",
+			"Name": "Cube 8",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": -200.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "f615ca044f41b6a22b513f9b271dc246",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "cac02c4b4b4a213799820c83e0f4982d",
+			"Name": "Wall 4",
+			"Transform": {
+				"Translation": {
+					"X": 1450.0,
+					"Y": 50.0,
+					"Z": -250.0
+				}
+			}
+		},
+		{
+			"ID": "2323e510480817a22c2566b6a2cb7168",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "f615ca044f41b6a22b513f9b271dc246",
+			"Name": "Cube",
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "2d9c52854b5a00f8a7cac8a2f54d467a",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "f615ca044f41b6a22b513f9b271dc246",
+			"Name": "Cube 0",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "3cec934947c42b9c1f6e9f9a53293190",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "f615ca044f41b6a22b513f9b271dc246",
+			"Name": "Cube 1",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 200.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "bb6492a94d22e761967f1badee66aa1e",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "f615ca044f41b6a22b513f9b271dc246",
+			"Name": "Cube 2",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": -100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "cf21b7944e5be9fd550ab8af069ab83e",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "f615ca044f41b6a22b513f9b271dc246",
+			"Name": "Cube 3",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": -200.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "f1207e3f49f161a3f2e165a4e97de481",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "f615ca044f41b6a22b513f9b271dc246",
+			"Name": "Cube 4",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": 0.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "1a0945b64597147d8cb69c88e99802b7",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "f615ca044f41b6a22b513f9b271dc246",
+			"Name": "Cube 5",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": 100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "c2be2f364f19fe689196f2b8e314ab44",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "f615ca044f41b6a22b513f9b271dc246",
+			"Name": "Cube 6",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": 200.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "856154af4933cd45c7a90888e40c712e",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "f615ca044f41b6a22b513f9b271dc246",
+			"Name": "Cube 7",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": -100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "67fdf5d8400e5041acce6e96f8e8328a",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "f615ca044f41b6a22b513f9b271dc246",
+			"Name": "Cube 8",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": -200.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "ca6518564f45ea134c24bbace566fe45",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "cac02c4b4b4a213799820c83e0f4982d",
+			"Name": "Wall 5",
+			"Transform": {
+				"Translation": {
+					"X": 1450.0,
+					"Y": 50.0,
+					"Z": -750.0
+				}
+			}
+		},
+		{
+			"ID": "3e0e5a20490235a41c2f7a85d3da43a0",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "ca6518564f45ea134c24bbace566fe45",
+			"Name": "Cube",
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "e867a14647c4cdc3fbe3938821f4a84a",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "ca6518564f45ea134c24bbace566fe45",
+			"Name": "Cube 0",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "fb42846a4a1c0cdcf81c4da5f455a2e7",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "ca6518564f45ea134c24bbace566fe45",
+			"Name": "Cube 1",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 200.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "2b54b98d496354e4b1f4e49a2c2d608b",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "ca6518564f45ea134c24bbace566fe45",
+			"Name": "Cube 2",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": -100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "f8b0f65344c96a3c4818b79f8b2793a4",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "ca6518564f45ea134c24bbace566fe45",
+			"Name": "Cube 3",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": -200.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "675cfd07489ccfd3ecbb58b4e78069cd",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "ca6518564f45ea134c24bbace566fe45",
+			"Name": "Cube 4",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": 0.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "78c7054d464ad6d95ee88bbae9487756",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "ca6518564f45ea134c24bbace566fe45",
+			"Name": "Cube 5",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": 100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "710b1b0c4c87f92df588b9931cd91967",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "ca6518564f45ea134c24bbace566fe45",
+			"Name": "Cube 6",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": 200.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "52b15c3549a27954a86ac89cc8514861",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "ca6518564f45ea134c24bbace566fe45",
+			"Name": "Cube 7",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": -100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "f934ea1442d332bad69da0b7a1e00759",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "ca6518564f45ea134c24bbace566fe45",
+			"Name": "Cube 8",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": -200.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "71830c45494d365785dc1ebc8ddec8d0",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "cac02c4b4b4a213799820c83e0f4982d",
+			"Name": "Wall 6",
+			"Transform": {
+				"Translation": {
+					"X": 1450.0,
+					"Y": 50.0,
+					"Z": -1250.0
+				}
+			}
+		},
+		{
+			"ID": "a37179e2420bb072cd4b2cbc77f6bf6d",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "71830c45494d365785dc1ebc8ddec8d0",
+			"Name": "Cube",
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "0d9fa31f4d9da172fb979a822907701f",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "71830c45494d365785dc1ebc8ddec8d0",
+			"Name": "Cube 0",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "03c646fa4448f1a883de42baaac45922",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "71830c45494d365785dc1ebc8ddec8d0",
+			"Name": "Cube 1",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 200.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "26a53d1f47a99aaf422ead86021547bd",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "71830c45494d365785dc1ebc8ddec8d0",
+			"Name": "Cube 2",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": -100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "b7daaf7c498bc058d8cd16b8870c2045",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "71830c45494d365785dc1ebc8ddec8d0",
+			"Name": "Cube 3",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": -200.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "e9ebf8a0458530361b13a3ab16903491",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "71830c45494d365785dc1ebc8ddec8d0",
+			"Name": "Cube 4",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": 0.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "5f5c1af74a6a18ca7fb8b89dcaa7f26e",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "71830c45494d365785dc1ebc8ddec8d0",
+			"Name": "Cube 5",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": 100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "aecf9953422266b39b02168a04815a48",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "71830c45494d365785dc1ebc8ddec8d0",
+			"Name": "Cube 6",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": 200.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "e0befd664116a5774eba6ca851a11927",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "71830c45494d365785dc1ebc8ddec8d0",
+			"Name": "Cube 7",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": -100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "2f17a2554c62e1be259c99b795665404",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "71830c45494d365785dc1ebc8ddec8d0",
+			"Name": "Cube 8",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": -200.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "519c416d4f0b1395bc74e381b7ded135",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "cac02c4b4b4a213799820c83e0f4982d",
+			"Name": "Wall 7",
+			"Transform": {
+				"Translation": {
+					"X": 1250.0,
+					"Y": 50.0,
+					"Z": -1450.0
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": -0.7071068286895752,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				}
+			}
+		},
+		{
+			"ID": "b60269bb4c3d8417b64188a95af5ef79",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "519c416d4f0b1395bc74e381b7ded135",
+			"Name": "Cube",
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "cd970fbe4884bdc7eaecbe95d9478f91",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "519c416d4f0b1395bc74e381b7ded135",
+			"Name": "Cube 0",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "27e6c1d3461e8c948a8cac8bf5436360",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "519c416d4f0b1395bc74e381b7ded135",
+			"Name": "Cube 1",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 200.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "5c07079146a55908d64787b8dedebd36",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "519c416d4f0b1395bc74e381b7ded135",
+			"Name": "Cube 2",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": -100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "1f8c5b4e4fba83e0ae3f17979deba671",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "519c416d4f0b1395bc74e381b7ded135",
+			"Name": "Cube 3",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": -200.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "aa64c5084c726c56404026b8e54e9071",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "519c416d4f0b1395bc74e381b7ded135",
+			"Name": "Cube 4",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": 0.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "b78caf3b4166edd9921e52b0ae7fc4f6",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "519c416d4f0b1395bc74e381b7ded135",
+			"Name": "Cube 5",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": 100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "86ecf0984932c53d81b2218a90d0454f",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "519c416d4f0b1395bc74e381b7ded135",
+			"Name": "Cube 6",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": 200.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "4a9d6e484985e3fed5c7ed9d1657479c",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "519c416d4f0b1395bc74e381b7ded135",
+			"Name": "Cube 7",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": -100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "0eee72854bd8161ad80db99fd3af123a",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "519c416d4f0b1395bc74e381b7ded135",
+			"Name": "Cube 8",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": -200.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "7e60c5de4b0b0565d21a6a9ee4b84d69",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "cac02c4b4b4a213799820c83e0f4982d",
+			"Name": "Wall 8",
+			"Transform": {
+				"Translation": {
+					"X": 750.0,
+					"Y": 50.0,
+					"Z": -1450.0
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": -0.7071068286895752,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				}
+			}
+		},
+		{
+			"ID": "6ac01c2d45a72b11759efcaf0bd30965",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "7e60c5de4b0b0565d21a6a9ee4b84d69",
+			"Name": "Cube",
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "926fb8754432487993dfd18a73ee5265",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "7e60c5de4b0b0565d21a6a9ee4b84d69",
+			"Name": "Cube 0",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "84a71d5145da2936cb2a34ad11d3bf49",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "7e60c5de4b0b0565d21a6a9ee4b84d69",
+			"Name": "Cube 1",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 200.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "e080a80e445f4549b4a03ea622d6e098",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "7e60c5de4b0b0565d21a6a9ee4b84d69",
+			"Name": "Cube 2",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": -100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "50f6f9794adda2dca65871ac1a8c4cf5",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "7e60c5de4b0b0565d21a6a9ee4b84d69",
+			"Name": "Cube 3",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": -200.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "c1b377d44b9835c0fc8cabae7b8f2485",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "7e60c5de4b0b0565d21a6a9ee4b84d69",
+			"Name": "Cube 4",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": 0.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "1bdf66b64cc9f4323eee699d45c417d0",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "7e60c5de4b0b0565d21a6a9ee4b84d69",
+			"Name": "Cube 5",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": 100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "ca09df094740549f57b7fb9e607607f7",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "7e60c5de4b0b0565d21a6a9ee4b84d69",
+			"Name": "Cube 6",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": 200.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "1065c2fa40613898c3f9c29f3bfb1874",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "7e60c5de4b0b0565d21a6a9ee4b84d69",
+			"Name": "Cube 7",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": -100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "1a664d4a43176586a45213842dc2e0c4",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "7e60c5de4b0b0565d21a6a9ee4b84d69",
+			"Name": "Cube 8",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": -200.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "fb3f7af94f3776f95688fe9cdaa793be",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "cac02c4b4b4a213799820c83e0f4982d",
+			"Name": "Wall 9",
+			"Transform": {
+				"Translation": {
+					"X": 250.0,
+					"Y": 50.0,
+					"Z": -1450.0
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": -0.7071068286895752,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				}
+			}
+		},
+		{
+			"ID": "08b201a8436fd38917f54a819fee69d0",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "fb3f7af94f3776f95688fe9cdaa793be",
+			"Name": "Cube",
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "250f0beb48c9e4d1f1e72a88e0c72418",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "fb3f7af94f3776f95688fe9cdaa793be",
+			"Name": "Cube 0",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "97c8daab455f98bd130e30878571a1bb",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "fb3f7af94f3776f95688fe9cdaa793be",
+			"Name": "Cube 1",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 200.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "cc630b6645db9619b7c78d8b7842fa95",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "fb3f7af94f3776f95688fe9cdaa793be",
+			"Name": "Cube 2",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": -100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "461fa09e4988a5d4165f5bb3d1797144",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "fb3f7af94f3776f95688fe9cdaa793be",
+			"Name": "Cube 3",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": -200.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "8afab6024520e89329d49b93e8e21953",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "fb3f7af94f3776f95688fe9cdaa793be",
+			"Name": "Cube 4",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": 0.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "02b472684a49e9ffb652dd963da00034",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "fb3f7af94f3776f95688fe9cdaa793be",
+			"Name": "Cube 5",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": 100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "eccb47d04e5c6484d04bb4b5e906424c",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "fb3f7af94f3776f95688fe9cdaa793be",
+			"Name": "Cube 6",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": 200.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "73cd911149ef079b9a90b099db8f6c1d",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "fb3f7af94f3776f95688fe9cdaa793be",
+			"Name": "Cube 7",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": -100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "3f546e3b4524ea3a8b1a6dbbdf819e33",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "fb3f7af94f3776f95688fe9cdaa793be",
+			"Name": "Cube 8",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": -200.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "c825bf6c4bd2dfffd5093cb1987f7397",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "cac02c4b4b4a213799820c83e0f4982d",
+			"Name": "Wall 10",
+			"Transform": {
+				"Translation": {
+					"X": -250.0,
+					"Y": 50.0,
+					"Z": -1450.0
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": -0.7071068286895752,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				}
+			}
+		},
+		{
+			"ID": "f5ea8e274ce7a84b5dad6380bd4f9540",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "c825bf6c4bd2dfffd5093cb1987f7397",
+			"Name": "Cube",
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "89d834bf49bc3837a9b2bf910c1a87eb",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "c825bf6c4bd2dfffd5093cb1987f7397",
+			"Name": "Cube 0",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "2116a567472454fea0803e9758891b7f",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "c825bf6c4bd2dfffd5093cb1987f7397",
+			"Name": "Cube 1",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 200.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "5142606b4b7e8bf9303ecf9712f99054",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "c825bf6c4bd2dfffd5093cb1987f7397",
+			"Name": "Cube 2",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": -100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "3192e30847c5df67272eb7a11086abb4",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "c825bf6c4bd2dfffd5093cb1987f7397",
+			"Name": "Cube 3",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": -200.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "bda22536430043c8184f0590a778de95",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "c825bf6c4bd2dfffd5093cb1987f7397",
+			"Name": "Cube 4",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": 0.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "920319a5419733eaa671e983ad34ca10",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "c825bf6c4bd2dfffd5093cb1987f7397",
+			"Name": "Cube 5",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": 100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "01352d94463db41617c774a0fc26df14",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "c825bf6c4bd2dfffd5093cb1987f7397",
+			"Name": "Cube 6",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": 200.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "3d99f54245566bfed6811ea932f91f4d",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "c825bf6c4bd2dfffd5093cb1987f7397",
+			"Name": "Cube 7",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": -100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "70042c3348f953c7b77377bcaf5f0162",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "c825bf6c4bd2dfffd5093cb1987f7397",
+			"Name": "Cube 8",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": -200.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "3f4182ac452f33e3a7a4fd8d345cb9e8",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "cac02c4b4b4a213799820c83e0f4982d",
+			"Name": "Wall 11",
+			"Transform": {
+				"Translation": {
+					"X": 1250.0,
+					"Y": 50.0,
+					"Z": 450.0
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": -0.7071068286895752,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				}
+			}
+		},
+		{
+			"ID": "c1a4808d4129ce526d390fb5aeb05827",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "3f4182ac452f33e3a7a4fd8d345cb9e8",
+			"Name": "Cube",
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "0fa13c2f4015bd9d5fb3ada82f39c80a",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "3f4182ac452f33e3a7a4fd8d345cb9e8",
+			"Name": "Cube 0",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "70f2e635439aacd39ccc66857ebbf61f",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "3f4182ac452f33e3a7a4fd8d345cb9e8",
+			"Name": "Cube 1",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 200.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "63b6304647842d37e2a58ba29020b016",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "3f4182ac452f33e3a7a4fd8d345cb9e8",
+			"Name": "Cube 2",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": -100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "261d4256454d1d64180a39b02b0435a3",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "3f4182ac452f33e3a7a4fd8d345cb9e8",
+			"Name": "Cube 3",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": -200.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "6808256243406939ae9f9aa8be49ef92",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "3f4182ac452f33e3a7a4fd8d345cb9e8",
+			"Name": "Cube 4",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": 0.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "d7fbdf4e41a18bea6683319ca507777b",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "3f4182ac452f33e3a7a4fd8d345cb9e8",
+			"Name": "Cube 5",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": 100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "29f7799d44a6ffbe9e41f481fb23ed08",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "3f4182ac452f33e3a7a4fd8d345cb9e8",
+			"Name": "Cube 6",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": 200.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "1530d3144e633533e606688879b3874b",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "3f4182ac452f33e3a7a4fd8d345cb9e8",
+			"Name": "Cube 7",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": -100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "9b00a1e14d95c8588fb6b4934dcda7cf",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "3f4182ac452f33e3a7a4fd8d345cb9e8",
+			"Name": "Cube 8",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": -200.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "bb1eebbc4f91fafd59c5e3b6fb019400",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "cac02c4b4b4a213799820c83e0f4982d",
+			"Name": "Wall 12",
+			"Transform": {
+				"Translation": {
+					"X": 750.0,
+					"Y": 50.0,
+					"Z": 450.0
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": -0.7071068286895752,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				}
+			}
+		},
+		{
+			"ID": "84366e964d794e694f115d89d66da9ae",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "bb1eebbc4f91fafd59c5e3b6fb019400",
+			"Name": "Cube",
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "5284688045e4f06c46e31b8fd8a9729e",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "bb1eebbc4f91fafd59c5e3b6fb019400",
+			"Name": "Cube 0",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "18acd9da48329061aaee32859dddb5f6",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "bb1eebbc4f91fafd59c5e3b6fb019400",
+			"Name": "Cube 1",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 200.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "0d738737434c6adf0503aaa572b82be8",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "bb1eebbc4f91fafd59c5e3b6fb019400",
+			"Name": "Cube 2",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": -100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "99466a724706fa817f9680bd36e479b9",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "bb1eebbc4f91fafd59c5e3b6fb019400",
+			"Name": "Cube 3",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": -200.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "1ac54ba54f4073927fac0888608ba8fc",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "bb1eebbc4f91fafd59c5e3b6fb019400",
+			"Name": "Cube 4",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": 0.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "1e4821b642a06927531181a032d08d59",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "bb1eebbc4f91fafd59c5e3b6fb019400",
+			"Name": "Cube 5",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": 100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "14c09473408da0fa7a877db2a2859b01",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "bb1eebbc4f91fafd59c5e3b6fb019400",
+			"Name": "Cube 6",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": 200.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "b674e51c43e314a0c3d73aaaed0d91ae",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "bb1eebbc4f91fafd59c5e3b6fb019400",
+			"Name": "Cube 7",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": -100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "e5345a6f43ce095a36a1e88d873b4d4a",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "bb1eebbc4f91fafd59c5e3b6fb019400",
+			"Name": "Cube 8",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": -200.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "a8ddebbd4b675f9a44bdee8e35e8f370",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "cac02c4b4b4a213799820c83e0f4982d",
+			"Name": "Wall 13",
+			"Transform": {
+				"Translation": {
+					"X": 250.0,
+					"Y": 50.0,
+					"Z": 450.0
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": -0.7071068286895752,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				}
+			}
+		},
+		{
+			"ID": "e3378adb44782d5b42cdb09737645ec4",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "a8ddebbd4b675f9a44bdee8e35e8f370",
+			"Name": "Cube",
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "c3e1ab3b4edcbb7a9ff2d89c7787bade",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "a8ddebbd4b675f9a44bdee8e35e8f370",
+			"Name": "Cube 0",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "e9ddd0aa41fdc85f73cbe1a9d8327d79",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "a8ddebbd4b675f9a44bdee8e35e8f370",
+			"Name": "Cube 1",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 200.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "fec2cdc840712354fb8848b4e82d0df5",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "a8ddebbd4b675f9a44bdee8e35e8f370",
+			"Name": "Cube 2",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": -100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "80033ca642fc77d8295cc7845fd20480",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "a8ddebbd4b675f9a44bdee8e35e8f370",
+			"Name": "Cube 3",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": -200.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "3e500cb34c338bccb3e9738472d1a637",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "a8ddebbd4b675f9a44bdee8e35e8f370",
+			"Name": "Cube 4",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": 0.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "1833a4cc4ecffc48166c2eb62bdaf133",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "a8ddebbd4b675f9a44bdee8e35e8f370",
+			"Name": "Cube 5",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": 100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "0f85fc7a4cb429646ca409a091111ab2",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "a8ddebbd4b675f9a44bdee8e35e8f370",
+			"Name": "Cube 6",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": 200.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "8db4b6914df871cd739a938cabd3d98c",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "a8ddebbd4b675f9a44bdee8e35e8f370",
+			"Name": "Cube 7",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": -100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "c7bce659493ddab1cd827382780b8b33",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "a8ddebbd4b675f9a44bdee8e35e8f370",
+			"Name": "Cube 8",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": -200.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "700fe27246af1fecc187d699c680fd4f",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "cac02c4b4b4a213799820c83e0f4982d",
+			"Name": "Wall 14",
+			"Transform": {
+				"Translation": {
+					"X": -250.0,
+					"Y": 50.0,
+					"Z": 450.0
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": -0.7071068286895752,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				}
+			}
+		},
+		{
+			"ID": "9c7a43fd4bf79a69654967b228d0a632",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "700fe27246af1fecc187d699c680fd4f",
+			"Name": "Cube",
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "5d227f3644ebeb161217ebb78bc7edee",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "700fe27246af1fecc187d699c680fd4f",
+			"Name": "Cube 0",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "2fff2ea645915597ea67e3b9166f5395",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "700fe27246af1fecc187d699c680fd4f",
+			"Name": "Cube 1",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 200.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "e769650848764e51a41702aa4840f240",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "700fe27246af1fecc187d699c680fd4f",
+			"Name": "Cube 2",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": -100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "d016a87943ac7ef1d88346943235d43b",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "700fe27246af1fecc187d699c680fd4f",
+			"Name": "Cube 3",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": -200.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "1c97834e49bcb358ddc84787bb9c665b",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "700fe27246af1fecc187d699c680fd4f",
+			"Name": "Cube 4",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": 0.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "9f0ce0dc41e69fa66dc2b394c40a1955",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "700fe27246af1fecc187d699c680fd4f",
+			"Name": "Cube 5",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": 100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "65adb26645e555ce0b1f54847ba00509",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "700fe27246af1fecc187d699c680fd4f",
+			"Name": "Cube 6",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": 200.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "588c1df7409550239dc5cd9ff6a5172d",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "700fe27246af1fecc187d699c680fd4f",
+			"Name": "Cube 7",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": -100.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "bfcc995e40e34762b2d00fb6fc22f85b",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "700fe27246af1fecc187d699c680fd4f",
+			"Name": "Cube 8",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": -200.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "f9f67aa74508754850a2a98572ff77d6",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "2bb5ff604f3b33b6d3951bb7314219fe",
+			"Name": "Floor"
+		},
+		{
+			"ID": "40a407d74a53ae90590ab4a023dccae5",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "f9f67aa74508754850a2a98572ff77d6",
+			"Name": "Plane",
+			"Transform": {
+				"Orientation": {
+					"X": -0.7071068286895752,
+					"Y": 0.0,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				},
+				"Scale": {
+					"X": 10.0,
+					"Y": 10.0,
+					"Z": 1.0
+				}
+			},
+			"Model": "54a1ff4a42af9f018234f7b39b1366b3",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "7f134069420247288686b3b7923cd98c",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "f9f67aa74508754850a2a98572ff77d6",
+			"Name": "Plane 0",
+			"Transform": {
+				"Translation": {
+					"X": 1000.0,
+					"Y": 0.0,
+					"Z": 0.0
+				},
+				"Orientation": {
+					"X": -0.7071068286895752,
+					"Y": 0.0,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				},
+				"Scale": {
+					"X": 10.0,
+					"Y": 10.0,
+					"Z": 1.0
+				}
+			},
+			"Model": "54a1ff4a42af9f018234f7b39b1366b3",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "6fa0c1cd4e2be610038fe7aaac248435",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "f9f67aa74508754850a2a98572ff77d6",
+			"Name": "Plane 1",
+			"Transform": {
+				"Translation": {
+					"X": 1000.0,
+					"Y": 0.0,
+					"Z": -1000.0
+				},
+				"Orientation": {
+					"X": -0.7071068286895752,
+					"Y": 0.0,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				},
+				"Scale": {
+					"X": 10.0,
+					"Y": 10.0,
+					"Z": 1.0
+				}
+			},
+			"Model": "54a1ff4a42af9f018234f7b39b1366b3",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "9b6fcfbc41dbe029bc6850a1004d903f",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "f9f67aa74508754850a2a98572ff77d6",
+			"Name": "Plane 2",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": -1000.0
+				},
+				"Orientation": {
+					"X": -0.7071068286895752,
+					"Y": 0.0,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				},
+				"Scale": {
+					"X": 10.0,
+					"Y": 10.0,
+					"Z": 1.0
+				}
+			},
+			"Model": "54a1ff4a42af9f018234f7b39b1366b3",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "854217e14be3e869563091bec0d65d52",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
 			}
 		}
 	]

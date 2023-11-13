@@ -1,0 +1,19 @@
+{
+	"ID": "c71d1e4d41c76e30091a30b0c30b44ad",
+	"TypeName": "FlaxEngine.Prefab",
+	"EngineBuild": 6404,
+	"Data": [
+	{
+		"ID": "f39e6cd7405d4a97aa8829adf900ba05",
+		"TypeName": "FlaxEngine.EmptyActor",
+		"ParentID": "00000000000000000000000000000000",
+		"Name": "PlayerInputManager"
+	},
+	{
+		"ID": "8ef5b4494f06cd0e8a117a849eac249e",
+		"TypeName": "Game.PlayerInputManager",
+		"ParentID": "f39e6cd7405d4a97aa8829adf900ba05",
+		"V": {}
+	}
+]
+}

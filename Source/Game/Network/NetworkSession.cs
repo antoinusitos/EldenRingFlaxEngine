@@ -47,7 +47,6 @@ public class NetworkSession : GamePlugin
 
     public override void Deinitialize()
     {
-        Debug.Log("lol7");
         base.Deinitialize();
         Scripting.Update -= Update;
         Disconnect();
@@ -170,7 +169,6 @@ public class NetworkSession : GamePlugin
 
     public void Disconnect()
     {
-        Debug.Log("lol");
         if (_isConnected)
         {
             if (!_isServer)

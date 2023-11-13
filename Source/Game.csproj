@@ -181,12 +181,18 @@
 
   <ItemGroup>
     <Compile Include="Game.Gen.cs" />
-    <Compile Include="Game\CharacterManager.cs" />
+    <Compile Include="Game\Character\CharacterLocomotionManager.cs" />
+    <Compile Include="Game\Character\CharacterManager.cs" />
+    <Compile Include="Game\Character\Player\PlayerInputManager.cs" />
+    <Compile Include="Game\Character\Player\PlayerLocomotionManager.cs" />
+    <Compile Include="Game\Character\Player\PlayerManager.cs" />
+    <Compile Include="Game\Character\Player\PlayerUI\PlayerUIManager.cs" />
     <Compile Include="Game\ChatScript.cs" />
     <Compile Include="Game\DemoSceneScript.cs" />
     <Compile Include="Game\GameSession.cs" />
-    <Compile Include="Game\IDontDestroyOnLoad.cs" />
     <Compile Include="Game\LocalPlayerScript.cs" />
+    <Compile Include="Game\MenuScene\SplashScreen.cs" />
+    <Compile Include="Game\MenuScene\TitleScreenManager.cs" />
     <Compile Include="Game\Network\ConnectionRegistry.cs" />
     <Compile Include="Game\Network\NetworkSession.cs" />
     <Compile Include="Game\Network\PacketRegistry.cs" />
@@ -199,15 +205,14 @@
     <Compile Include="Game\Network\Packets\PlayerListPacket.cs" />
     <Compile Include="Game\Network\Packets\PlayersTransformPacket.cs" />
     <Compile Include="Game\Network\Packets\PlayerTransformPacket.cs" />
-    <Compile Include="Game\NetworkManager.cs" />
     <Compile Include="Game\NetworkPlayerScript.cs" />
     <Compile Include="Game\Player.cs" />
-    <Compile Include="Game\PlayerUIManager.cs" />
-    <Compile Include="Game\SceneManager.cs" />
-    <Compile Include="Game\SplashScreen.cs" />
-    <Compile Include="Game\TitleScreenManager.cs" />
+    <Compile Include="Game\Utils\IDontDestroyOnLoad.cs" />
     <Compile Include="Game\Utils\StringExtensions.cs" />
-    <Compile Include="Game\WorldSaveGameManager.cs" />
+    <Compile Include="Game\Utils\TEST.cs" />
+    <Compile Include="Game\WorldManagers\NetworkManager.cs" />
+    <Compile Include="Game\WorldManagers\SceneManager.cs" />
+    <Compile Include="Game\WorldManagers\WorldSaveGameManager.cs" />
     <Compile Visible="false" Include="C:\Dev\FlaxEngine\EldenRingFlaxEngine\Cache\Intermediate\GameEditorTarget\Windows\x64\Debug\Game\Game.Bindings.Gen.cs" />
     <Compile Visible="false" Include="C:\Dev\FlaxEngine\EldenRingFlaxEngine\Cache\Intermediate\GameEditorTarget\Windows\x64\Development\Game\Game.Bindings.Gen.cs" />
     <Compile Visible="false" Include="C:\Dev\FlaxEngine\EldenRingFlaxEngine\Cache\Intermediate\GameEditorTarget\Windows\x64\Release\Game\Game.Bindings.Gen.cs" />
