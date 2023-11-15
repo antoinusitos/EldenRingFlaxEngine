@@ -39,6 +39,12 @@
 }
 	},
 	{
+		"ID": "515dd7824e2dec2f4b451f8888a25647",
+		"TypeName": "Game.PlayerNetworkManager",
+		"ParentID": "e1d73f0a4113f4d9ec1ba99bff7ed4ee",
+		"V": {}
+	},
+	{
 		"ID": "a4474c3e469ceb779254438efb389ba7",
 		"TypeName": "FlaxEngine.StaticModel",
 		"ParentID": "e1d73f0a4113f4d9ec1ba99bff7ed4ee",

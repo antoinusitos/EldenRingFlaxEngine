@@ -28,6 +28,8 @@ namespace Game
         {
             Debug.Log("OnPlayerAdded");
             player.Actor = PrefabManager.SpawnPrefab(PlayerPrefab, Actor);
+            CharacterNetworkManager characterNetworkManager = player.Actor.GetScript<CharacterNetworkManager>();
+            characterNetworkManager.isOwner = false;
             var script = player.Actor.GetScript<NetworkPlayerScript>();
             script.Player = player;
             player.Actor.Name = "Player_" + player.Name;
