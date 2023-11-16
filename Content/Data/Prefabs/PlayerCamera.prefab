@@ -13,7 +13,8 @@
 		"TypeName": "Game.PlayerCamera",
 		"ParentID": "6fc8e70c418de2c3cf06f0ac481f7a07",
 		"V": {
-	"cameraObject": "45b296b6485cd330a5a062a7043b86b7"
+	"cameraObject": "45b296b6485cd330a5a062a7043b86b7",
+	"cameraPivotTransform": "df7ee197413f122de58a3fbddf637601"
 }
 	},
 	{
