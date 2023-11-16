@@ -164,7 +164,7 @@
 			"Transform": {
 				"Translation": {
 					"X": 0.0,
-					"Y": 218.0,
+					"Y": 219.0,
 					"Z": 0.0
 				}
 			},
@@ -254,7 +254,7 @@
 			"Transform": {
 				"Translation": {
 					"X": 628.0,
-					"Y": 602.0,
+					"Y": 603.0,
 					"Z": 0.0
 				}
 			},
@@ -718,14 +718,20 @@
 			"PrefabObjectID": "91f1883f4a2208fefe70efbb2f236689",
 			"ParentID": "26a8cec949f44024c25187a5fa0f036c",
 			"V": {
-	"cameraObject": "0a5a8fd14eb336d5029740a1c8d08b69"
+	"cameraObject": "45b296b6485cd330a5a062a7043b86b7"
 }
 		},
 		{
-			"ID": "0a5a8fd14eb336d5029740a1c8d08b69",
+			"ID": "81b803d8472fe2b0514787abcbd2bbba",
+			"PrefabID": "bb24edff4b073078dcdb58940c1faa9b",
+			"PrefabObjectID": "df7ee197413f122de58a3fbddf637601",
+			"ParentID": "26a8cec949f44024c25187a5fa0f036c"
+		},
+		{
+			"ID": "45b296b6485cd330a5a062a7043b86b7",
 			"PrefabID": "bb24edff4b073078dcdb58940c1faa9b",
 			"PrefabObjectID": "45b296b6485cd330a5a062a7043b86b7",
-			"ParentID": "26a8cec949f44024c25187a5fa0f036c"
+			"ParentID": "81b803d8472fe2b0514787abcbd2bbba"
 		}
 	]
 }

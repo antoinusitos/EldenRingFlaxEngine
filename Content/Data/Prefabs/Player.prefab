@@ -34,8 +34,8 @@
 		"TypeName": "Game.PlayerLocomotionManager",
 		"ParentID": "e1d73f0a4113f4d9ec1ba99bff7ed4ee",
 		"V": {
-	"walkingSpeed": 20.0,
-	"runningSpeed": 50.0
+	"walkingSpeed": 100.0,
+	"runningSpeed": 250.0
 }
 	},
 	{

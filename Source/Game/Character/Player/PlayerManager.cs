@@ -1,4 +1,5 @@
 ﻿using FlaxEngine;
+using FlaxEngine.Networking;
 
 namespace Game
 {
@@ -33,6 +34,26 @@ namespace Game
             }
 
             playerLocomotionManager.HandleAllMovement();
+        }
+
+        public override void OnEnable()
+        {
+            if(isLocalPlayer && PlayerCamera.instance != null)
+            {
+                PlayerCamera.instance.player = this;
+            }
+        }
+
+        public override void OnLateUpdate()
+        {
+            if (!isLocalPlayer)
+            {
+                return;
+            }
+
+            base.OnLateUpdate();
+
+            PlayerCamera.instance.HandleAllCameraActions();
         }
     }
 }

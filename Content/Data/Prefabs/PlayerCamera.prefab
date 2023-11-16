@@ -6,7 +6,6 @@
 	{
 		"ID": "6fc8e70c418de2c3cf06f0ac481f7a07",
 		"TypeName": "FlaxEngine.EmptyActor",
-		"ParentID": "00000000000000000000000000000000",
 		"Name": "PlayerCamera"
 	},
 	{
@@ -14,18 +13,31 @@
 		"TypeName": "Game.PlayerCamera",
 		"ParentID": "6fc8e70c418de2c3cf06f0ac481f7a07",
 		"V": {
-			"cameraObject": "45b296b6485cd330a5a062a7043b86b7"
+	"cameraObject": "45b296b6485cd330a5a062a7043b86b7"
+}
+	},
+	{
+		"ID": "df7ee197413f122de58a3fbddf637601",
+		"TypeName": "FlaxEngine.EmptyActor",
+		"ParentID": "6fc8e70c418de2c3cf06f0ac481f7a07",
+		"Name": "CameraPivot(UpDown)",
+		"Transform": {
+			"Translation": {
+				"X": 0.0,
+				"Y": 60.0,
+				"Z": 0.0
+			}
 		}
 	},
 	{
 		"ID": "45b296b6485cd330a5a062a7043b86b7",
 		"TypeName": "FlaxEngine.Camera",
-		"ParentID": "6fc8e70c418de2c3cf06f0ac481f7a07",
+		"ParentID": "df7ee197413f122de58a3fbddf637601",
 		"Name": "Camera",
 		"Transform": {
 			"Translation": {
 				"X": 0.0,
-				"Y": 150.0,
+				"Y": 1.0,
 				"Z": -300.0
 			}
 		}

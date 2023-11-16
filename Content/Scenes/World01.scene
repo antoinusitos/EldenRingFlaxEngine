@@ -15,11 +15,6 @@
 				"CompressLightmaps": true,
 				"UseGeometryWithNoMaterials": true,
 				"Quality": 10
-			},
-			"CSG": {
-				"Model": "0609a01c4ba6aec8ac346299a8ae4ba0",
-				"Data": "48cf68844db290fb8311c4aa973f7cc8",
-				"CollisionData": "46fade964d0a22cebb3ea3a7e0945a87"
 			}
 		},
 		{
@@ -81,19 +76,6 @@
 					"X": 424.4565734863281,
 					"Y": 292.11767578125,
 					"Z": -348.9735107421875
-				}
-			}
-		},
-		{
-			"ID": "02e3d4e7401eb808a10fffb7e9cb4d44",
-			"TypeName": "FlaxEngine.Camera",
-			"ParentID": "e8bbde7e4df3ffac0f1534a5c26b2fc2",
-			"Name": "Camera",
-			"Transform": {
-				"Translation": {
-					"X": 0.0,
-					"Y": 120.34078979492188,
-					"Z": -705.7884521484375
 				}
 			}
 		},
