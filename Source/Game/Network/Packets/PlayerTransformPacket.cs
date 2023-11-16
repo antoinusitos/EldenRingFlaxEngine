@@ -23,7 +23,9 @@ public class PlayerTransformPacket : NetworkPacket
     {
         Guid guid = NetworkSession.Instance.GuidByConn(ref sender);
         var player = GameSession.Instance.GetPlayer(guid);
-        player.Position = Position;
-        player.Rotation = Rotation;
+        //player.Position = Position;
+        //player.Rotation = Rotation;
+        player.playerNetworkManager.networkPosition = Position;
+        player.playerNetworkManager.networkRotation = Rotation;
     }
 }

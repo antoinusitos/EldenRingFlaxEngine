@@ -12,8 +12,6 @@ namespace Game
         {
             base.OnAwake();
 
-            Debug.Log("OnAwake CharacterManager");
-
             characterController = (CharacterController)Actor;
             characterNetworkManager = Actor.GetScript<CharacterNetworkManager>();
         }
@@ -24,7 +22,7 @@ namespace Game
 
             if(characterNetworkManager.isOwner)
             {
-                characterNetworkManager.UpdateNetworkPosition(Actor.Position);
+                characterNetworkManager.UpdateNetworkPositionAndRotation(Actor.Position, Actor.Orientation);
             }
             else
             {
@@ -33,6 +31,11 @@ namespace Game
                     characterNetworkManager.networkPosition, 
                     ref characterNetworkManager.networkPositionVelocity, 
                     characterNetworkManager.networkPositionSmoothTime);
+
+                Actor.Orientation = Quaternion.Slerp(
+                    Actor.Orientation, 
+                    characterNetworkManager.networkRotation, 
+                    characterNetworkManager.networkRotationSmoothTime);
             }
         }
     }

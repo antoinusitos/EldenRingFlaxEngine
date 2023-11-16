@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using FlaxEngine;
+using Game;
 
 public struct ChatMessage
 {
@@ -74,6 +75,18 @@ public class GameSession : GamePlugin
         }
 
         return false;
+    }
+
+    public void AffectPlayerNetworkManager(PlayerNetworkManager playerNetworkManager, Guid guid)
+    {
+        for (var i = 0; i < Players.Count; i++)
+        {
+            if (Players[i].ID == guid)
+            {
+                Players[i].playerNetworkManager = playerNetworkManager;
+                return;
+            }
+        }
     }
 
     public void AddChatMessage(Guid sender, string message)

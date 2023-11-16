@@ -26,8 +26,10 @@ namespace Game
 
             // Sync actor transform
             var trans = Actor.Transform;
-            trans.Translation = Vector3.Lerp(trans.Translation, Player.Position, 0.4f);
-            trans.Orientation = Quaternion.Lerp(trans.Orientation, Player.Rotation, 0.4f);
+            //trans.Translation = Vector3.Lerp(trans.Translation, Player.Position, 0.4f);
+            //trans.Orientation = Quaternion.Lerp(trans.Orientation, Player.Rotation, 0.4f);
+            trans.Translation = Vector3.Lerp(trans.Translation, Player.playerNetworkManager.networkPosition, 0.4f);
+            trans.Orientation = Quaternion.Lerp(trans.Orientation, Player.playerNetworkManager.networkRotation, 0.4f);
             Actor.Transform = trans;
 
             // Sync actor name

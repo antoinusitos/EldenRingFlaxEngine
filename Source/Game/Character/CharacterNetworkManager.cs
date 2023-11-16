@@ -13,14 +13,46 @@ namespace Game
         public Vector3 networkPositionVelocity = Vector3.Zero;
         public float networkPositionSmoothTime = 0.1f;
 
-        public void UpdateNetworkPosition(Vector3 value)
+        [Header("Rotation")]
+        public Quaternion networkRotation = Quaternion.Identity;
+        public float networkRotationSmoothTime = 0.1f;
+
+        private float _lastTransformSent;
+
+        public void UpdateNetworkPositionAndRotation(Vector3 newPosition, Quaternion newRotation)
         {
-            networkPosition = value;
+            networkPosition = newPosition;
+            networkRotation = newRotation;
+
             PlayerTransformPacket ptp = new PlayerTransformPacket
             {
-                Position = networkPosition
+                Position = networkPosition,
+                Rotation = networkRotation
             };
-            NetworkSession.Instance.SendAll(ptp, NetworkChannelType.UnreliableOrdered);
+            NetworkSession.Instance.Send(ptp, NetworkChannelType.UnreliableOrdered);
+        }
+
+        public override void OnUpdate()
+        {
+            base.OnUpdate();
+
+            return;
+
+            if(!isOwner)
+            {
+                return;
+            }
+
+            if (Time.UnscaledGameTime - _lastTransformSent > 0.05f)
+            {
+                PlayerTransformPacket ptp = new PlayerTransformPacket
+                {
+                    Position = networkPosition,
+                    Rotation = networkRotation
+                };
+                NetworkSession.Instance.Send(ptp, NetworkChannelType.UnreliableOrdered);
+                _lastTransformSent = Time.UnscaledGameTime;
+            }
         }
     }
 }

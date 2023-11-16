@@ -8,14 +8,19 @@ namespace Game
 
         private PlayerNetworkManager playerNetworkManager = null;
 
+        public bool isLocalPlayer = false;
+
         public override void OnAwake()
         {
             base.OnAwake();
 
-            Debug.Log("OnAwake PlayerManager");
-
             playerLocomotionManager = Actor.GetScript<PlayerLocomotionManager>();
             playerNetworkManager = Actor.GetScript<PlayerNetworkManager>();
+
+            if(isLocalPlayer)
+            {
+                GameSession.Instance.LocalPlayer.playerNetworkManager = playerNetworkManager;
+            }
         }
 
         public override void OnUpdate()

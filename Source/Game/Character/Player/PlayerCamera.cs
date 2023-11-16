@@ -6,6 +6,8 @@ namespace Game
     {
         public static PlayerCamera instance = null;
 
+        public Camera cameraObject = null;
+
         public override void OnStart()
         {
             base.OnStart();

@@ -625,12 +625,21 @@
 			"PrefabID": "828d66a34d8a685aa140aeaddf33b86c",
 			"PrefabObjectID": "ede8abe84a1393e81e822589ec87fc91",
 			"ParentID": "9366bb18485d4d057c2019955e62ee10",
-			"V": {}
+			"V": {
+	"isLocalPlayer": true
+}
 		},
 		{
 			"ID": "8d865e444aebae25e3950ab35d1cbe50",
 			"PrefabID": "828d66a34d8a685aa140aeaddf33b86c",
 			"PrefabObjectID": "0a88f253433cf8f15b179ab964e6e1bd",
+			"ParentID": "9366bb18485d4d057c2019955e62ee10",
+			"V": {}
+		},
+		{
+			"ID": "300267cc41154473230599903827d12f",
+			"PrefabID": "828d66a34d8a685aa140aeaddf33b86c",
+			"PrefabObjectID": "515dd7824e2dec2f4b451f8888a25647",
 			"ParentID": "9366bb18485d4d057c2019955e62ee10",
 			"V": {}
 		},
@@ -699,28 +708,24 @@
 		},
 		{
 			"ID": "26a8cec949f44024c25187a5fa0f036c",
-			"TypeName": "FlaxEngine.EmptyActor",
-			"ParentID": "4cdba7994a6fe75f8a579ab3d2b93ed8",
-			"Name": "PlayerCamera"
+			"PrefabID": "bb24edff4b073078dcdb58940c1faa9b",
+			"PrefabObjectID": "6fc8e70c418de2c3cf06f0ac481f7a07",
+			"ParentID": "4cdba7994a6fe75f8a579ab3d2b93ed8"
 		},
 		{
 			"ID": "d99b759f456aa2e22fecd8a87ecf13f0",
-			"TypeName": "Game.PlayerCamera",
+			"PrefabID": "bb24edff4b073078dcdb58940c1faa9b",
+			"PrefabObjectID": "91f1883f4a2208fefe70efbb2f236689",
 			"ParentID": "26a8cec949f44024c25187a5fa0f036c",
-			"V": {}
+			"V": {
+	"cameraObject": "0a5a8fd14eb336d5029740a1c8d08b69"
+}
 		},
 		{
 			"ID": "0a5a8fd14eb336d5029740a1c8d08b69",
-			"TypeName": "FlaxEngine.Camera",
-			"ParentID": "26a8cec949f44024c25187a5fa0f036c",
-			"Name": "Camera",
-			"Transform": {
-				"Translation": {
-					"X": 0.0,
-					"Y": 150.0,
-					"Z": -300.0
-				}
-			}
+			"PrefabID": "bb24edff4b073078dcdb58940c1faa9b",
+			"PrefabObjectID": "45b296b6485cd330a5a062a7043b86b7",
+			"ParentID": "26a8cec949f44024c25187a5fa0f036c"
 		}
 	]
 }

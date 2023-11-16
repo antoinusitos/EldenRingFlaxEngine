@@ -45,9 +45,12 @@ public class PlayersTransformPacket : NetworkPacket
         {
             if (GameSession.Instance.LocalPlayer.ID == Transforms[i].Guid)
                 continue;
+
             var player = GameSession.Instance.GetPlayer(Transforms[i].Guid);
-            player.Position = Transforms[i].Position;
-            player.Rotation = Transforms[i].Rotation;
+            //player.Position = Transforms[i].Position;
+            //player.Rotation = Transforms[i].Rotation;
+            player.playerNetworkManager.networkPosition = Transforms[i].Position;
+            player.playerNetworkManager.networkRotation = Transforms[i].Rotation;
         }
     }
 }

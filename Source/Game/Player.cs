@@ -1,5 +1,6 @@
 ﻿using System;
 using FlaxEngine;
+using Game;
 
 /// <summary>
 /// Player information container (Name, ID, Actor, etc.)
@@ -8,8 +9,9 @@ public class Player
 {
     public Guid ID = Guid.Empty;
     public string Name = string.Empty;
-    public Vector3 Position = Vector3.Zero;
-    public Quaternion Rotation = Quaternion.Zero;
+    /*public Vector3 Position = Vector3.Zero;
+    public Quaternion Rotation = Quaternion.Zero;*/
 
-    public Actor Actor = null;
+    //public Actor Actor = null;
+    public PlayerNetworkManager playerNetworkManager = null;
 }

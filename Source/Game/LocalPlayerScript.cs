@@ -66,16 +66,18 @@ public class LocalPlayerScript : Script
         if (CanJump && Input.GetAction("Jump"))
             _jump = true;
 
-        GameSession.Instance.LocalPlayer.Position = Actor.Transform.Translation;
-        GameSession.Instance.LocalPlayer.Rotation = Actor.Transform.Orientation;
-        if (Time.UnscaledGameTime - _lastTransformSent > 0.05f)
+        //GameSession.Instance.LocalPlayer.Position = Actor.Transform.Translation;
+        //GameSession.Instance.LocalPlayer.Rotation = Actor.Transform.Orientation;
+        GameSession.Instance.LocalPlayer.playerNetworkManager.networkPosition = Actor.Transform.Translation;
+        GameSession.Instance.LocalPlayer.playerNetworkManager.networkRotation = Actor.Transform.Orientation;
+        /*if (Time.UnscaledGameTime - _lastTransformSent > 0.05f)
         {
             PlayerTransformPacket ptp = new PlayerTransformPacket();
             ptp.Position = Actor.Transform.Translation;
             ptp.Rotation = Actor.Transform.Orientation;
             NetworkSession.Instance.Send(ptp, NetworkChannelType.UnreliableOrdered);
             _lastTransformSent = Time.UnscaledGameTime;
-        }
+        }*/
 
         if (Transform.Translation.Y < -5000)
         {

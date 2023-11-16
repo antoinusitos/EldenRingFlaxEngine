@@ -1,0 +1,34 @@
+{
+	"ID": "bb24edff4b073078dcdb58940c1faa9b",
+	"TypeName": "FlaxEngine.Prefab",
+	"EngineBuild": 6404,
+	"Data": [
+	{
+		"ID": "6fc8e70c418de2c3cf06f0ac481f7a07",
+		"TypeName": "FlaxEngine.EmptyActor",
+		"ParentID": "00000000000000000000000000000000",
+		"Name": "PlayerCamera"
+	},
+	{
+		"ID": "91f1883f4a2208fefe70efbb2f236689",
+		"TypeName": "Game.PlayerCamera",
+		"ParentID": "6fc8e70c418de2c3cf06f0ac481f7a07",
+		"V": {
+			"cameraObject": "45b296b6485cd330a5a062a7043b86b7"
+		}
+	},
+	{
+		"ID": "45b296b6485cd330a5a062a7043b86b7",
+		"TypeName": "FlaxEngine.Camera",
+		"ParentID": "6fc8e70c418de2c3cf06f0ac481f7a07",
+		"Name": "Camera",
+		"Transform": {
+			"Translation": {
+				"X": 0.0,
+				"Y": 150.0,
+				"Z": -300.0
+			}
+		}
+	}
+]
+}
