@@ -122,6 +122,12 @@
 			}
 		},
 		{
+			"ID": "32ea0fac4569b729212f419a2a3fb126",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "abbbf8e349bf771858559bae249c8472",
+			"Name": "BoxCollider"
+		},
+		{
 			"ID": "6cc77b8b4afa468a250bd2bc89786acc",
 			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "013a0bd14b587ced04323fae098a6eb6",
@@ -144,6 +150,12 @@
 					}
 				]
 			}
+		},
+		{
+			"ID": "ca75c9a7483ce1463fa21d9df1ea9fcf",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "6cc77b8b4afa468a250bd2bc89786acc",
+			"Name": "BoxCollider"
 		},
 		{
 			"ID": "b67a29e3427c8222f890d4a28e3550c9",
@@ -170,6 +182,12 @@
 			}
 		},
 		{
+			"ID": "740495854654ebd9d0944991d5333960",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "b67a29e3427c8222f890d4a28e3550c9",
+			"Name": "BoxCollider"
+		},
+		{
 			"ID": "d3302c854d78dcc79a5ec58fec8767fc",
 			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "013a0bd14b587ced04323fae098a6eb6",
@@ -192,6 +210,12 @@
 					}
 				]
 			}
+		},
+		{
+			"ID": "89c2cfc742131b4e1ded1693515e9bb7",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "d3302c854d78dcc79a5ec58fec8767fc",
+			"Name": "BoxCollider"
 		},
 		{
 			"ID": "31307e4d4db499f6cd24c8aeceaf412d",
@@ -218,6 +242,12 @@
 			}
 		},
 		{
+			"ID": "f75af064428869c97a88e7a65fb2395b",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "31307e4d4db499f6cd24c8aeceaf412d",
+			"Name": "BoxCollider"
+		},
+		{
 			"ID": "50cc95a54fdd098a8d661eb0fccb4495",
 			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "013a0bd14b587ced04323fae098a6eb6",
@@ -240,6 +270,12 @@
 					}
 				]
 			}
+		},
+		{
+			"ID": "d0946d7c46a3e8c1167cbe9e5b2b9bbb",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "50cc95a54fdd098a8d661eb0fccb4495",
+			"Name": "BoxCollider"
 		},
 		{
 			"ID": "729ea199405f4178e9ce8398da8c36f2",
@@ -266,6 +302,12 @@
 			}
 		},
 		{
+			"ID": "780af8c0496628ac7840f7a80c3d1d36",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "729ea199405f4178e9ce8398da8c36f2",
+			"Name": "BoxCollider"
+		},
+		{
 			"ID": "7405340c480b4107a496c3947c1226bd",
 			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "013a0bd14b587ced04323fae098a6eb6",
@@ -288,6 +330,12 @@
 					}
 				]
 			}
+		},
+		{
+			"ID": "5192d0f34de655ad7751ae92958791c4",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "7405340c480b4107a496c3947c1226bd",
+			"Name": "BoxCollider"
 		},
 		{
 			"ID": "abf2afda4e01076ce441d7b59850c924",
@@ -314,6 +362,12 @@
 			}
 		},
 		{
+			"ID": "0deccae8494639c3c9e219aeb49278b4",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "abf2afda4e01076ce441d7b59850c924",
+			"Name": "BoxCollider"
+		},
+		{
 			"ID": "5537b31645803cdff9a7ab913f91ad4b",
 			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "013a0bd14b587ced04323fae098a6eb6",
@@ -338,7 +392,13 @@
 			}
 		},
 		{
-			"ID": "f83a37a94cf9b4d21ef688bb1c063554",
+			"ID": "4784ef1947e37b2eddac468693dfffdb",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "5537b31645803cdff9a7ab913f91ad4b",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "aecb58314bd4a305f2d058b18194d9f1",
 			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "cac02c4b4b4a213799820c83e0f4982d",
 			"Name": "Wall 0",
@@ -351,9 +411,9 @@
 			}
 		},
 		{
-			"ID": "324c58ed409e57380b688c8dc7c6e824",
+			"ID": "a9ff63034416ea41c7f402afbcfbd729",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "f83a37a94cf9b4d21ef688bb1c063554",
+			"ParentID": "aecb58314bd4a305f2d058b18194d9f1",
 			"Name": "Cube",
 			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
 			"Buffer": {
@@ -368,9 +428,15 @@
 			}
 		},
 		{
-			"ID": "b475e7b34581cf97be1a3787cf977011",
+			"ID": "6db1d8e349fd85700e56349e13cc13cf",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "a9ff63034416ea41c7f402afbcfbd729",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "207e660c466a744c101c8a882d5ae1a5",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "f83a37a94cf9b4d21ef688bb1c063554",
+			"ParentID": "aecb58314bd4a305f2d058b18194d9f1",
 			"Name": "Cube 0",
 			"Transform": {
 				"Translation": {
@@ -392,9 +458,15 @@
 			}
 		},
 		{
-			"ID": "1a4ca9f84d7ceb310144df8884c61bfa",
+			"ID": "111364974e79fba71caa9baedf10846d",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "207e660c466a744c101c8a882d5ae1a5",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "1a2862ba4a580ae75fd57a80eda476a7",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "f83a37a94cf9b4d21ef688bb1c063554",
+			"ParentID": "aecb58314bd4a305f2d058b18194d9f1",
 			"Name": "Cube 1",
 			"Transform": {
 				"Translation": {
@@ -416,9 +488,15 @@
 			}
 		},
 		{
-			"ID": "465bcd834bd5684254cbce9629bf2897",
+			"ID": "eb5782c24ea92a7080b4b29fb9c101ba",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "1a2862ba4a580ae75fd57a80eda476a7",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "bba28875463bc18dad39979ca639c417",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "f83a37a94cf9b4d21ef688bb1c063554",
+			"ParentID": "aecb58314bd4a305f2d058b18194d9f1",
 			"Name": "Cube 2",
 			"Transform": {
 				"Translation": {
@@ -440,9 +518,15 @@
 			}
 		},
 		{
-			"ID": "dc66a015495002a157bf0fa18f21f186",
+			"ID": "d1018c8d4e0aac524724e19b159623ae",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "bba28875463bc18dad39979ca639c417",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "6aa68bba4a6f1f23a2ca178c848f202a",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "f83a37a94cf9b4d21ef688bb1c063554",
+			"ParentID": "aecb58314bd4a305f2d058b18194d9f1",
 			"Name": "Cube 3",
 			"Transform": {
 				"Translation": {
@@ -464,9 +548,15 @@
 			}
 		},
 		{
-			"ID": "c20109044aa7a05ba15a43991f902302",
+			"ID": "cdbda75d451f2d62f14450b90b46eed5",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "6aa68bba4a6f1f23a2ca178c848f202a",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "724a484346516bdd38c40f9a927ad72d",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "f83a37a94cf9b4d21ef688bb1c063554",
+			"ParentID": "aecb58314bd4a305f2d058b18194d9f1",
 			"Name": "Cube 4",
 			"Transform": {
 				"Translation": {
@@ -488,9 +578,15 @@
 			}
 		},
 		{
-			"ID": "c7119145456c19cdbb74ee9b264f6cc0",
+			"ID": "442765ba420fb6aa10971faf78e5a879",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "724a484346516bdd38c40f9a927ad72d",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "ad6fe2744d6b6cb3bdbe85a8c2872bad",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "f83a37a94cf9b4d21ef688bb1c063554",
+			"ParentID": "aecb58314bd4a305f2d058b18194d9f1",
 			"Name": "Cube 5",
 			"Transform": {
 				"Translation": {
@@ -512,9 +608,15 @@
 			}
 		},
 		{
-			"ID": "95f7240b4da7899799c389b29271929a",
+			"ID": "36dd8afd40982f86427da7acacb19928",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "ad6fe2744d6b6cb3bdbe85a8c2872bad",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "3a71780c43fd8d7dc258c8b8a3f94674",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "f83a37a94cf9b4d21ef688bb1c063554",
+			"ParentID": "aecb58314bd4a305f2d058b18194d9f1",
 			"Name": "Cube 6",
 			"Transform": {
 				"Translation": {
@@ -536,9 +638,15 @@
 			}
 		},
 		{
-			"ID": "e0a73cb3421022a7355c019de1731b5a",
+			"ID": "971f675b40e90bcb7a09f6a069c216a5",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "3a71780c43fd8d7dc258c8b8a3f94674",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "a6134bab47ac3179250f86b46ac368b3",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "f83a37a94cf9b4d21ef688bb1c063554",
+			"ParentID": "aecb58314bd4a305f2d058b18194d9f1",
 			"Name": "Cube 7",
 			"Transform": {
 				"Translation": {
@@ -560,9 +668,15 @@
 			}
 		},
 		{
-			"ID": "d88164de426d00a727a6eebdd9a742fc",
+			"ID": "9a9941464200a266a3b2f19f967a59e6",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "a6134bab47ac3179250f86b46ac368b3",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "2a4463994db120b24cc06f9f433da52c",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "f83a37a94cf9b4d21ef688bb1c063554",
+			"ParentID": "aecb58314bd4a305f2d058b18194d9f1",
 			"Name": "Cube 8",
 			"Transform": {
 				"Translation": {
@@ -584,7 +698,13 @@
 			}
 		},
 		{
-			"ID": "47f3ba1844de0d2373a0e2908e16c03f",
+			"ID": "464df31148c015f298efa79446195dc5",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "2a4463994db120b24cc06f9f433da52c",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "554c375f40c301243c7af482ad687f89",
 			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "cac02c4b4b4a213799820c83e0f4982d",
 			"Name": "Wall 1",
@@ -597,9 +717,9 @@
 			}
 		},
 		{
-			"ID": "5cdc59384b7b4fd7bcad8fb48d4d29cf",
+			"ID": "7ffa0a924e1755d379a33dbf80292ff9",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "47f3ba1844de0d2373a0e2908e16c03f",
+			"ParentID": "554c375f40c301243c7af482ad687f89",
 			"Name": "Cube",
 			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
 			"Buffer": {
@@ -614,9 +734,15 @@
 			}
 		},
 		{
-			"ID": "4b0d745e440c237b37800a974f4aa858",
+			"ID": "65d33134421690b4277367b8016e1fc2",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "7ffa0a924e1755d379a33dbf80292ff9",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "bf6557444507706e0493ab9d8175046d",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "47f3ba1844de0d2373a0e2908e16c03f",
+			"ParentID": "554c375f40c301243c7af482ad687f89",
 			"Name": "Cube 0",
 			"Transform": {
 				"Translation": {
@@ -638,9 +764,15 @@
 			}
 		},
 		{
-			"ID": "c029c5344b3c169ea73042a927b6081b",
+			"ID": "14500b134adad75cace402aa3564e040",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "bf6557444507706e0493ab9d8175046d",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "cbe4b85040b157bb6f719da4aad92220",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "47f3ba1844de0d2373a0e2908e16c03f",
+			"ParentID": "554c375f40c301243c7af482ad687f89",
 			"Name": "Cube 1",
 			"Transform": {
 				"Translation": {
@@ -662,9 +794,15 @@
 			}
 		},
 		{
-			"ID": "0fe9075241114c06f4aa938b732f277b",
+			"ID": "c20a9895473b8f5f5c785b9f8ebf46c8",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "cbe4b85040b157bb6f719da4aad92220",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "49f2f1d5420e83ca22ac0daca1596a91",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "47f3ba1844de0d2373a0e2908e16c03f",
+			"ParentID": "554c375f40c301243c7af482ad687f89",
 			"Name": "Cube 2",
 			"Transform": {
 				"Translation": {
@@ -686,9 +824,15 @@
 			}
 		},
 		{
-			"ID": "3f23800a469588ee1ce8968c5a86e1c9",
+			"ID": "90ff58134348ff64a52c0b82b0871d38",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "49f2f1d5420e83ca22ac0daca1596a91",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "5266a72945eac45dbbe4e484113f7709",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "47f3ba1844de0d2373a0e2908e16c03f",
+			"ParentID": "554c375f40c301243c7af482ad687f89",
 			"Name": "Cube 3",
 			"Transform": {
 				"Translation": {
@@ -710,9 +854,15 @@
 			}
 		},
 		{
-			"ID": "60cf14af4095367de9f2f4b688975ec5",
+			"ID": "314a9f934d59a52195621a9d5249811b",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "5266a72945eac45dbbe4e484113f7709",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "0c3109c843474f32bd940d9d74890568",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "47f3ba1844de0d2373a0e2908e16c03f",
+			"ParentID": "554c375f40c301243c7af482ad687f89",
 			"Name": "Cube 4",
 			"Transform": {
 				"Translation": {
@@ -734,9 +884,15 @@
 			}
 		},
 		{
-			"ID": "568cda3c4495baca6c75a5a1c0dda87e",
+			"ID": "dfc027b942ffbdcc9b725fa540dc8955",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "0c3109c843474f32bd940d9d74890568",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "b8e1f86b4f4fb47d686a029fd6159975",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "47f3ba1844de0d2373a0e2908e16c03f",
+			"ParentID": "554c375f40c301243c7af482ad687f89",
 			"Name": "Cube 5",
 			"Transform": {
 				"Translation": {
@@ -758,9 +914,15 @@
 			}
 		},
 		{
-			"ID": "2608aceb4ef10ef4f9b336b5faf14a64",
+			"ID": "0aeab4d4410d37aca522a9bdf5314f43",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "b8e1f86b4f4fb47d686a029fd6159975",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "abfafad24ce41c7605097780d5f01332",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "47f3ba1844de0d2373a0e2908e16c03f",
+			"ParentID": "554c375f40c301243c7af482ad687f89",
 			"Name": "Cube 6",
 			"Transform": {
 				"Translation": {
@@ -782,9 +944,15 @@
 			}
 		},
 		{
-			"ID": "05fad1e049f5453311546eafee2fa248",
+			"ID": "4abde7c744e56d9b6b5acbab1245b691",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "abfafad24ce41c7605097780d5f01332",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "087e66c7491633626398509de65864f0",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "47f3ba1844de0d2373a0e2908e16c03f",
+			"ParentID": "554c375f40c301243c7af482ad687f89",
 			"Name": "Cube 7",
 			"Transform": {
 				"Translation": {
@@ -806,9 +974,15 @@
 			}
 		},
 		{
-			"ID": "5b221f1d40190e8e97eaf8bb833adaf8",
+			"ID": "13fbd64345172df42fbc37964c6af844",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "087e66c7491633626398509de65864f0",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "fadd4f5f4d12b34dadcce484bfb021e5",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "47f3ba1844de0d2373a0e2908e16c03f",
+			"ParentID": "554c375f40c301243c7af482ad687f89",
 			"Name": "Cube 8",
 			"Transform": {
 				"Translation": {
@@ -830,7 +1004,13 @@
 			}
 		},
 		{
-			"ID": "69eda9ec453e7bfcc83310aa40f2dc8f",
+			"ID": "cb91d03544b5d99af26d3689a327b623",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "fadd4f5f4d12b34dadcce484bfb021e5",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "a1c0812b4cf2f04300b2a19af9f9fbac",
 			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "cac02c4b4b4a213799820c83e0f4982d",
 			"Name": "Wall 2",
@@ -843,9 +1023,9 @@
 			}
 		},
 		{
-			"ID": "436fbad64f6550daf8d13fb6b473300e",
+			"ID": "68b891a949acd833f7d437876ca71168",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "69eda9ec453e7bfcc83310aa40f2dc8f",
+			"ParentID": "a1c0812b4cf2f04300b2a19af9f9fbac",
 			"Name": "Cube",
 			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
 			"Buffer": {
@@ -860,9 +1040,15 @@
 			}
 		},
 		{
-			"ID": "87bc8535462362fc9a104e8a31d8c037",
+			"ID": "a284ff2b4e62f0ff66381284911cab0b",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "68b891a949acd833f7d437876ca71168",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "9449d59e4fb6df345263fdb99ac57701",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "69eda9ec453e7bfcc83310aa40f2dc8f",
+			"ParentID": "a1c0812b4cf2f04300b2a19af9f9fbac",
 			"Name": "Cube 0",
 			"Transform": {
 				"Translation": {
@@ -884,9 +1070,15 @@
 			}
 		},
 		{
-			"ID": "7a4f6f404daee33c2e87c5a8a1398533",
+			"ID": "92723a6d456615f86a7dd58c91ec9942",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "9449d59e4fb6df345263fdb99ac57701",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "d11f07d440c7b6ec0f0067b5fe4adcce",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "69eda9ec453e7bfcc83310aa40f2dc8f",
+			"ParentID": "a1c0812b4cf2f04300b2a19af9f9fbac",
 			"Name": "Cube 1",
 			"Transform": {
 				"Translation": {
@@ -908,9 +1100,15 @@
 			}
 		},
 		{
-			"ID": "46006d4d402918ee4b03c088b0cbe418",
+			"ID": "28e47d484f17d47e5a5725886cf35149",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "d11f07d440c7b6ec0f0067b5fe4adcce",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "7796fe6944b8dec1edae448310e3e86a",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "69eda9ec453e7bfcc83310aa40f2dc8f",
+			"ParentID": "a1c0812b4cf2f04300b2a19af9f9fbac",
 			"Name": "Cube 2",
 			"Transform": {
 				"Translation": {
@@ -932,9 +1130,15 @@
 			}
 		},
 		{
-			"ID": "79b23f6147009dbfc99852ad7f645f22",
+			"ID": "fe8d5a714fcca10c7b6d6c8192dda31a",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "7796fe6944b8dec1edae448310e3e86a",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "ad02dc044c2ebcd959b864a54349c6f7",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "69eda9ec453e7bfcc83310aa40f2dc8f",
+			"ParentID": "a1c0812b4cf2f04300b2a19af9f9fbac",
 			"Name": "Cube 3",
 			"Transform": {
 				"Translation": {
@@ -956,9 +1160,15 @@
 			}
 		},
 		{
-			"ID": "9ea2a4dd4d5b1607fb979ba115e1a4a2",
+			"ID": "7d4172f243ae4630b7e5019cecc2d09b",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "ad02dc044c2ebcd959b864a54349c6f7",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "200e32744c3ac32414e4b2aa2f9b2eba",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "69eda9ec453e7bfcc83310aa40f2dc8f",
+			"ParentID": "a1c0812b4cf2f04300b2a19af9f9fbac",
 			"Name": "Cube 4",
 			"Transform": {
 				"Translation": {
@@ -980,9 +1190,15 @@
 			}
 		},
 		{
-			"ID": "9240701b46910ae5d17308ba62c527ed",
+			"ID": "fd08161245cebd01967eeb8a41084e70",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "200e32744c3ac32414e4b2aa2f9b2eba",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "b9052af24e33173576c46f980c9f2d1e",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "69eda9ec453e7bfcc83310aa40f2dc8f",
+			"ParentID": "a1c0812b4cf2f04300b2a19af9f9fbac",
 			"Name": "Cube 5",
 			"Transform": {
 				"Translation": {
@@ -1004,9 +1220,15 @@
 			}
 		},
 		{
-			"ID": "833aab0043e7d70c1ef113bedcc8aafd",
+			"ID": "e99454974c5c556c9422eeabd2fffbac",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "b9052af24e33173576c46f980c9f2d1e",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "74ea35f542b07539cb4610b8316c09c3",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "69eda9ec453e7bfcc83310aa40f2dc8f",
+			"ParentID": "a1c0812b4cf2f04300b2a19af9f9fbac",
 			"Name": "Cube 6",
 			"Transform": {
 				"Translation": {
@@ -1028,9 +1250,15 @@
 			}
 		},
 		{
-			"ID": "387df6934813d9d501b468a219cc4bd6",
+			"ID": "abfc52f04e32ca56d7dc9da94ac07df1",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "74ea35f542b07539cb4610b8316c09c3",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "764db5ff4b8780cce4b2c8b11bc79095",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "69eda9ec453e7bfcc83310aa40f2dc8f",
+			"ParentID": "a1c0812b4cf2f04300b2a19af9f9fbac",
 			"Name": "Cube 7",
 			"Transform": {
 				"Translation": {
@@ -1052,9 +1280,15 @@
 			}
 		},
 		{
-			"ID": "9ebb91b445048bbdf73eeb9cfc729cb7",
+			"ID": "27a26bf345ccbadab722159a2b34616a",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "764db5ff4b8780cce4b2c8b11bc79095",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "4c6eb5b348290962c2458486766422ba",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "69eda9ec453e7bfcc83310aa40f2dc8f",
+			"ParentID": "a1c0812b4cf2f04300b2a19af9f9fbac",
 			"Name": "Cube 8",
 			"Transform": {
 				"Translation": {
@@ -1076,7 +1310,13 @@
 			}
 		},
 		{
-			"ID": "f646a82249babdf391b24caf8e95c7cc",
+			"ID": "633ea03b496445c2f6abe1b5f18ac73c",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "4c6eb5b348290962c2458486766422ba",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "e5658b094b36e47c7957918c563d68cc",
 			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "cac02c4b4b4a213799820c83e0f4982d",
 			"Name": "Wall 3",
@@ -1089,9 +1329,9 @@
 			}
 		},
 		{
-			"ID": "901b1c6c4820bbeaa5dedca7104d335e",
+			"ID": "0245cee94c5d0f6fe45cfabf4ab7f943",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "f646a82249babdf391b24caf8e95c7cc",
+			"ParentID": "e5658b094b36e47c7957918c563d68cc",
 			"Name": "Cube",
 			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
 			"Buffer": {
@@ -1106,9 +1346,15 @@
 			}
 		},
 		{
-			"ID": "4104f7154296fc3bc0fff9ad607807e2",
+			"ID": "4c039e7642e1c19fee25e8b0e2288103",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "0245cee94c5d0f6fe45cfabf4ab7f943",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "72d4e407428a9c101e116da8a68846f4",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "f646a82249babdf391b24caf8e95c7cc",
+			"ParentID": "e5658b094b36e47c7957918c563d68cc",
 			"Name": "Cube 0",
 			"Transform": {
 				"Translation": {
@@ -1130,9 +1376,15 @@
 			}
 		},
 		{
-			"ID": "cbf6e9fd4e8e0721ffdc24a6db3c30f1",
+			"ID": "9191d1cc4c12993730c42a93e571c7cf",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "72d4e407428a9c101e116da8a68846f4",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "7f8506954359350747973fb500d61836",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "f646a82249babdf391b24caf8e95c7cc",
+			"ParentID": "e5658b094b36e47c7957918c563d68cc",
 			"Name": "Cube 1",
 			"Transform": {
 				"Translation": {
@@ -1154,9 +1406,15 @@
 			}
 		},
 		{
-			"ID": "b402d1b945dd295d9f2261b6720db969",
+			"ID": "91b1c8af4fccf769934670bcb5bdecf0",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "7f8506954359350747973fb500d61836",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "f44b68574172f8d7c234b9a54a03ff67",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "f646a82249babdf391b24caf8e95c7cc",
+			"ParentID": "e5658b094b36e47c7957918c563d68cc",
 			"Name": "Cube 2",
 			"Transform": {
 				"Translation": {
@@ -1178,9 +1436,15 @@
 			}
 		},
 		{
-			"ID": "e65dab214b44c0d449784b8a0d02c3e4",
+			"ID": "4600cbd44dfd872924d3ed96bd1c6df7",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "f44b68574172f8d7c234b9a54a03ff67",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "b30cab3342592b73a0522882e576b844",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "f646a82249babdf391b24caf8e95c7cc",
+			"ParentID": "e5658b094b36e47c7957918c563d68cc",
 			"Name": "Cube 3",
 			"Transform": {
 				"Translation": {
@@ -1202,9 +1466,15 @@
 			}
 		},
 		{
-			"ID": "514ac5a5486ca57ae84c6999f795d681",
+			"ID": "ade49a5740754250a31208abcf8952b2",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "b30cab3342592b73a0522882e576b844",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "cc08cd064b4956534a0a44b23e185716",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "f646a82249babdf391b24caf8e95c7cc",
+			"ParentID": "e5658b094b36e47c7957918c563d68cc",
 			"Name": "Cube 4",
 			"Transform": {
 				"Translation": {
@@ -1226,9 +1496,15 @@
 			}
 		},
 		{
-			"ID": "777c10734104a98bf31d09b607031d3b",
+			"ID": "79bef21d46454fb99cce4ca2a5255669",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "cc08cd064b4956534a0a44b23e185716",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "56fba78348141fbce7a3fca181bb64e7",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "f646a82249babdf391b24caf8e95c7cc",
+			"ParentID": "e5658b094b36e47c7957918c563d68cc",
 			"Name": "Cube 5",
 			"Transform": {
 				"Translation": {
@@ -1250,9 +1526,15 @@
 			}
 		},
 		{
-			"ID": "c24b17c4437816a861717f9f04ab47dd",
+			"ID": "92194e1349e729366d42ca8239841def",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "56fba78348141fbce7a3fca181bb64e7",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "162337ce4fc89af7e0b70bb329c25044",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "f646a82249babdf391b24caf8e95c7cc",
+			"ParentID": "e5658b094b36e47c7957918c563d68cc",
 			"Name": "Cube 6",
 			"Transform": {
 				"Translation": {
@@ -1274,9 +1556,15 @@
 			}
 		},
 		{
-			"ID": "cb9b0fd34dda51845c1df2a7ef3df132",
+			"ID": "3fd826914f0a6b5a3374d493e65664e1",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "162337ce4fc89af7e0b70bb329c25044",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "827f685f46cf724e7a6aacbf50e0f1e4",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "f646a82249babdf391b24caf8e95c7cc",
+			"ParentID": "e5658b094b36e47c7957918c563d68cc",
 			"Name": "Cube 7",
 			"Transform": {
 				"Translation": {
@@ -1298,9 +1586,15 @@
 			}
 		},
 		{
-			"ID": "d6e1e5bf48fbd82e401009a5869b1480",
+			"ID": "74261eb14997496d9764638428763d15",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "827f685f46cf724e7a6aacbf50e0f1e4",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "ba9816e1402fb811093accb66bffca33",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "f646a82249babdf391b24caf8e95c7cc",
+			"ParentID": "e5658b094b36e47c7957918c563d68cc",
 			"Name": "Cube 8",
 			"Transform": {
 				"Translation": {
@@ -1322,7 +1616,13 @@
 			}
 		},
 		{
-			"ID": "f615ca044f41b6a22b513f9b271dc246",
+			"ID": "8daf516440d214e8d4e5bcadc113ce6e",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "ba9816e1402fb811093accb66bffca33",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "a4f2317a45d907d081ed5ca967012c58",
 			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "cac02c4b4b4a213799820c83e0f4982d",
 			"Name": "Wall 4",
@@ -1335,9 +1635,9 @@
 			}
 		},
 		{
-			"ID": "2323e510480817a22c2566b6a2cb7168",
+			"ID": "4072444e432878c54cb9d69a98b8c9a6",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "f615ca044f41b6a22b513f9b271dc246",
+			"ParentID": "a4f2317a45d907d081ed5ca967012c58",
 			"Name": "Cube",
 			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
 			"Buffer": {
@@ -1352,9 +1652,15 @@
 			}
 		},
 		{
-			"ID": "2d9c52854b5a00f8a7cac8a2f54d467a",
+			"ID": "e1b9deb245017d3999b837abc0d51d7f",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "4072444e432878c54cb9d69a98b8c9a6",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "350248d74132351d5b950aa5fd6f10b8",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "f615ca044f41b6a22b513f9b271dc246",
+			"ParentID": "a4f2317a45d907d081ed5ca967012c58",
 			"Name": "Cube 0",
 			"Transform": {
 				"Translation": {
@@ -1376,9 +1682,15 @@
 			}
 		},
 		{
-			"ID": "3cec934947c42b9c1f6e9f9a53293190",
+			"ID": "4f8190ae4d1735b95f3f468d578031ec",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "350248d74132351d5b950aa5fd6f10b8",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "241f5ead4cf37988feee3997887b3ce3",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "f615ca044f41b6a22b513f9b271dc246",
+			"ParentID": "a4f2317a45d907d081ed5ca967012c58",
 			"Name": "Cube 1",
 			"Transform": {
 				"Translation": {
@@ -1400,9 +1712,15 @@
 			}
 		},
 		{
-			"ID": "bb6492a94d22e761967f1badee66aa1e",
+			"ID": "2a42a54742fd8991fe594cb00fb7f0f4",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "241f5ead4cf37988feee3997887b3ce3",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "1349d46d4f1e53c2ba5bfa81db65c923",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "f615ca044f41b6a22b513f9b271dc246",
+			"ParentID": "a4f2317a45d907d081ed5ca967012c58",
 			"Name": "Cube 2",
 			"Transform": {
 				"Translation": {
@@ -1424,9 +1742,15 @@
 			}
 		},
 		{
-			"ID": "cf21b7944e5be9fd550ab8af069ab83e",
+			"ID": "1edf0e1e4124506d368300abdd6ce230",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "1349d46d4f1e53c2ba5bfa81db65c923",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "4cd5750b4b3f303c23b25b82043bd3e9",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "f615ca044f41b6a22b513f9b271dc246",
+			"ParentID": "a4f2317a45d907d081ed5ca967012c58",
 			"Name": "Cube 3",
 			"Transform": {
 				"Translation": {
@@ -1448,9 +1772,15 @@
 			}
 		},
 		{
-			"ID": "f1207e3f49f161a3f2e165a4e97de481",
+			"ID": "2e8b70034bb71b26ee71d396e173386b",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "4cd5750b4b3f303c23b25b82043bd3e9",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "86af04a748a3ce119eaa109ac4db68fd",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "f615ca044f41b6a22b513f9b271dc246",
+			"ParentID": "a4f2317a45d907d081ed5ca967012c58",
 			"Name": "Cube 4",
 			"Transform": {
 				"Translation": {
@@ -1472,9 +1802,15 @@
 			}
 		},
 		{
-			"ID": "1a0945b64597147d8cb69c88e99802b7",
+			"ID": "28ab67184e3c606bf0229baf7735d0bb",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "86af04a748a3ce119eaa109ac4db68fd",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "e11b8ab64ac69af5bc646c898248d3e6",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "f615ca044f41b6a22b513f9b271dc246",
+			"ParentID": "a4f2317a45d907d081ed5ca967012c58",
 			"Name": "Cube 5",
 			"Transform": {
 				"Translation": {
@@ -1496,9 +1832,15 @@
 			}
 		},
 		{
-			"ID": "c2be2f364f19fe689196f2b8e314ab44",
+			"ID": "275f780542288459f89a358ea24e5224",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "e11b8ab64ac69af5bc646c898248d3e6",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "98adde2c446f70e9f7a200993d18b525",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "f615ca044f41b6a22b513f9b271dc246",
+			"ParentID": "a4f2317a45d907d081ed5ca967012c58",
 			"Name": "Cube 6",
 			"Transform": {
 				"Translation": {
@@ -1520,9 +1862,15 @@
 			}
 		},
 		{
-			"ID": "856154af4933cd45c7a90888e40c712e",
+			"ID": "a10311ed4b2b14b8a6fcd1a86a4d7a3f",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "98adde2c446f70e9f7a200993d18b525",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "76611ea24c3f1663dc775da469c422c3",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "f615ca044f41b6a22b513f9b271dc246",
+			"ParentID": "a4f2317a45d907d081ed5ca967012c58",
 			"Name": "Cube 7",
 			"Transform": {
 				"Translation": {
@@ -1544,9 +1892,15 @@
 			}
 		},
 		{
-			"ID": "67fdf5d8400e5041acce6e96f8e8328a",
+			"ID": "e23b82274c3d1c7ef4be9b85afc1469c",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "76611ea24c3f1663dc775da469c422c3",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "045231864398fbb43f14ecaad0d0f498",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "f615ca044f41b6a22b513f9b271dc246",
+			"ParentID": "a4f2317a45d907d081ed5ca967012c58",
 			"Name": "Cube 8",
 			"Transform": {
 				"Translation": {
@@ -1568,7 +1922,13 @@
 			}
 		},
 		{
-			"ID": "ca6518564f45ea134c24bbace566fe45",
+			"ID": "afc97ef640c74a1dd716b79957b3e108",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "045231864398fbb43f14ecaad0d0f498",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "af4ff5454b98930015da37909d9d500d",
 			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "cac02c4b4b4a213799820c83e0f4982d",
 			"Name": "Wall 5",
@@ -1581,9 +1941,9 @@
 			}
 		},
 		{
-			"ID": "3e0e5a20490235a41c2f7a85d3da43a0",
+			"ID": "64dfa8fa48e5346db6098da6d34dc46f",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "ca6518564f45ea134c24bbace566fe45",
+			"ParentID": "af4ff5454b98930015da37909d9d500d",
 			"Name": "Cube",
 			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
 			"Buffer": {
@@ -1598,9 +1958,15 @@
 			}
 		},
 		{
-			"ID": "e867a14647c4cdc3fbe3938821f4a84a",
+			"ID": "2c0a85b1468aef19569ffeb7ef26ec77",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "64dfa8fa48e5346db6098da6d34dc46f",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "13f2f3934f18e848c4498a896b511f27",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "ca6518564f45ea134c24bbace566fe45",
+			"ParentID": "af4ff5454b98930015da37909d9d500d",
 			"Name": "Cube 0",
 			"Transform": {
 				"Translation": {
@@ -1622,9 +1988,15 @@
 			}
 		},
 		{
-			"ID": "fb42846a4a1c0cdcf81c4da5f455a2e7",
+			"ID": "415b10094c5701d96abef89b99f7d123",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "13f2f3934f18e848c4498a896b511f27",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "a824d3cf49a436f1d93e0c8bcaadb6da",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "ca6518564f45ea134c24bbace566fe45",
+			"ParentID": "af4ff5454b98930015da37909d9d500d",
 			"Name": "Cube 1",
 			"Transform": {
 				"Translation": {
@@ -1646,9 +2018,15 @@
 			}
 		},
 		{
-			"ID": "2b54b98d496354e4b1f4e49a2c2d608b",
+			"ID": "c0c864824aa8bad7060e4e8774a6f9e3",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "a824d3cf49a436f1d93e0c8bcaadb6da",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "c6646e204e2c2e127dbf3caf77aeea66",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "ca6518564f45ea134c24bbace566fe45",
+			"ParentID": "af4ff5454b98930015da37909d9d500d",
 			"Name": "Cube 2",
 			"Transform": {
 				"Translation": {
@@ -1670,9 +2048,15 @@
 			}
 		},
 		{
-			"ID": "f8b0f65344c96a3c4818b79f8b2793a4",
+			"ID": "54d5bd1d4a73a27c04a2709a639d780a",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "c6646e204e2c2e127dbf3caf77aeea66",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "cfbdb9144ff2d521c48ebca357923a8c",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "ca6518564f45ea134c24bbace566fe45",
+			"ParentID": "af4ff5454b98930015da37909d9d500d",
 			"Name": "Cube 3",
 			"Transform": {
 				"Translation": {
@@ -1694,9 +2078,15 @@
 			}
 		},
 		{
-			"ID": "675cfd07489ccfd3ecbb58b4e78069cd",
+			"ID": "3d089eca42108fdc370b908a7c60a519",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "cfbdb9144ff2d521c48ebca357923a8c",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "5113308e402dee505ee5ac9b7ed273e0",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "ca6518564f45ea134c24bbace566fe45",
+			"ParentID": "af4ff5454b98930015da37909d9d500d",
 			"Name": "Cube 4",
 			"Transform": {
 				"Translation": {
@@ -1718,9 +2108,15 @@
 			}
 		},
 		{
-			"ID": "78c7054d464ad6d95ee88bbae9487756",
+			"ID": "d463df03450b6db6c7e972ab2f6fda59",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "5113308e402dee505ee5ac9b7ed273e0",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "8be831b3462d69629adf09a9ec27add6",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "ca6518564f45ea134c24bbace566fe45",
+			"ParentID": "af4ff5454b98930015da37909d9d500d",
 			"Name": "Cube 5",
 			"Transform": {
 				"Translation": {
@@ -1742,9 +2138,15 @@
 			}
 		},
 		{
-			"ID": "710b1b0c4c87f92df588b9931cd91967",
+			"ID": "aa2207ca47ec4f7ad37190aa757bcf39",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "8be831b3462d69629adf09a9ec27add6",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "3eb3b3ce48a02cfc9935d2b683fe1019",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "ca6518564f45ea134c24bbace566fe45",
+			"ParentID": "af4ff5454b98930015da37909d9d500d",
 			"Name": "Cube 6",
 			"Transform": {
 				"Translation": {
@@ -1766,9 +2168,15 @@
 			}
 		},
 		{
-			"ID": "52b15c3549a27954a86ac89cc8514861",
+			"ID": "c7db38cc4c45af036e827cb31710b61c",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "3eb3b3ce48a02cfc9935d2b683fe1019",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "5a9d56574a717e1f9002939698d9369d",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "ca6518564f45ea134c24bbace566fe45",
+			"ParentID": "af4ff5454b98930015da37909d9d500d",
 			"Name": "Cube 7",
 			"Transform": {
 				"Translation": {
@@ -1790,9 +2198,15 @@
 			}
 		},
 		{
-			"ID": "f934ea1442d332bad69da0b7a1e00759",
+			"ID": "b2c8fbf44643e089a349ebb5d55b3448",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "5a9d56574a717e1f9002939698d9369d",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "be59f1854c1de020df1fbba46a71fb08",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "ca6518564f45ea134c24bbace566fe45",
+			"ParentID": "af4ff5454b98930015da37909d9d500d",
 			"Name": "Cube 8",
 			"Transform": {
 				"Translation": {
@@ -1814,7 +2228,13 @@
 			}
 		},
 		{
-			"ID": "71830c45494d365785dc1ebc8ddec8d0",
+			"ID": "1f038f7149f7725116deaf8a359ae9bd",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "be59f1854c1de020df1fbba46a71fb08",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "8b92d9c54ecc6e08e21741bd29b08cfb",
 			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "cac02c4b4b4a213799820c83e0f4982d",
 			"Name": "Wall 6",
@@ -1827,9 +2247,9 @@
 			}
 		},
 		{
-			"ID": "a37179e2420bb072cd4b2cbc77f6bf6d",
+			"ID": "2fc7e6ca4fc57b6ae9942e941c07b142",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "71830c45494d365785dc1ebc8ddec8d0",
+			"ParentID": "8b92d9c54ecc6e08e21741bd29b08cfb",
 			"Name": "Cube",
 			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
 			"Buffer": {
@@ -1844,9 +2264,15 @@
 			}
 		},
 		{
-			"ID": "0d9fa31f4d9da172fb979a822907701f",
+			"ID": "c26cf0f74829dcaebd40d59a887b7685",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "2fc7e6ca4fc57b6ae9942e941c07b142",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "3ff132a240e8f83bcec82097006b3869",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "71830c45494d365785dc1ebc8ddec8d0",
+			"ParentID": "8b92d9c54ecc6e08e21741bd29b08cfb",
 			"Name": "Cube 0",
 			"Transform": {
 				"Translation": {
@@ -1868,9 +2294,15 @@
 			}
 		},
 		{
-			"ID": "03c646fa4448f1a883de42baaac45922",
+			"ID": "b212441245df3ee7f3ee9a9b0139aa68",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "3ff132a240e8f83bcec82097006b3869",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "f6b375f64c9b4c0b011fa2be6d524964",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "71830c45494d365785dc1ebc8ddec8d0",
+			"ParentID": "8b92d9c54ecc6e08e21741bd29b08cfb",
 			"Name": "Cube 1",
 			"Transform": {
 				"Translation": {
@@ -1892,9 +2324,15 @@
 			}
 		},
 		{
-			"ID": "26a53d1f47a99aaf422ead86021547bd",
+			"ID": "3b68e3af41c5d3d80ac0ed9aebd56786",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "f6b375f64c9b4c0b011fa2be6d524964",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "f6f8ee4843e15b404bcf2392a8cdddba",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "71830c45494d365785dc1ebc8ddec8d0",
+			"ParentID": "8b92d9c54ecc6e08e21741bd29b08cfb",
 			"Name": "Cube 2",
 			"Transform": {
 				"Translation": {
@@ -1916,9 +2354,15 @@
 			}
 		},
 		{
-			"ID": "b7daaf7c498bc058d8cd16b8870c2045",
+			"ID": "f327ce4346a9d9a257cf4992ffb5139c",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "f6f8ee4843e15b404bcf2392a8cdddba",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "6317c74f42e0c6a606455f872ca756c7",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "71830c45494d365785dc1ebc8ddec8d0",
+			"ParentID": "8b92d9c54ecc6e08e21741bd29b08cfb",
 			"Name": "Cube 3",
 			"Transform": {
 				"Translation": {
@@ -1940,9 +2384,15 @@
 			}
 		},
 		{
-			"ID": "e9ebf8a0458530361b13a3ab16903491",
+			"ID": "cc651d9440a61053637bffb471d26e3f",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "6317c74f42e0c6a606455f872ca756c7",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "405c3b154c8f65a31b4f299d65ea9291",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "71830c45494d365785dc1ebc8ddec8d0",
+			"ParentID": "8b92d9c54ecc6e08e21741bd29b08cfb",
 			"Name": "Cube 4",
 			"Transform": {
 				"Translation": {
@@ -1964,9 +2414,15 @@
 			}
 		},
 		{
-			"ID": "5f5c1af74a6a18ca7fb8b89dcaa7f26e",
+			"ID": "57b9dc994fa943bd30c970b07b41e76e",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "405c3b154c8f65a31b4f299d65ea9291",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "65a59dad454e719e7e93b7a8fc6582d2",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "71830c45494d365785dc1ebc8ddec8d0",
+			"ParentID": "8b92d9c54ecc6e08e21741bd29b08cfb",
 			"Name": "Cube 5",
 			"Transform": {
 				"Translation": {
@@ -1988,9 +2444,15 @@
 			}
 		},
 		{
-			"ID": "aecf9953422266b39b02168a04815a48",
+			"ID": "c5ff8f2d4c0a568864d4168b0f9f43f2",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "65a59dad454e719e7e93b7a8fc6582d2",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "77b9e67a47073cbaa65f3880d21a992d",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "71830c45494d365785dc1ebc8ddec8d0",
+			"ParentID": "8b92d9c54ecc6e08e21741bd29b08cfb",
 			"Name": "Cube 6",
 			"Transform": {
 				"Translation": {
@@ -2012,9 +2474,15 @@
 			}
 		},
 		{
-			"ID": "e0befd664116a5774eba6ca851a11927",
+			"ID": "ea18934c4bff43667f746baf005c90cd",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "77b9e67a47073cbaa65f3880d21a992d",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "74408c9f48daa89f69e0f89c0bb7ea80",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "71830c45494d365785dc1ebc8ddec8d0",
+			"ParentID": "8b92d9c54ecc6e08e21741bd29b08cfb",
 			"Name": "Cube 7",
 			"Transform": {
 				"Translation": {
@@ -2036,9 +2504,15 @@
 			}
 		},
 		{
-			"ID": "2f17a2554c62e1be259c99b795665404",
+			"ID": "c04e68934706904821d040a3822da877",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "74408c9f48daa89f69e0f89c0bb7ea80",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "8d06eee74bb67a7db5670e8a1e67b152",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "71830c45494d365785dc1ebc8ddec8d0",
+			"ParentID": "8b92d9c54ecc6e08e21741bd29b08cfb",
 			"Name": "Cube 8",
 			"Transform": {
 				"Translation": {
@@ -2060,15 +2534,21 @@
 			}
 		},
 		{
-			"ID": "519c416d4f0b1395bc74e381b7ded135",
+			"ID": "580a3dba4fb8373fd5dee699007ebd2d",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "8d06eee74bb67a7db5670e8a1e67b152",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "97006a224c8926084cce1786b8ad0b81",
 			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "cac02c4b4b4a213799820c83e0f4982d",
 			"Name": "Wall 7",
 			"Transform": {
 				"Translation": {
-					"X": 1250.0,
+					"X": -255.5465087890625,
 					"Y": 50.0,
-					"Z": -1450.0
+					"Z": -1450.000244140625
 				},
 				"Orientation": {
 					"X": 0.0,
@@ -2079,9 +2559,9 @@
 			}
 		},
 		{
-			"ID": "b60269bb4c3d8417b64188a95af5ef79",
+			"ID": "64663b524beec33e498b1386bfe05ef1",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "519c416d4f0b1395bc74e381b7ded135",
+			"ParentID": "97006a224c8926084cce1786b8ad0b81",
 			"Name": "Cube",
 			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
 			"Buffer": {
@@ -2096,9 +2576,15 @@
 			}
 		},
 		{
-			"ID": "cd970fbe4884bdc7eaecbe95d9478f91",
+			"ID": "f33d4fc647c0df450c91c9b32c36e363",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "64663b524beec33e498b1386bfe05ef1",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "ab7dcf8c48ab74322513659937758f20",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "519c416d4f0b1395bc74e381b7ded135",
+			"ParentID": "97006a224c8926084cce1786b8ad0b81",
 			"Name": "Cube 0",
 			"Transform": {
 				"Translation": {
@@ -2120,9 +2606,15 @@
 			}
 		},
 		{
-			"ID": "27e6c1d3461e8c948a8cac8bf5436360",
+			"ID": "552d6fdd47d976e95ba355b3841eb618",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "ab7dcf8c48ab74322513659937758f20",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "0af5386b4c795714e961f68f37933d84",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "519c416d4f0b1395bc74e381b7ded135",
+			"ParentID": "97006a224c8926084cce1786b8ad0b81",
 			"Name": "Cube 1",
 			"Transform": {
 				"Translation": {
@@ -2144,9 +2636,15 @@
 			}
 		},
 		{
-			"ID": "5c07079146a55908d64787b8dedebd36",
+			"ID": "109f1636434d34bcd830f985d51a9ea3",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "0af5386b4c795714e961f68f37933d84",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "a82bdd2f4f8a8f601e378c9e5dae05b7",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "519c416d4f0b1395bc74e381b7ded135",
+			"ParentID": "97006a224c8926084cce1786b8ad0b81",
 			"Name": "Cube 2",
 			"Transform": {
 				"Translation": {
@@ -2168,9 +2666,15 @@
 			}
 		},
 		{
-			"ID": "1f8c5b4e4fba83e0ae3f17979deba671",
+			"ID": "06d6de1f4e9c68a199775a828259b24b",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "a82bdd2f4f8a8f601e378c9e5dae05b7",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "bf097134496917cdad47e4bde987b1b8",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "519c416d4f0b1395bc74e381b7ded135",
+			"ParentID": "97006a224c8926084cce1786b8ad0b81",
 			"Name": "Cube 3",
 			"Transform": {
 				"Translation": {
@@ -2192,9 +2696,15 @@
 			}
 		},
 		{
-			"ID": "aa64c5084c726c56404026b8e54e9071",
+			"ID": "f03493a447f70d33b19dc6b875189216",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "bf097134496917cdad47e4bde987b1b8",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "bd7b03254324000a5fdd67ba72549b0d",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "519c416d4f0b1395bc74e381b7ded135",
+			"ParentID": "97006a224c8926084cce1786b8ad0b81",
 			"Name": "Cube 4",
 			"Transform": {
 				"Translation": {
@@ -2216,9 +2726,15 @@
 			}
 		},
 		{
-			"ID": "b78caf3b4166edd9921e52b0ae7fc4f6",
+			"ID": "0fb37b7440eaed8b5fdc93bcaf0294ea",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "bd7b03254324000a5fdd67ba72549b0d",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "6e0ff4ce4725b2c90d1e8baa89defab3",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "519c416d4f0b1395bc74e381b7ded135",
+			"ParentID": "97006a224c8926084cce1786b8ad0b81",
 			"Name": "Cube 5",
 			"Transform": {
 				"Translation": {
@@ -2240,9 +2756,15 @@
 			}
 		},
 		{
-			"ID": "86ecf0984932c53d81b2218a90d0454f",
+			"ID": "21979e414b441628909165b9e0613087",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "6e0ff4ce4725b2c90d1e8baa89defab3",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "aab5c91d452aa6786804a487b0b33560",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "519c416d4f0b1395bc74e381b7ded135",
+			"ParentID": "97006a224c8926084cce1786b8ad0b81",
 			"Name": "Cube 6",
 			"Transform": {
 				"Translation": {
@@ -2264,9 +2786,15 @@
 			}
 		},
 		{
-			"ID": "4a9d6e484985e3fed5c7ed9d1657479c",
+			"ID": "fa28bc794e2a75f1812167a0e4f50502",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "aab5c91d452aa6786804a487b0b33560",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "1c3197d642cd674ebfcb6598ce22525e",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "519c416d4f0b1395bc74e381b7ded135",
+			"ParentID": "97006a224c8926084cce1786b8ad0b81",
 			"Name": "Cube 7",
 			"Transform": {
 				"Translation": {
@@ -2288,9 +2816,15 @@
 			}
 		},
 		{
-			"ID": "0eee72854bd8161ad80db99fd3af123a",
+			"ID": "7a1b5030482e8d296f97cdaf250c1af0",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "1c3197d642cd674ebfcb6598ce22525e",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "c171d82b472db9527de622b2f13a1e05",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "519c416d4f0b1395bc74e381b7ded135",
+			"ParentID": "97006a224c8926084cce1786b8ad0b81",
 			"Name": "Cube 8",
 			"Transform": {
 				"Translation": {
@@ -2312,15 +2846,21 @@
 			}
 		},
 		{
-			"ID": "7e60c5de4b0b0565d21a6a9ee4b84d69",
+			"ID": "c19991e145f76b899a3dea857a67744e",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "c171d82b472db9527de622b2f13a1e05",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "fef5dfff4fc9c3ea3205c3b3d933f0ab",
 			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "cac02c4b4b4a213799820c83e0f4982d",
 			"Name": "Wall 8",
 			"Transform": {
 				"Translation": {
-					"X": 750.0,
+					"X": 244.45343017578126,
 					"Y": 50.0,
-					"Z": -1450.0
+					"Z": -1450.0001220703126
 				},
 				"Orientation": {
 					"X": 0.0,
@@ -2331,9 +2871,9 @@
 			}
 		},
 		{
-			"ID": "6ac01c2d45a72b11759efcaf0bd30965",
+			"ID": "0fadafdd46ae276ecc8c6d90be497428",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "7e60c5de4b0b0565d21a6a9ee4b84d69",
+			"ParentID": "fef5dfff4fc9c3ea3205c3b3d933f0ab",
 			"Name": "Cube",
 			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
 			"Buffer": {
@@ -2348,9 +2888,15 @@
 			}
 		},
 		{
-			"ID": "926fb8754432487993dfd18a73ee5265",
+			"ID": "a0523a594468bf0c0939de881258bd0f",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "0fadafdd46ae276ecc8c6d90be497428",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "eb64c4b448915566967841b4db3bf6c4",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "7e60c5de4b0b0565d21a6a9ee4b84d69",
+			"ParentID": "fef5dfff4fc9c3ea3205c3b3d933f0ab",
 			"Name": "Cube 0",
 			"Transform": {
 				"Translation": {
@@ -2372,9 +2918,15 @@
 			}
 		},
 		{
-			"ID": "84a71d5145da2936cb2a34ad11d3bf49",
+			"ID": "e6077f9a4ebf56d20ada09a0feac75c0",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "eb64c4b448915566967841b4db3bf6c4",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "f31d353240126035e7c1569222ea4cec",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "7e60c5de4b0b0565d21a6a9ee4b84d69",
+			"ParentID": "fef5dfff4fc9c3ea3205c3b3d933f0ab",
 			"Name": "Cube 1",
 			"Transform": {
 				"Translation": {
@@ -2396,9 +2948,15 @@
 			}
 		},
 		{
-			"ID": "e080a80e445f4549b4a03ea622d6e098",
+			"ID": "4a27f5a14754a5f42073688a3d8b2e9b",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "f31d353240126035e7c1569222ea4cec",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "5dca346a48447ce7116a95bb180ee2d3",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "7e60c5de4b0b0565d21a6a9ee4b84d69",
+			"ParentID": "fef5dfff4fc9c3ea3205c3b3d933f0ab",
 			"Name": "Cube 2",
 			"Transform": {
 				"Translation": {
@@ -2420,9 +2978,15 @@
 			}
 		},
 		{
-			"ID": "50f6f9794adda2dca65871ac1a8c4cf5",
+			"ID": "d0f1009145a1754540bea28bb4588ed5",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "5dca346a48447ce7116a95bb180ee2d3",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "861609a34bc6ad45fd6365a5aabb30d8",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "7e60c5de4b0b0565d21a6a9ee4b84d69",
+			"ParentID": "fef5dfff4fc9c3ea3205c3b3d933f0ab",
 			"Name": "Cube 3",
 			"Transform": {
 				"Translation": {
@@ -2444,9 +3008,15 @@
 			}
 		},
 		{
-			"ID": "c1b377d44b9835c0fc8cabae7b8f2485",
+			"ID": "6fa9a9a749729c1a6a4c5eb9bbff73ff",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "861609a34bc6ad45fd6365a5aabb30d8",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "ce8849744dff20bfa0c1f4bb8cacbde6",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "7e60c5de4b0b0565d21a6a9ee4b84d69",
+			"ParentID": "fef5dfff4fc9c3ea3205c3b3d933f0ab",
 			"Name": "Cube 4",
 			"Transform": {
 				"Translation": {
@@ -2468,9 +3038,15 @@
 			}
 		},
 		{
-			"ID": "1bdf66b64cc9f4323eee699d45c417d0",
+			"ID": "caf5107e494ba99c6147db8122d7ed55",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "ce8849744dff20bfa0c1f4bb8cacbde6",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "e72010134870de9260abba85a87a12a8",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "7e60c5de4b0b0565d21a6a9ee4b84d69",
+			"ParentID": "fef5dfff4fc9c3ea3205c3b3d933f0ab",
 			"Name": "Cube 5",
 			"Transform": {
 				"Translation": {
@@ -2492,9 +3068,15 @@
 			}
 		},
 		{
-			"ID": "ca09df094740549f57b7fb9e607607f7",
+			"ID": "b27902294ac37d425d4401b49573783f",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "e72010134870de9260abba85a87a12a8",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "f811315e452fe74dc439598a5ea54f07",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "7e60c5de4b0b0565d21a6a9ee4b84d69",
+			"ParentID": "fef5dfff4fc9c3ea3205c3b3d933f0ab",
 			"Name": "Cube 6",
 			"Transform": {
 				"Translation": {
@@ -2516,9 +3098,15 @@
 			}
 		},
 		{
-			"ID": "1065c2fa40613898c3f9c29f3bfb1874",
+			"ID": "3c1daf5f41850e573b5c7884c2328af0",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "f811315e452fe74dc439598a5ea54f07",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "7dc1ea82480abfedb0d756a05fb99bec",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "7e60c5de4b0b0565d21a6a9ee4b84d69",
+			"ParentID": "fef5dfff4fc9c3ea3205c3b3d933f0ab",
 			"Name": "Cube 7",
 			"Transform": {
 				"Translation": {
@@ -2540,9 +3128,15 @@
 			}
 		},
 		{
-			"ID": "1a664d4a43176586a45213842dc2e0c4",
+			"ID": "67f8e4c645d9532cdeaaba97437b2d90",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "7dc1ea82480abfedb0d756a05fb99bec",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "91516d9a42240d0d716a77870b60c6a0",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "7e60c5de4b0b0565d21a6a9ee4b84d69",
+			"ParentID": "fef5dfff4fc9c3ea3205c3b3d933f0ab",
 			"Name": "Cube 8",
 			"Transform": {
 				"Translation": {
@@ -2564,15 +3158,21 @@
 			}
 		},
 		{
-			"ID": "fb3f7af94f3776f95688fe9cdaa793be",
+			"ID": "9efa7e374299b41a8e3139804644078d",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "91516d9a42240d0d716a77870b60c6a0",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "2a9559b844bd6d1cdb54aba1f1621094",
 			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "cac02c4b4b4a213799820c83e0f4982d",
 			"Name": "Wall 9",
 			"Transform": {
 				"Translation": {
-					"X": 250.0,
+					"X": 744.453369140625,
 					"Y": 50.0,
-					"Z": -1450.0
+					"Z": -1450.0001220703126
 				},
 				"Orientation": {
 					"X": 0.0,
@@ -2583,9 +3183,9 @@
 			}
 		},
 		{
-			"ID": "08b201a8436fd38917f54a819fee69d0",
+			"ID": "38f0f9a24f8237e7e3a39f9fdc343ade",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "fb3f7af94f3776f95688fe9cdaa793be",
+			"ParentID": "2a9559b844bd6d1cdb54aba1f1621094",
 			"Name": "Cube",
 			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
 			"Buffer": {
@@ -2600,9 +3200,15 @@
 			}
 		},
 		{
-			"ID": "250f0beb48c9e4d1f1e72a88e0c72418",
+			"ID": "a0ffcf4d4a92e228337548bfddfef275",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "38f0f9a24f8237e7e3a39f9fdc343ade",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "592d1147473b8ac6de9bcd8f517e39d3",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "fb3f7af94f3776f95688fe9cdaa793be",
+			"ParentID": "2a9559b844bd6d1cdb54aba1f1621094",
 			"Name": "Cube 0",
 			"Transform": {
 				"Translation": {
@@ -2624,9 +3230,15 @@
 			}
 		},
 		{
-			"ID": "97c8daab455f98bd130e30878571a1bb",
+			"ID": "707201074e896fd4d9a0eeac84f5354c",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "592d1147473b8ac6de9bcd8f517e39d3",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "4d5e6b18447be30bbb2f179973a43812",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "fb3f7af94f3776f95688fe9cdaa793be",
+			"ParentID": "2a9559b844bd6d1cdb54aba1f1621094",
 			"Name": "Cube 1",
 			"Transform": {
 				"Translation": {
@@ -2648,9 +3260,15 @@
 			}
 		},
 		{
-			"ID": "cc630b6645db9619b7c78d8b7842fa95",
+			"ID": "12dcd0e64edfb7d51d2881ba90d296d1",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "4d5e6b18447be30bbb2f179973a43812",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "e55e4a174b3bcedfc2ac8990a4a4098d",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "fb3f7af94f3776f95688fe9cdaa793be",
+			"ParentID": "2a9559b844bd6d1cdb54aba1f1621094",
 			"Name": "Cube 2",
 			"Transform": {
 				"Translation": {
@@ -2672,9 +3290,15 @@
 			}
 		},
 		{
-			"ID": "461fa09e4988a5d4165f5bb3d1797144",
+			"ID": "b40dc738408f9d75a044f08924202e9a",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "e55e4a174b3bcedfc2ac8990a4a4098d",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "f31af4e348a39d549ef75d9a051e8e80",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "fb3f7af94f3776f95688fe9cdaa793be",
+			"ParentID": "2a9559b844bd6d1cdb54aba1f1621094",
 			"Name": "Cube 3",
 			"Transform": {
 				"Translation": {
@@ -2696,9 +3320,15 @@
 			}
 		},
 		{
-			"ID": "8afab6024520e89329d49b93e8e21953",
+			"ID": "3dc8e2264431ce8be756aab3ee6d5c08",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "f31af4e348a39d549ef75d9a051e8e80",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "a02a766f459f9eb1e5fefc8902a475a7",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "fb3f7af94f3776f95688fe9cdaa793be",
+			"ParentID": "2a9559b844bd6d1cdb54aba1f1621094",
 			"Name": "Cube 4",
 			"Transform": {
 				"Translation": {
@@ -2720,9 +3350,15 @@
 			}
 		},
 		{
-			"ID": "02b472684a49e9ffb652dd963da00034",
+			"ID": "9ac408ac4e858d25899759baa540854c",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "a02a766f459f9eb1e5fefc8902a475a7",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "581a6d0841f77c9d88183b979dff14a0",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "fb3f7af94f3776f95688fe9cdaa793be",
+			"ParentID": "2a9559b844bd6d1cdb54aba1f1621094",
 			"Name": "Cube 5",
 			"Transform": {
 				"Translation": {
@@ -2744,9 +3380,15 @@
 			}
 		},
 		{
-			"ID": "eccb47d04e5c6484d04bb4b5e906424c",
+			"ID": "938a205547a2d5b0f161089673842fa3",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "581a6d0841f77c9d88183b979dff14a0",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "4db25c4b4442adbd05a013a010d75d83",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "fb3f7af94f3776f95688fe9cdaa793be",
+			"ParentID": "2a9559b844bd6d1cdb54aba1f1621094",
 			"Name": "Cube 6",
 			"Transform": {
 				"Translation": {
@@ -2768,9 +3410,15 @@
 			}
 		},
 		{
-			"ID": "73cd911149ef079b9a90b099db8f6c1d",
+			"ID": "4b30c8b245cdc4a82a6722a7e3f55e08",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "4db25c4b4442adbd05a013a010d75d83",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "5fc1d56740010b035ddeeea9952ddada",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "fb3f7af94f3776f95688fe9cdaa793be",
+			"ParentID": "2a9559b844bd6d1cdb54aba1f1621094",
 			"Name": "Cube 7",
 			"Transform": {
 				"Translation": {
@@ -2792,9 +3440,15 @@
 			}
 		},
 		{
-			"ID": "3f546e3b4524ea3a8b1a6dbbdf819e33",
+			"ID": "0489c2594fbe8fe00e7a2f97c3b31769",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "5fc1d56740010b035ddeeea9952ddada",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "844456ba41f1f633c5967c841f462fb9",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "fb3f7af94f3776f95688fe9cdaa793be",
+			"ParentID": "2a9559b844bd6d1cdb54aba1f1621094",
 			"Name": "Cube 8",
 			"Transform": {
 				"Translation": {
@@ -2816,13 +3470,19 @@
 			}
 		},
 		{
-			"ID": "c825bf6c4bd2dfffd5093cb1987f7397",
+			"ID": "c44420e241ad3c9dc9c29fa233e7fde2",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "844456ba41f1f633c5967c841f462fb9",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "ad8c11d14854b911b33afb8cc25ffebd",
 			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "cac02c4b4b4a213799820c83e0f4982d",
 			"Name": "Wall 10",
 			"Transform": {
 				"Translation": {
-					"X": -250.0,
+					"X": 1244.453369140625,
 					"Y": 50.0,
 					"Z": -1450.0
 				},
@@ -2835,9 +3495,9 @@
 			}
 		},
 		{
-			"ID": "f5ea8e274ce7a84b5dad6380bd4f9540",
+			"ID": "4c1b68094f489c289ac41cae1b4b15b2",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "c825bf6c4bd2dfffd5093cb1987f7397",
+			"ParentID": "ad8c11d14854b911b33afb8cc25ffebd",
 			"Name": "Cube",
 			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
 			"Buffer": {
@@ -2852,9 +3512,15 @@
 			}
 		},
 		{
-			"ID": "89d834bf49bc3837a9b2bf910c1a87eb",
+			"ID": "b32c39474ed7116d181a12ba31fc4726",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "4c1b68094f489c289ac41cae1b4b15b2",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "025450764cc125f0289987a386a2aad5",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "c825bf6c4bd2dfffd5093cb1987f7397",
+			"ParentID": "ad8c11d14854b911b33afb8cc25ffebd",
 			"Name": "Cube 0",
 			"Transform": {
 				"Translation": {
@@ -2876,9 +3542,15 @@
 			}
 		},
 		{
-			"ID": "2116a567472454fea0803e9758891b7f",
+			"ID": "98eef50843c01cca7622cb895d9891e1",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "025450764cc125f0289987a386a2aad5",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "8f5f015542bc94263d9ba8bb57bc8ab3",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "c825bf6c4bd2dfffd5093cb1987f7397",
+			"ParentID": "ad8c11d14854b911b33afb8cc25ffebd",
 			"Name": "Cube 1",
 			"Transform": {
 				"Translation": {
@@ -2900,9 +3572,15 @@
 			}
 		},
 		{
-			"ID": "5142606b4b7e8bf9303ecf9712f99054",
+			"ID": "fdf459b3463c6c83fc99fdb51acdcb2b",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "8f5f015542bc94263d9ba8bb57bc8ab3",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "5d68030449a101fa698532921112161c",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "c825bf6c4bd2dfffd5093cb1987f7397",
+			"ParentID": "ad8c11d14854b911b33afb8cc25ffebd",
 			"Name": "Cube 2",
 			"Transform": {
 				"Translation": {
@@ -2924,9 +3602,15 @@
 			}
 		},
 		{
-			"ID": "3192e30847c5df67272eb7a11086abb4",
+			"ID": "0ab69cd04a44551e6496f393824d81cb",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "5d68030449a101fa698532921112161c",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "d788783a4bc0e3a6a25b65a3cd3fac3a",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "c825bf6c4bd2dfffd5093cb1987f7397",
+			"ParentID": "ad8c11d14854b911b33afb8cc25ffebd",
 			"Name": "Cube 3",
 			"Transform": {
 				"Translation": {
@@ -2948,9 +3632,15 @@
 			}
 		},
 		{
-			"ID": "bda22536430043c8184f0590a778de95",
+			"ID": "9fe1d44d472e49aa16329ebc129e3317",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "d788783a4bc0e3a6a25b65a3cd3fac3a",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "8ddd779b4d3758a7e5d56f8bc64614c0",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "c825bf6c4bd2dfffd5093cb1987f7397",
+			"ParentID": "ad8c11d14854b911b33afb8cc25ffebd",
 			"Name": "Cube 4",
 			"Transform": {
 				"Translation": {
@@ -2972,9 +3662,15 @@
 			}
 		},
 		{
-			"ID": "920319a5419733eaa671e983ad34ca10",
+			"ID": "475655824fe46b7b3a2c3ea1ff99af0d",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "8ddd779b4d3758a7e5d56f8bc64614c0",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "5d2656494410eee0d37b62965b13266b",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "c825bf6c4bd2dfffd5093cb1987f7397",
+			"ParentID": "ad8c11d14854b911b33afb8cc25ffebd",
 			"Name": "Cube 5",
 			"Transform": {
 				"Translation": {
@@ -2996,9 +3692,15 @@
 			}
 		},
 		{
-			"ID": "01352d94463db41617c774a0fc26df14",
+			"ID": "04f897b141ee34a19aa49d84d62d5c43",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "5d2656494410eee0d37b62965b13266b",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "650c681b4fd4e113ccb2b4a7cae13002",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "c825bf6c4bd2dfffd5093cb1987f7397",
+			"ParentID": "ad8c11d14854b911b33afb8cc25ffebd",
 			"Name": "Cube 6",
 			"Transform": {
 				"Translation": {
@@ -3020,9 +3722,15 @@
 			}
 		},
 		{
-			"ID": "3d99f54245566bfed6811ea932f91f4d",
+			"ID": "3532f2354bf41c6598c8968fc53b9240",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "650c681b4fd4e113ccb2b4a7cae13002",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "af77777e48f3f491bbc388b656d51bb7",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "c825bf6c4bd2dfffd5093cb1987f7397",
+			"ParentID": "ad8c11d14854b911b33afb8cc25ffebd",
 			"Name": "Cube 7",
 			"Transform": {
 				"Translation": {
@@ -3044,9 +3752,15 @@
 			}
 		},
 		{
-			"ID": "70042c3348f953c7b77377bcaf5f0162",
+			"ID": "18e4c7a94bb3bb02321adaaa2566f550",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "af77777e48f3f491bbc388b656d51bb7",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "9ac9d0c3494168c5a80f779748425a31",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "c825bf6c4bd2dfffd5093cb1987f7397",
+			"ParentID": "ad8c11d14854b911b33afb8cc25ffebd",
 			"Name": "Cube 8",
 			"Transform": {
 				"Translation": {
@@ -3068,15 +3782,21 @@
 			}
 		},
 		{
-			"ID": "3f4182ac452f33e3a7a4fd8d345cb9e8",
+			"ID": "aed05db24e7e832073a4e19cb2639687",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "9ac9d0c3494168c5a80f779748425a31",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "e4a509034c37bbe37cdea98507ef8b8f",
 			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "cac02c4b4b4a213799820c83e0f4982d",
 			"Name": "Wall 11",
 			"Transform": {
 				"Translation": {
-					"X": 1250.0,
+					"X": -255.54676818847657,
 					"Y": 50.0,
-					"Z": 450.0
+					"Z": 449.9998779296875
 				},
 				"Orientation": {
 					"X": 0.0,
@@ -3087,9 +3807,9 @@
 			}
 		},
 		{
-			"ID": "c1a4808d4129ce526d390fb5aeb05827",
+			"ID": "dc6e9e4449b544e4586aca89e40a0fb4",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "3f4182ac452f33e3a7a4fd8d345cb9e8",
+			"ParentID": "e4a509034c37bbe37cdea98507ef8b8f",
 			"Name": "Cube",
 			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
 			"Buffer": {
@@ -3104,9 +3824,15 @@
 			}
 		},
 		{
-			"ID": "0fa13c2f4015bd9d5fb3ada82f39c80a",
+			"ID": "220a930543015a2334163eac0ea4404f",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "dc6e9e4449b544e4586aca89e40a0fb4",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "e15ca9f747e807b76f3fc996830ed990",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "3f4182ac452f33e3a7a4fd8d345cb9e8",
+			"ParentID": "e4a509034c37bbe37cdea98507ef8b8f",
 			"Name": "Cube 0",
 			"Transform": {
 				"Translation": {
@@ -3128,9 +3854,15 @@
 			}
 		},
 		{
-			"ID": "70f2e635439aacd39ccc66857ebbf61f",
+			"ID": "880887794a421771769b1880f175aca3",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "e15ca9f747e807b76f3fc996830ed990",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "a1777a4640f2e1113bf9cab46c9e27ec",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "3f4182ac452f33e3a7a4fd8d345cb9e8",
+			"ParentID": "e4a509034c37bbe37cdea98507ef8b8f",
 			"Name": "Cube 1",
 			"Transform": {
 				"Translation": {
@@ -3152,9 +3884,15 @@
 			}
 		},
 		{
-			"ID": "63b6304647842d37e2a58ba29020b016",
+			"ID": "c9d992e5488ff3732b5a45b2b2d95126",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "a1777a4640f2e1113bf9cab46c9e27ec",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "25673de841f9052ddcc00ca27dcea387",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "3f4182ac452f33e3a7a4fd8d345cb9e8",
+			"ParentID": "e4a509034c37bbe37cdea98507ef8b8f",
 			"Name": "Cube 2",
 			"Transform": {
 				"Translation": {
@@ -3176,9 +3914,15 @@
 			}
 		},
 		{
-			"ID": "261d4256454d1d64180a39b02b0435a3",
+			"ID": "47d71b3b42ed6fb0eb7f43bab1978ccd",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "25673de841f9052ddcc00ca27dcea387",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "ac09f47d474d12dc2c03fe96c7159562",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "3f4182ac452f33e3a7a4fd8d345cb9e8",
+			"ParentID": "e4a509034c37bbe37cdea98507ef8b8f",
 			"Name": "Cube 3",
 			"Transform": {
 				"Translation": {
@@ -3200,9 +3944,15 @@
 			}
 		},
 		{
-			"ID": "6808256243406939ae9f9aa8be49ef92",
+			"ID": "554370ca476c9c530e7258acfb12bb28",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "ac09f47d474d12dc2c03fe96c7159562",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "0572c8c64eb4c1c1598efd8b5d8b43dc",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "3f4182ac452f33e3a7a4fd8d345cb9e8",
+			"ParentID": "e4a509034c37bbe37cdea98507ef8b8f",
 			"Name": "Cube 4",
 			"Transform": {
 				"Translation": {
@@ -3224,9 +3974,15 @@
 			}
 		},
 		{
-			"ID": "d7fbdf4e41a18bea6683319ca507777b",
+			"ID": "b5b4aec0407ae792f2e553a8f75aeccb",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "0572c8c64eb4c1c1598efd8b5d8b43dc",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "af0ca6a14e22b4f3d82f80bf0a3d7147",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "3f4182ac452f33e3a7a4fd8d345cb9e8",
+			"ParentID": "e4a509034c37bbe37cdea98507ef8b8f",
 			"Name": "Cube 5",
 			"Transform": {
 				"Translation": {
@@ -3248,9 +4004,15 @@
 			}
 		},
 		{
-			"ID": "29f7799d44a6ffbe9e41f481fb23ed08",
+			"ID": "0728119c49df0d5c35707595ee34bc18",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "af0ca6a14e22b4f3d82f80bf0a3d7147",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "66e360c14f99f601b3a828a9a8e9842c",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "3f4182ac452f33e3a7a4fd8d345cb9e8",
+			"ParentID": "e4a509034c37bbe37cdea98507ef8b8f",
 			"Name": "Cube 6",
 			"Transform": {
 				"Translation": {
@@ -3272,9 +4034,15 @@
 			}
 		},
 		{
-			"ID": "1530d3144e633533e606688879b3874b",
+			"ID": "e66d67f1464c07755e9d9c8026fcce37",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "66e360c14f99f601b3a828a9a8e9842c",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "24f7d10e445f49231357c2a6206f79c3",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "3f4182ac452f33e3a7a4fd8d345cb9e8",
+			"ParentID": "e4a509034c37bbe37cdea98507ef8b8f",
 			"Name": "Cube 7",
 			"Transform": {
 				"Translation": {
@@ -3296,9 +4064,15 @@
 			}
 		},
 		{
-			"ID": "9b00a1e14d95c8588fb6b4934dcda7cf",
+			"ID": "539c0b914670ab7dab2c819a0638ddd6",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "24f7d10e445f49231357c2a6206f79c3",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "3867075b4b290c0a92cfe18d6387557f",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "3f4182ac452f33e3a7a4fd8d345cb9e8",
+			"ParentID": "e4a509034c37bbe37cdea98507ef8b8f",
 			"Name": "Cube 8",
 			"Transform": {
 				"Translation": {
@@ -3320,13 +4094,19 @@
 			}
 		},
 		{
-			"ID": "bb1eebbc4f91fafd59c5e3b6fb019400",
+			"ID": "221eef6244d1a3238c78d6a17079ab93",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "3867075b4b290c0a92cfe18d6387557f",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "b3317376484c33cafbc1beb024d1d79b",
 			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "cac02c4b4b4a213799820c83e0f4982d",
 			"Name": "Wall 12",
 			"Transform": {
 				"Translation": {
-					"X": 750.0,
+					"X": 244.4531707763672,
 					"Y": 50.0,
 					"Z": 450.0
 				},
@@ -3339,9 +4119,9 @@
 			}
 		},
 		{
-			"ID": "84366e964d794e694f115d89d66da9ae",
+			"ID": "3e882e4141c22ba7bb56dab3b6471520",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "bb1eebbc4f91fafd59c5e3b6fb019400",
+			"ParentID": "b3317376484c33cafbc1beb024d1d79b",
 			"Name": "Cube",
 			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
 			"Buffer": {
@@ -3356,9 +4136,15 @@
 			}
 		},
 		{
-			"ID": "5284688045e4f06c46e31b8fd8a9729e",
+			"ID": "9b90540945076120e1c5158751172512",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "3e882e4141c22ba7bb56dab3b6471520",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "974761a2419f9b405550a1ab2438ed18",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "bb1eebbc4f91fafd59c5e3b6fb019400",
+			"ParentID": "b3317376484c33cafbc1beb024d1d79b",
 			"Name": "Cube 0",
 			"Transform": {
 				"Translation": {
@@ -3380,9 +4166,15 @@
 			}
 		},
 		{
-			"ID": "18acd9da48329061aaee32859dddb5f6",
+			"ID": "62c70ac544f7b1f4cd332bbf3a72579c",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "974761a2419f9b405550a1ab2438ed18",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "9372a4574c067264eca424a9749428e6",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "bb1eebbc4f91fafd59c5e3b6fb019400",
+			"ParentID": "b3317376484c33cafbc1beb024d1d79b",
 			"Name": "Cube 1",
 			"Transform": {
 				"Translation": {
@@ -3404,9 +4196,15 @@
 			}
 		},
 		{
-			"ID": "0d738737434c6adf0503aaa572b82be8",
+			"ID": "e47270ec412cf8f0fd972896daff5397",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "9372a4574c067264eca424a9749428e6",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "55697f5745cdd3ca706b95846f0e7716",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "bb1eebbc4f91fafd59c5e3b6fb019400",
+			"ParentID": "b3317376484c33cafbc1beb024d1d79b",
 			"Name": "Cube 2",
 			"Transform": {
 				"Translation": {
@@ -3428,9 +4226,15 @@
 			}
 		},
 		{
-			"ID": "99466a724706fa817f9680bd36e479b9",
+			"ID": "44732f7c4ea46cb2988509abf29d1760",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "55697f5745cdd3ca706b95846f0e7716",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "a9d7e1874abf6b4b4c6c409c7b824949",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "bb1eebbc4f91fafd59c5e3b6fb019400",
+			"ParentID": "b3317376484c33cafbc1beb024d1d79b",
 			"Name": "Cube 3",
 			"Transform": {
 				"Translation": {
@@ -3452,9 +4256,15 @@
 			}
 		},
 		{
-			"ID": "1ac54ba54f4073927fac0888608ba8fc",
+			"ID": "bb5a1f9e4995c09ccfbacdb694b5a381",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "a9d7e1874abf6b4b4c6c409c7b824949",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "c0065b38484cc9869ff02886e75df43e",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "bb1eebbc4f91fafd59c5e3b6fb019400",
+			"ParentID": "b3317376484c33cafbc1beb024d1d79b",
 			"Name": "Cube 4",
 			"Transform": {
 				"Translation": {
@@ -3476,9 +4286,15 @@
 			}
 		},
 		{
-			"ID": "1e4821b642a06927531181a032d08d59",
+			"ID": "86a33ef941977fa41fc4b982fd27b18c",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "c0065b38484cc9869ff02886e75df43e",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "1d5676644dd99b3d590c138739f601cb",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "bb1eebbc4f91fafd59c5e3b6fb019400",
+			"ParentID": "b3317376484c33cafbc1beb024d1d79b",
 			"Name": "Cube 5",
 			"Transform": {
 				"Translation": {
@@ -3500,9 +4316,15 @@
 			}
 		},
 		{
-			"ID": "14c09473408da0fa7a877db2a2859b01",
+			"ID": "c0b8827f476c62f5ac1436bcb44f42e7",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "1d5676644dd99b3d590c138739f601cb",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "b63e77d54bb5d7ba831c51add4dce23f",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "bb1eebbc4f91fafd59c5e3b6fb019400",
+			"ParentID": "b3317376484c33cafbc1beb024d1d79b",
 			"Name": "Cube 6",
 			"Transform": {
 				"Translation": {
@@ -3524,9 +4346,15 @@
 			}
 		},
 		{
-			"ID": "b674e51c43e314a0c3d73aaaed0d91ae",
+			"ID": "62c0f8db40122f305bba89802f9e6a7e",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "b63e77d54bb5d7ba831c51add4dce23f",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "6fb78db243ad7d3be0abf5b42bbc297b",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "bb1eebbc4f91fafd59c5e3b6fb019400",
+			"ParentID": "b3317376484c33cafbc1beb024d1d79b",
 			"Name": "Cube 7",
 			"Transform": {
 				"Translation": {
@@ -3548,9 +4376,15 @@
 			}
 		},
 		{
-			"ID": "e5345a6f43ce095a36a1e88d873b4d4a",
+			"ID": "574dca42459804ef68380b91225f4033",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "6fb78db243ad7d3be0abf5b42bbc297b",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "8141cd3942be1daff728389e01c429d4",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "bb1eebbc4f91fafd59c5e3b6fb019400",
+			"ParentID": "b3317376484c33cafbc1beb024d1d79b",
 			"Name": "Cube 8",
 			"Transform": {
 				"Translation": {
@@ -3572,13 +4406,19 @@
 			}
 		},
 		{
-			"ID": "a8ddebbd4b675f9a44bdee8e35e8f370",
+			"ID": "ae49241d45be9881e0bb8c8dd91435c6",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "8141cd3942be1daff728389e01c429d4",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "2440887d4463021107c3f6a2397d9adc",
 			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "cac02c4b4b4a213799820c83e0f4982d",
 			"Name": "Wall 13",
 			"Transform": {
 				"Translation": {
-					"X": 250.0,
+					"X": 744.4533081054688,
 					"Y": 50.0,
 					"Z": 450.0
 				},
@@ -3591,9 +4431,9 @@
 			}
 		},
 		{
-			"ID": "e3378adb44782d5b42cdb09737645ec4",
+			"ID": "3bfacdd2411c3f03b8dd2a9156db3929",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "a8ddebbd4b675f9a44bdee8e35e8f370",
+			"ParentID": "2440887d4463021107c3f6a2397d9adc",
 			"Name": "Cube",
 			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
 			"Buffer": {
@@ -3608,9 +4448,15 @@
 			}
 		},
 		{
-			"ID": "c3e1ab3b4edcbb7a9ff2d89c7787bade",
+			"ID": "318e61a349162843471ce6a014f60441",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "3bfacdd2411c3f03b8dd2a9156db3929",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "93a8d52844642c6697747ab654a0eab0",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "a8ddebbd4b675f9a44bdee8e35e8f370",
+			"ParentID": "2440887d4463021107c3f6a2397d9adc",
 			"Name": "Cube 0",
 			"Transform": {
 				"Translation": {
@@ -3632,9 +4478,15 @@
 			}
 		},
 		{
-			"ID": "e9ddd0aa41fdc85f73cbe1a9d8327d79",
+			"ID": "0ed0761c4c10bca1883e7e804727e87c",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "93a8d52844642c6697747ab654a0eab0",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "79f14baf43440d32d7ef54b404132b93",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "a8ddebbd4b675f9a44bdee8e35e8f370",
+			"ParentID": "2440887d4463021107c3f6a2397d9adc",
 			"Name": "Cube 1",
 			"Transform": {
 				"Translation": {
@@ -3656,9 +4508,15 @@
 			}
 		},
 		{
-			"ID": "fec2cdc840712354fb8848b4e82d0df5",
+			"ID": "e5b4ac5f4f10a7357963ee8aed3f1ff1",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "79f14baf43440d32d7ef54b404132b93",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "02b15336410c415886051b9e7a1482cb",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "a8ddebbd4b675f9a44bdee8e35e8f370",
+			"ParentID": "2440887d4463021107c3f6a2397d9adc",
 			"Name": "Cube 2",
 			"Transform": {
 				"Translation": {
@@ -3680,9 +4538,15 @@
 			}
 		},
 		{
-			"ID": "80033ca642fc77d8295cc7845fd20480",
+			"ID": "d784ba8b42eace2a6c4a7abc428d1d6c",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "02b15336410c415886051b9e7a1482cb",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "9c99798d44bc75901cac44a9ada6bf8b",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "a8ddebbd4b675f9a44bdee8e35e8f370",
+			"ParentID": "2440887d4463021107c3f6a2397d9adc",
 			"Name": "Cube 3",
 			"Transform": {
 				"Translation": {
@@ -3704,9 +4568,15 @@
 			}
 		},
 		{
-			"ID": "3e500cb34c338bccb3e9738472d1a637",
+			"ID": "8d9b3dcf4cd0eb5ec4382c93eaaa3769",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "9c99798d44bc75901cac44a9ada6bf8b",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "f0d1082f4f4cc17f9755268d30791fba",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "a8ddebbd4b675f9a44bdee8e35e8f370",
+			"ParentID": "2440887d4463021107c3f6a2397d9adc",
 			"Name": "Cube 4",
 			"Transform": {
 				"Translation": {
@@ -3728,9 +4598,15 @@
 			}
 		},
 		{
-			"ID": "1833a4cc4ecffc48166c2eb62bdaf133",
+			"ID": "c0452ec2409dcb9d344ede9048102f5a",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "f0d1082f4f4cc17f9755268d30791fba",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "274e0376470dc02f9c31c6a4cf3b0a90",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "a8ddebbd4b675f9a44bdee8e35e8f370",
+			"ParentID": "2440887d4463021107c3f6a2397d9adc",
 			"Name": "Cube 5",
 			"Transform": {
 				"Translation": {
@@ -3752,9 +4628,15 @@
 			}
 		},
 		{
-			"ID": "0f85fc7a4cb429646ca409a091111ab2",
+			"ID": "885301b2448346e2dd55d7806ac6fc8d",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "274e0376470dc02f9c31c6a4cf3b0a90",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "31065ffd4366d4787f5d04be7dfad969",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "a8ddebbd4b675f9a44bdee8e35e8f370",
+			"ParentID": "2440887d4463021107c3f6a2397d9adc",
 			"Name": "Cube 6",
 			"Transform": {
 				"Translation": {
@@ -3776,9 +4658,15 @@
 			}
 		},
 		{
-			"ID": "8db4b6914df871cd739a938cabd3d98c",
+			"ID": "71afe46a479ed1c5a77854ad7066c205",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "31065ffd4366d4787f5d04be7dfad969",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "73723ce142d662ad0332d198009a3413",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "a8ddebbd4b675f9a44bdee8e35e8f370",
+			"ParentID": "2440887d4463021107c3f6a2397d9adc",
 			"Name": "Cube 7",
 			"Transform": {
 				"Translation": {
@@ -3800,9 +4688,15 @@
 			}
 		},
 		{
-			"ID": "c7bce659493ddab1cd827382780b8b33",
+			"ID": "2596647e43f327d0e55e6bae1d6db236",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "73723ce142d662ad0332d198009a3413",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "d5a6202f4452868d7db3d4bd514a00a3",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "a8ddebbd4b675f9a44bdee8e35e8f370",
+			"ParentID": "2440887d4463021107c3f6a2397d9adc",
 			"Name": "Cube 8",
 			"Transform": {
 				"Translation": {
@@ -3824,15 +4718,21 @@
 			}
 		},
 		{
-			"ID": "700fe27246af1fecc187d699c680fd4f",
+			"ID": "dc01009749d60ebc763e1abc3947cd5d",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "d5a6202f4452868d7db3d4bd514a00a3",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "cd03b8374a8e4a8a884b7693d7e92996",
 			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "cac02c4b4b4a213799820c83e0f4982d",
 			"Name": "Wall 14",
 			"Transform": {
 				"Translation": {
-					"X": -250.0,
+					"X": 1244.453369140625,
 					"Y": 50.0,
-					"Z": 450.0
+					"Z": 450.0001220703125
 				},
 				"Orientation": {
 					"X": 0.0,
@@ -3843,9 +4743,9 @@
 			}
 		},
 		{
-			"ID": "9c7a43fd4bf79a69654967b228d0a632",
+			"ID": "9b943d934f880e8740cf3e8d5347513e",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "700fe27246af1fecc187d699c680fd4f",
+			"ParentID": "cd03b8374a8e4a8a884b7693d7e92996",
 			"Name": "Cube",
 			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
 			"Buffer": {
@@ -3860,9 +4760,15 @@
 			}
 		},
 		{
-			"ID": "5d227f3644ebeb161217ebb78bc7edee",
+			"ID": "58dc1b704516dd146ad463bedeed86f2",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "9b943d934f880e8740cf3e8d5347513e",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "618ed88b4955ce61d028eba60948aae1",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "700fe27246af1fecc187d699c680fd4f",
+			"ParentID": "cd03b8374a8e4a8a884b7693d7e92996",
 			"Name": "Cube 0",
 			"Transform": {
 				"Translation": {
@@ -3884,9 +4790,15 @@
 			}
 		},
 		{
-			"ID": "2fff2ea645915597ea67e3b9166f5395",
+			"ID": "e11b6c59476b0214be53779424f674f9",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "618ed88b4955ce61d028eba60948aae1",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "0e2c3e464283a002ee10d3a9ac6348c8",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "700fe27246af1fecc187d699c680fd4f",
+			"ParentID": "cd03b8374a8e4a8a884b7693d7e92996",
 			"Name": "Cube 1",
 			"Transform": {
 				"Translation": {
@@ -3908,9 +4820,15 @@
 			}
 		},
 		{
-			"ID": "e769650848764e51a41702aa4840f240",
+			"ID": "68ca6bf14259d038aa95d2a0ab54b72c",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "0e2c3e464283a002ee10d3a9ac6348c8",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "829812fb425642b3cc4d77b0e3d942a5",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "700fe27246af1fecc187d699c680fd4f",
+			"ParentID": "cd03b8374a8e4a8a884b7693d7e92996",
 			"Name": "Cube 2",
 			"Transform": {
 				"Translation": {
@@ -3932,9 +4850,15 @@
 			}
 		},
 		{
-			"ID": "d016a87943ac7ef1d88346943235d43b",
+			"ID": "90087c9e4e944e1785e40e924fdd95c1",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "829812fb425642b3cc4d77b0e3d942a5",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "34557bfa43a2881cdd361baf9bf10623",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "700fe27246af1fecc187d699c680fd4f",
+			"ParentID": "cd03b8374a8e4a8a884b7693d7e92996",
 			"Name": "Cube 3",
 			"Transform": {
 				"Translation": {
@@ -3956,9 +4880,15 @@
 			}
 		},
 		{
-			"ID": "1c97834e49bcb358ddc84787bb9c665b",
+			"ID": "e286863447b305a8b9662f835bbc57d0",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "34557bfa43a2881cdd361baf9bf10623",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "8184005642efbc1bfd2a8b89b7208de3",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "700fe27246af1fecc187d699c680fd4f",
+			"ParentID": "cd03b8374a8e4a8a884b7693d7e92996",
 			"Name": "Cube 4",
 			"Transform": {
 				"Translation": {
@@ -3980,9 +4910,15 @@
 			}
 		},
 		{
-			"ID": "9f0ce0dc41e69fa66dc2b394c40a1955",
+			"ID": "c24d51ce4afcd89f7e929fa971331343",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "8184005642efbc1bfd2a8b89b7208de3",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "a56248b442dff1b7f756f58d17891657",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "700fe27246af1fecc187d699c680fd4f",
+			"ParentID": "cd03b8374a8e4a8a884b7693d7e92996",
 			"Name": "Cube 5",
 			"Transform": {
 				"Translation": {
@@ -4004,9 +4940,15 @@
 			}
 		},
 		{
-			"ID": "65adb26645e555ce0b1f54847ba00509",
+			"ID": "dc32810e4662e3708547b891011cf040",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "a56248b442dff1b7f756f58d17891657",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "66cb9e134b2c4b7fd6c1d4b249621c22",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "700fe27246af1fecc187d699c680fd4f",
+			"ParentID": "cd03b8374a8e4a8a884b7693d7e92996",
 			"Name": "Cube 6",
 			"Transform": {
 				"Translation": {
@@ -4028,9 +4970,15 @@
 			}
 		},
 		{
-			"ID": "588c1df7409550239dc5cd9ff6a5172d",
+			"ID": "400bd500403ec32c0117b788c8f824ff",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "66cb9e134b2c4b7fd6c1d4b249621c22",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "dc5b2d1548ff77ffcba3398b4614f18c",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "700fe27246af1fecc187d699c680fd4f",
+			"ParentID": "cd03b8374a8e4a8a884b7693d7e92996",
 			"Name": "Cube 7",
 			"Transform": {
 				"Translation": {
@@ -4052,9 +5000,15 @@
 			}
 		},
 		{
-			"ID": "bfcc995e40e34762b2d00fb6fc22f85b",
+			"ID": "62c97706422de938549424b2b8e6e358",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "dc5b2d1548ff77ffcba3398b4614f18c",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "a60ab5204f95f15714d3919e56aa3abe",
 			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "700fe27246af1fecc187d699c680fd4f",
+			"ParentID": "cd03b8374a8e4a8a884b7693d7e92996",
 			"Name": "Cube 8",
 			"Transform": {
 				"Translation": {
@@ -4074,6 +5028,12 @@
 					}
 				]
 			}
+		},
+		{
+			"ID": "640b7ca041f5e960bb855eb26c44a0a6",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "a60ab5204f95f15714d3919e56aa3abe",
+			"Name": "BoxCollider"
 		},
 		{
 			"ID": "f9f67aa74508754850a2a98572ff77d6",

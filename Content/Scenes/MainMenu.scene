@@ -611,7 +611,8 @@
 					"Y": 120.35746765136719,
 					"Z": 31.24908447265625
 				}
-			}
+			},
+			"Layer": 1
 		},
 		{
 			"ID": "b0665f8945e78962f0c4369cd01da81e",
@@ -626,7 +627,8 @@
 			"PrefabObjectID": "ede8abe84a1393e81e822589ec87fc91",
 			"ParentID": "9366bb18485d4d057c2019955e62ee10",
 			"V": {
-	"isLocalPlayer": true
+	"isLocalPlayer": true,
+	"characterController": null
 }
 		},
 		{
@@ -648,6 +650,7 @@
 			"PrefabID": "828d66a34d8a685aa140aeaddf33b86c",
 			"PrefabObjectID": "a4474c3e469ceb779254438efb389ba7",
 			"ParentID": "9366bb18485d4d057c2019955e62ee10",
+			"Layer": 1,
 			"Buffer": {
 				"Entries": [
 					{}
@@ -718,7 +721,8 @@
 			"PrefabObjectID": "91f1883f4a2208fefe70efbb2f236689",
 			"ParentID": "26a8cec949f44024c25187a5fa0f036c",
 			"V": {
-	"cameraObject": "45b296b6485cd330a5a062a7043b86b7"
+	"cameraObject": "45b296b6485cd330a5a062a7043b86b7",
+	"cameraPivotTransform": "81b803d8472fe2b0514787abcbd2bbba"
 }
 		},
 		{
