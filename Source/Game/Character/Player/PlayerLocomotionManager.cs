@@ -23,21 +23,40 @@ namespace Game
             player = Actor.GetScript<PlayerManager>();
         }
 
+        public override void OnUpdate()
+        {
+            base.OnUpdate();
+
+            if(player.isLocalPlayer)
+            {
+                player.characterNetworkManager.UpdateNetworkAnimatorValues(horizontalMovement, verticalMovement, moveAmount);
+            }
+            else
+            {
+                verticalMovement = player.characterNetworkManager.verticalMovement;
+                horizontalMovement = player.characterNetworkManager.horizontalMovement;
+                moveAmount = player.characterNetworkManager.moveAmount;
+
+                player.playerAnimatorManager.UpdateAnimatorMovement(0, moveAmount);
+            }
+        }
+
         public void HandleAllMovement()
         {
             HandleGroundedMovement();
             HandleRotation();
         }
 
-        private void GetVerticalAndHorizontalInputs()
+        private void GetMovementValues()
         {
             verticalMovement = PlayerInputManager.instance.verticalInput;
             horizontalMovement = PlayerInputManager.instance.horizontalInput;
+            moveAmount = PlayerInputManager.instance.moveAmount;
         }
 
         private void HandleGroundedMovement()
         {
-            GetVerticalAndHorizontalInputs();
+            GetMovementValues();
 
             moveDirection = PlayerCamera.instance.Transform.Forward * verticalMovement;
             moveDirection += PlayerCamera.instance.Transform.Right * horizontalMovement;

@@ -9,6 +9,8 @@ namespace Game
 
         private bool forceFirstUpdate = true;
 
+        public PlayerManager player = null;
+
         [Header("Movement Input")]
         private Vector2 movementInput = Vector2.Zero;
         public float verticalInput = 0f;
@@ -97,6 +99,11 @@ namespace Game
             else if(moveAmount > 0.5f && moveAmount <= 1)
             {
                 moveAmount = 1;
+            }
+
+            if(player != null)
+            {
+                player.playerAnimatorManager.UpdateAnimatorMovement(0, moveAmount);
             }
         }
 

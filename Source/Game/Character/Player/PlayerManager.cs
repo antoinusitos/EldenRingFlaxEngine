@@ -5,7 +5,10 @@ namespace Game
 {
     public class PlayerManager : CharacterManager
     {
-        private PlayerLocomotionManager playerLocomotionManager = null;
+        [HideInEditor]
+        public PlayerAnimatorManager playerAnimatorManager = null;
+
+        public PlayerLocomotionManager playerLocomotionManager = null;
 
         private PlayerNetworkManager playerNetworkManager = null;
 
@@ -17,8 +20,9 @@ namespace Game
 
             playerLocomotionManager = Actor.GetScript<PlayerLocomotionManager>();
             playerNetworkManager = Actor.GetScript<PlayerNetworkManager>();
+            playerAnimatorManager = Actor.GetScript<PlayerAnimatorManager>();
 
-            if(isLocalPlayer)
+            if (isLocalPlayer)
             {
                 GameSession.Instance.LocalPlayer.playerNetworkManager = playerNetworkManager;
             }
@@ -41,6 +45,7 @@ namespace Game
             if(isLocalPlayer && PlayerCamera.instance != null)
             {
                 PlayerCamera.instance.player = this;
+                PlayerInputManager.instance.player = this;
             }
         }
 

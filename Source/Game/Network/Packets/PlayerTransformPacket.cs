@@ -23,9 +23,15 @@ public class PlayerTransformPacket : NetworkPacket
     {
         Guid guid = NetworkSession.Instance.GuidByConn(ref sender);
         var player = GameSession.Instance.GetPlayer(guid);
-        //player.Position = Position;
-        //player.Rotation = Rotation;
         player.playerNetworkManager.networkPosition = Position;
         player.playerNetworkManager.networkRotation = Rotation;
+
+        var te = new PlayersTransformPacket.TransformEntry();
+        var ptp = new PlayersTransformPacket();
+        te.Guid = guid;
+        te.Position = Position;
+        te.Rotation = Rotation;
+        ptp.Transforms.Add(te);
+        NetworkSession.Instance.SendAll(ptp, NetworkChannelType.UnreliableOrdered);
     }
 }

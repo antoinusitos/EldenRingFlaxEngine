@@ -17,33 +17,17 @@ namespace Game
         public Quaternion networkRotation = Quaternion.Identity;
         public float networkRotationSmoothTime = 0.1f;
 
-        private float _lastTransformSent;
+        [Header("Animator")]
+        public float horizontalMovement = 0.0f;
+        public float verticalMovement = 0.0f;
+        public float moveAmount = 0.0f;
 
         public void UpdateNetworkPositionAndRotation(Vector3 newPosition, Quaternion newRotation)
         {
             networkPosition = newPosition;
             networkRotation = newRotation;
 
-            PlayerTransformPacket ptp = new PlayerTransformPacket
-            {
-                Position = networkPosition,
-                Rotation = networkRotation
-            };
-            NetworkSession.Instance.Send(ptp, NetworkChannelType.UnreliableOrdered);
-        }
-
-        public override void OnUpdate()
-        {
-            base.OnUpdate();
-
-            return;
-
-            if(!isOwner)
-            {
-                return;
-            }
-
-            if (Time.UnscaledGameTime - _lastTransformSent > 0.05f)
+            if (!NetworkSession.Instance.IsServer)
             {
                 PlayerTransformPacket ptp = new PlayerTransformPacket
                 {
@@ -51,7 +35,45 @@ namespace Game
                     Rotation = networkRotation
                 };
                 NetworkSession.Instance.Send(ptp, NetworkChannelType.UnreliableOrdered);
-                _lastTransformSent = Time.UnscaledGameTime;
+            }
+            else
+            {
+                var te = new PlayersTransformPacket.TransformEntry();
+                var ptp = new PlayersTransformPacket();
+                te.Guid = GameSession.Instance.LocalPlayer.ID;
+                te.Position = newPosition;
+                te.Rotation = newRotation;
+                ptp.Transforms.Add(te);
+                NetworkSession.Instance.SendAll(ptp, NetworkChannelType.UnreliableOrdered);
+            }
+        }
+
+        public void UpdateNetworkAnimatorValues(float horizontal, float vertical, float movementAmount)
+        {
+            horizontalMovement = horizontal; 
+            verticalMovement = vertical;
+            moveAmount = movementAmount;
+
+            if (!NetworkSession.Instance.IsServer)
+            {
+                PlayerAnimatorPacket pap = new PlayerAnimatorPacket
+                {
+                    horizontalMovement = horizontal,
+                    verticalMovement = vertical,
+                    moveAmount = movementAmount
+                };
+                NetworkSession.Instance.Send(pap, NetworkChannelType.UnreliableOrdered);
+            }
+            else
+            {
+                var ae = new PlayersAnimatorPacket.AnimatorEntry();
+                var pap = new PlayersAnimatorPacket();
+                ae.Guid = GameSession.Instance.LocalPlayer.ID;
+                ae.horizontalMovement = horizontal;
+                ae.verticalMovement = vertical;
+                ae.moveAmount = movementAmount;
+                pap.Animators.Add(ae);
+                NetworkSession.Instance.SendAll(pap, NetworkChannelType.UnreliableOrdered);
             }
         }
     }

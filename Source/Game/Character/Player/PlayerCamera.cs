@@ -89,7 +89,6 @@ namespace Game
 
             if (Physics.SphereCast(cameraPivotTransform.Position, cameraCollisionRadius, direction, out hit, Mathf.Abs(targetCameraZPosition), collideWithLayers))
             {
-                Debug.Log("collide " + hit.Collider.Name);
                 float distanceFromHitObject = Vector3.Distance(cameraPivotTransform.Position, hit.Point);
                 targetCameraZPosition = -(distanceFromHitObject - cameraCollisionRadius);
             }
@@ -99,7 +98,6 @@ namespace Game
                 targetCameraZPosition = -cameraCollisionRadius;
             }
 
-            Debug.Log(targetCameraZPosition);
             cameraObjectPosition.Z = Mathf.Lerp(cameraObject.LocalPosition.Z, targetCameraZPosition, 0.2f);
             cameraObject.LocalPosition = cameraObjectPosition;
         }

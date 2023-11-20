@@ -14,14 +14,9 @@
 				"Z": 31.24908447265625
 			}
 		},
+		"Layer": 1,
 		"Radius": 30.0,
 		"Height": 130.0
-	},
-	{
-		"ID": "679cee704c92107895d02f982b7b0e01",
-		"TypeName": "Game.NetworkPlayerScript",
-		"ParentID": "e1d73f0a4113f4d9ec1ba99bff7ed4ee",
-		"V": {}
 	},
 	{
 		"ID": "ede8abe84a1393e81e822589ec87fc91",
@@ -45,20 +40,43 @@
 		"V": {}
 	},
 	{
-		"ID": "a4474c3e469ceb779254438efb389ba7",
-		"TypeName": "FlaxEngine.StaticModel",
+		"ID": "bd935f7b4fa6ba394ef3d28ac8fe811a",
+		"TypeName": "Game.PlayerAnimatorManager",
 		"ParentID": "e1d73f0a4113f4d9ec1ba99bff7ed4ee",
-		"Name": "Md_Char_Low_Poly_Man",
+		"V": {
+	"animatedModel": "c5d8d872454ffbe519fcf99d7268fb2b"
+}
+	},
+	{
+		"ID": "c5d8d872454ffbe519fcf99d7268fb2b",
+		"TypeName": "FlaxEngine.AnimatedModel",
+		"ParentID": "e1d73f0a4113f4d9ec1ba99bff7ed4ee",
+		"Name": "untitled",
 		"Transform": {
 			"Translation": {
 				"X": 0.0,
 				"Y": -94.4190444946289,
 				"Z": 0.0
+			},
+			"Orientation": {
+				"X": 0.0,
+				"Y": 1.0,
+				"Z": -0.0,
+				"W": -4.371138828673793e-8
 			}
 		},
-		"Model": "e83e7ece49d341544ed37494f38706e6",
+		"Layer": 1,
+		"SkinnedModel": "1f9f4646498963e88aa824840e338f9b",
+		"AnimationGraph": "944150554d519c25296aaea55977756c",
+		"RootMotionTarget": "e1d73f0a4113f4d9ec1ba99bff7ed4ee",
 		"Buffer": {
 			"Entries": [
+				{
+					"Material": "00000000000000000000000000000000",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				},
 				{
 					"Material": "00000000000000000000000000000000",
 					"ShadowsMode": 3,

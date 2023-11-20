@@ -1,6 +1,7 @@
 ﻿using System;
 using FlaxEngine;
 using FlaxEngine.Networking;
+using Game;
 
 /// <summary>
 /// Game service with packets and network connections handling
@@ -40,6 +41,8 @@ public class NetworkSession : GamePlugin
         _packetRegistry.Register<PlayerListPacket>();
         _packetRegistry.Register<PlayerTransformPacket>();
         _packetRegistry.Register<PlayersTransformPacket>();
+        _packetRegistry.Register<PlayerAnimatorPacket>();
+        _packetRegistry.Register<PlayersAnimatorPacket>();
 
         _connRegistry = new ConnectionRegistry();
         Scripting.Update += Update;

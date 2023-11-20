@@ -601,58 +601,85 @@
 }
 		},
 		{
-			"ID": "9366bb18485d4d057c2019955e62ee10",
+			"ID": "a1dbcb7e44d78e8228b60f8d91523632",
 			"PrefabID": "828d66a34d8a685aa140aeaddf33b86c",
 			"PrefabObjectID": "e1d73f0a4113f4d9ec1ba99bff7ed4ee",
 			"ParentID": "4cdba7994a6fe75f8a579ab3d2b93ed8",
 			"Transform": {
 				"Translation": {
-					"X": 20.862091064453126,
-					"Y": 120.35746765136719,
-					"Z": 31.24908447265625
+					"X": 0.0,
+					"Y": 122.29011535644531,
+					"Z": 0.0
 				}
-			},
-			"Layer": 1
+			}
 		},
 		{
-			"ID": "b0665f8945e78962f0c4369cd01da81e",
-			"PrefabID": "828d66a34d8a685aa140aeaddf33b86c",
-			"PrefabObjectID": "679cee704c92107895d02f982b7b0e01",
-			"ParentID": "9366bb18485d4d057c2019955e62ee10",
-			"V": {}
-		},
-		{
-			"ID": "515217fe4c86302f08e3069ee2f56c2f",
+			"ID": "c0d853214568eec5d276b690122848df",
 			"PrefabID": "828d66a34d8a685aa140aeaddf33b86c",
 			"PrefabObjectID": "ede8abe84a1393e81e822589ec87fc91",
-			"ParentID": "9366bb18485d4d057c2019955e62ee10",
+			"ParentID": "a1dbcb7e44d78e8228b60f8d91523632",
 			"V": {
+	"playerAnimatorManager": null,
+	"playerLocomotionManager": null,
 	"isLocalPlayer": true,
 	"characterController": null
 }
 		},
 		{
-			"ID": "8d865e444aebae25e3950ab35d1cbe50",
+			"ID": "4b9754f444b4a9afe7700c930ac4d543",
 			"PrefabID": "828d66a34d8a685aa140aeaddf33b86c",
 			"PrefabObjectID": "0a88f253433cf8f15b179ab964e6e1bd",
-			"ParentID": "9366bb18485d4d057c2019955e62ee10",
+			"ParentID": "a1dbcb7e44d78e8228b60f8d91523632",
 			"V": {}
 		},
 		{
-			"ID": "300267cc41154473230599903827d12f",
+			"ID": "f19431f0494d43a9e1ecbca9881e96a5",
 			"PrefabID": "828d66a34d8a685aa140aeaddf33b86c",
 			"PrefabObjectID": "515dd7824e2dec2f4b451f8888a25647",
-			"ParentID": "9366bb18485d4d057c2019955e62ee10",
+			"ParentID": "a1dbcb7e44d78e8228b60f8d91523632",
 			"V": {}
 		},
 		{
-			"ID": "2d49dd98473cad08fee94c970ff72286",
+			"ID": "4fec6555406132a67259a2981f2ddbb3",
+			"PrefabID": "828d66a34d8a685aa140aeaddf33b86c",
+			"PrefabObjectID": "bd935f7b4fa6ba394ef3d28ac8fe811a",
+			"ParentID": "a1dbcb7e44d78e8228b60f8d91523632",
+			"V": {
+	"animatedModel": "21dbb6244d1382d38f58b4bc92c60eef"
+}
+		},
+		{
+			"ID": "cf8364094bb94d66e0bee9b7eb479eec",
 			"PrefabID": "828d66a34d8a685aa140aeaddf33b86c",
 			"PrefabObjectID": "a4474c3e469ceb779254438efb389ba7",
-			"ParentID": "9366bb18485d4d057c2019955e62ee10",
-			"Layer": 1,
+			"ParentID": "a1dbcb7e44d78e8228b60f8d91523632",
 			"Buffer": {
 				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "90ed5bf3491996861d108789f97d5172",
+			"PrefabID": "828d66a34d8a685aa140aeaddf33b86c",
+			"PrefabObjectID": "a11fedd84662760570864cb251615139",
+			"ParentID": "a1dbcb7e44d78e8228b60f8d91523632",
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
+			}
+		},
+		{
+			"ID": "21dbb6244d1382d38f58b4bc92c60eef",
+			"PrefabID": "828d66a34d8a685aa140aeaddf33b86c",
+			"PrefabObjectID": "c5d8d872454ffbe519fcf99d7268fb2b",
+			"ParentID": "a1dbcb7e44d78e8228b60f8d91523632",
+			"RootMotionTarget": "a1dbcb7e44d78e8228b60f8d91523632",
+			"Buffer": {
+				"Entries": [
+					{},
 					{}
 				]
 			}

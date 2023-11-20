@@ -6,7 +6,7 @@ namespace Game
     {
         public CharacterController characterController = null;
 
-        private CharacterNetworkManager characterNetworkManager = null;
+        public CharacterNetworkManager characterNetworkManager = null;
 
         public override void OnAwake()
         {
